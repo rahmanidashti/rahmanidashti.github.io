@@ -1,6 +1,6 @@
 ---
 layout: collaborate
 permalink: /
-title: <strong>Hossein A.</strong> Rahmani
+title: collaborate
 description: Visiting Researcher, Università della Svizzera italiana (USI)
 ---
