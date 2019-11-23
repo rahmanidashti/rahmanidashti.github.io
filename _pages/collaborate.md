@@ -1,5 +1,5 @@
 ---
-layout: collaborate
+layout: page
 permalink: /collaborate
 title: collaborate
 description: Visiting Researcher, Università della Svizzera italiana (USI)
