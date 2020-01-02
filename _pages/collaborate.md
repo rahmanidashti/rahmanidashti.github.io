@@ -16,3 +16,4 @@ I have been honored to work with several great researchers around the globe:
 - [Mohammad Aliannejadi](http://aliannejadi.com/){:target="_blank"} - University of Amsterdam, The Netherlands
 - Sajad Ahmadian - Kermanshah University of Technology, Iran
 - [Yashar Deldjoo](https://yasdel.github.io/){:target="_blank"} - Polytechnic University of Bari, Italy
+- [Markus Schedl](http://www.mschedl.eu/){:target="_blank"} - Johannes Kepler University (JKU) Linz, Austria,
