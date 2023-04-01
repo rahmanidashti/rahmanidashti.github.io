@@ -10,8 +10,8 @@
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
+  --global-theme-color: #4a630f;
+  --global-hover-color: #4a630f;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
@@ -70,6 +70,7 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: "Roboto", sans-serif, "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   scroll-margin-top: 66px;
