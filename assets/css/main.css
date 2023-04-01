@@ -323,6 +323,25 @@ blockquote {
   transform: rotate(0);
 }
 
+.about p {
+  text-align: justify;
+}
+
+.news table td {
+  font-size: 1rem;
+  color: var(--global-text-color);
+}
+
+.news table th {
+  color: var(--global-text-color);
+  width: 13%;
+}
+
+.news table th span {
+  color: var(--global-text-color);
+  font-weight: 500;
+}
+
 #light-toggle {
   padding: 0;
   border: 0;
