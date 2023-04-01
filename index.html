@@ -202,27 +202,40 @@
           <!-- Selected papers -->
           <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
           <div class="publications">
-            <ol class="bibliography"><li>
+            <ol class="bibliography">
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://journals.aps.org/" rel="external nofollow noopener" target="_blank">PhysRev</a></abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">Bias@ECIR</abbr></div>
 
         <!-- Entry bib key -->
-        <div id="PhysRev.47.777" class="col-sm-8">
+        <div id="rahmani2021fairpoi" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?</div>
+        <div class="title">The Unfairness of Active Users and Popularity Bias in Point-of-Interest Recommendation</div>
         <!-- Author -->
         <div class="author">
         
 
-        <em>A. Einstein</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" rel="external nofollow noopener" target="_blank">B. Podolsky</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" rel="external nofollow noopener" target="_blank">N. Rosen</a>
+        Hossein A. Rahmani, Yashar Deldjoo, Ali Tourani, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Mohammadmehdi Naghiaei' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
 </div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>Phys. Rev.,</em>, May 1935
+          <em>In Third International Workshop on Algorithmic Bias in Search and Recommendation (Bias@ECIR),</em>, 2022
         </div>
         <div class="periodical">
           
@@ -231,22 +244,92 @@
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-            <a href="/assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="http://arxiv.org/abs/2202.13307" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a href="https://github.com/RecSys-lab/FairPOI" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+            <a href="/assets/pdf/" class="btn btn-sm z-depth-0" role="button">Slides</a>
+            <a href="https://recsys-lab.github.io/FairPOI/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1103/PhysRev.47.777"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
+            <p>Point-of-Interest (POI) recommender systems provide personalized recommendations to users and help businesses attract potential customers. Despite their success, recent studies suggest that highly data-driven recommendations could be impacted by data biases, resulting in unfair outcomes for different stakeholders, mainly consumers (users) and providers (items). Most existing fairness-related research works in recommender systems treat user fairness and item fairness issues individually, disregarding that RS work in a two-sided marketplace. This paper studies the interplay between (i) the unfairness of active users, (ii) the unfairness of popular items, and (iii) the accuracy (personalization) of recommendation as three angles of our study triangle. We group users into advantaged and disadvantaged levels to measure user fairness based on their activity level. For item fairness, we divide items into short-head, mid-tail, and long-tail groups and study the exposure of these item groups into the top-k recommendation list of users. Experimental validation of eight different recommendation models commonly used for POI recommendation (e.g., contextual, CF) on two publicly available POI recommendation datasets, Gowalla and Yelp, indicate that most well-performing models suffer seriously from the unfairness of popularity bias (provider unfairness). Furthermore, our study shows that most recommendation models cannot satisfy both consumer and producer fairness, indicating a trade-off between these variables possibly due to natural biases in data. We choose the POI recommendation as our test scenario; however, the insights should be trivially extendable on other domains.</p>
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ECIR</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="rahmani2020joint" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Joint Geographical and Temporal Modeling based on Matrix Factorization for Point-of-Interest Recommendation</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Hossein A. Rahmani, Mohammad Aliannejadi, Mitra Baratchi, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Fabio Crestani' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In European Conference on Information Retrieval (ECIR),</em>, 2020
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>With the popularity of Location-based Social Networks, Point-of-Interest (POI) recommendation has become an important task, which learns the users’ preferences and mobility patterns to recommend POIs. Previous studies show that incorporating contextual information such as geographical and temporal influences is necessary to improve POI recommendation by addressing the data sparsity problem. However, existing methods model the geographical influence based on the physical distance between POIs and users, while ignoring the temporal characteristics of such geographical influences. In this paper, we perform a study on the user mobility patterns where we find out that users’ check-ins happen around several centers depending on their current temporal state. Next, we propose a spatio-temporal activity-centers algorithm to model users’ behavior more accurately. Finally, we demonstrate the effectiveness of our proposed contextual model by incorporating it into the matrix factorization model under two different settings: (i) static and (ii) temporal. To show the effectiveness of our proposed method, which we refer to as STACP, we conduct experiments on two well-known real-world datasets acquired from Gowalla and Foursquare LBSNs. Experimental results show that the STACP model achieves a statistically significant performance improvement, compared to the state-of-the-art techniques. Also, we demonstrate the effectiveness of capturing geographical and temporal information for modeling users’ activity centers and the importance of modeling them jointly.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">rahmani2020joint</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Joint Geographical and Temporal Modeling based on Matrix Factorization for Point-of-Interest Recommendation}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Rahmani, Hossein A. and Aliannejadi, Mohammad and Baratchi, Mitra and Crestani, Fabio}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{European Conference on Information Retrieval (ECIR),}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{205--219}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">organization</span> <span class="p">=</span> <span class="s">{Springer}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
           </div>
 
 
