@@ -63,13 +63,6 @@
               </li>
               {%- endif %}
 
-              {% if site.cv_title %}
-              <!-- CV -->
-              <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
-                <a class="nav-link" href="/assets/pdf/Hossein_A_Saeed_Rahmani_CV.pdf" target="_blank">{{ site.cv_title }}</a>
-              </li>
-              {%- endif %}
-
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
@@ -102,8 +95,15 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
-              {%- if site.enable_darkmode %}
 
+              {% if site.cv_title %}
+              <!-- CV -->
+              <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
+                <a class="nav-link" href="/assets/pdf/Hossein_A_Saeed_Rahmani_CV.pdf" target="_blank">{{ site.cv_title }}</a>
+              </li>
+              {%- endif %}
+
+              {%- if site.enable_darkmode %}
               <!-- Toogle theme mode -->
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
@@ -112,10 +112,12 @@
                 </button>
               </li>
               {%- endif %}
+
             </ul>
           </div>
         </div>
       </nav>
+
 {% if site.enable_progressbar %}
       <!-- Scrolling Progress Bar -->
       <progress id="progress" value="0">
