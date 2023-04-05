@@ -116,6 +116,13 @@ google_site_verification:  # your google-site-verification ID (Google Search Con
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
+# CV
+# -----------------------------------------------------------------------------
+
+cv_title: CV
+cv_file: Hossein_A_Saeed_Rahmani_CV.pdf
+
+# -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
