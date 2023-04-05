@@ -19,7 +19,7 @@ nav_order: 5
 - Software Engineering II, Winter 2017
 - Software Engineering III, Spring 2018
 
-<h4>University of Zanjan</h4>
+<h4>University of Zanjan (ZNU)</h4>
 
 -  Artificial Intelligence (**Head TA**), Spring 2019,  [<a href="https://rahmanidashti.github.io/znuai/" target="\_blank">Link</a>]
 - Software Engineering (**Head TA**), Fall 2018
