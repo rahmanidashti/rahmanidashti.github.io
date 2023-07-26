@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  SIGIR 2023 Report
-date:   2015-03-15 16:40:16
+date:   2023-07-26 22:40:16
 description: A short report on SIGIR 2023
 tags: SIGIR report
 categories: report
