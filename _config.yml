@@ -127,7 +127,7 @@ cv_file: Hossein_A_Saeed_Rahmani_CV.pdf
 # -----------------------------------------------------------------------------
 
 blog_name: blog # blog_name will be displayed in your blog page
-blog_nav_title: # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: simple blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: blog posts
 permalink: /blog/:year/:title/
 
