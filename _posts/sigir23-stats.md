@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  a post with formatting and links
+title:  SIGIR 2023 Report
 date:   2015-03-15 16:40:16
-description: march & april, looking forward to summer
-tags: formatting links
-categories: sample-posts
+description: A short report on SIGIR 2023
+tags: SIGIR report
+categories: report
 ---
 Unfortunately, I did not have the chance to attend SIGIR 2023 this year in Taiwan! I almost was following the updates from SIGIR on Twitter, thanks to the ones who were sharing the amazing and inspiring moments at SIGIR 2023 and congratulation to all the winners!
 
