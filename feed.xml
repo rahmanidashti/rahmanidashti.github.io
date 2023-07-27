@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://rahmanidashti.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahmanidashti.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-07-27T20:36:54+00:00</updated><id>https://rahmanidashti.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://rahmanidashti.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahmanidashti.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-07-27T22:12:14+00:00</updated><id>https://rahmanidashti.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">SIGIR 2023 Report</title><link href="https://rahmanidashti.github.io/blog/2023/sigir23-stats/" rel="alternate" type="text/html" title="SIGIR 2023 Report" /><published>2023-07-26T22:40:16+00:00</published><updated>2023-07-26T22:40:16+00:00</updated><id>https://rahmanidashti.github.io/blog/2023/sigir23-stats</id><content type="html" xml:base="https://rahmanidashti.github.io/blog/2023/sigir23-stats/"><![CDATA[<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">Please note that this blog post is currently being updated. Please stay tuned for the latest updates.
 </span></code></pre></div></div>
 
@@ -38,7 +38,9 @@
     The WordCloud of SIGIR 2023 Paper Titles
 </div>
 
-<p>XXX Some text</p>
+<p>The WordCloud of the titles of all papers show a high frequency of words such as <code class="language-plaintext highlighter-rouge">Recommendtion</code>, <code class="language-plaintext highlighter-rouge">Learning</code>, <code class="language-plaintext highlighter-rouge">Search</code>, <code class="language-plaintext highlighter-rouge">Retrieval</code>, <code class="language-plaintext highlighter-rouge">User</code>, <code class="language-plaintext highlighter-rouge">text</code>, and <code class="language-plaintext highlighter-rouge">Graph</code> is not very suprising as we have seen similiar pattern from the SIGIR 2021 report.</p>
+
+<p>, , , , “text”, , and “deep” is not surprising. However, I was personally shocked when I saw the high frequency of word “graph” in SIGIR paper titles. It seems that graph neural nets are finding their ways into the information retrieval domain. We should have a better understanding of this observation once the proceedings is out.</p>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
