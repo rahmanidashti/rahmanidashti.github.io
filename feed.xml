@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://rahmanidashti.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahmanidashti.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-07-27T20:19:53+00:00</updated><id>https://rahmanidashti.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://rahmanidashti.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahmanidashti.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-07-27T20:22:36+00:00</updated><id>https://rahmanidashti.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">SIGIR 2023 Report</title><link href="https://rahmanidashti.github.io/blog/2023/sigir23-stats/" rel="alternate" type="text/html" title="SIGIR 2023 Report" /><published>2023-07-26T22:40:16+00:00</published><updated>2023-07-26T22:40:16+00:00</updated><id>https://rahmanidashti.github.io/blog/2023/sigir23-stats</id><content type="html" xml:base="https://rahmanidashti.github.io/blog/2023/sigir23-stats/"><![CDATA[<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">Please note that this blog post is currently being updated. Please stay tuned for the latest updates.
 </span></code></pre></div></div>
 
@@ -102,9 +102,11 @@
 
 <ul>
   <li>165 Full</li>
+  <li>40 SIRIP</li>
+  <li>11 Doc</li>
 </ul>
 
-<h5 id="top-10-authors--all-papers-full-short-perspective-reproducibility-demo-resource-sirip-industrial-doctoral-consortium-tracks--based-on-normalized-publication-count">TOP 10 AUTHORS – All Papers (Full, Short, Perspective, Reproducibility, Demo, Resource, SIRIP Industrial, Doctoral Consortium tracks) – Based on Normalized Publication Count</h5>
+<h5 id="top-10-authors--all-papers-full-short-perspective-reproducibility-demo-resource-sirip-industrial-tracks--based-on-normalized-publication-count">TOP 10 AUTHORS – All Papers (Full, Short, Perspective, Reproducibility, Demo, Resource, SIRIP Industrial tracks) – Based on Normalized Publication Count</h5>
 
 <ul>
   <li><strong>#1</strong> Maarten De Rijke, Professor, University of Amsterdam (score: 2.48)</li>
@@ -119,9 +121,9 @@
   <li><strong>#9</strong> Michael Bendersky, Google Research, US (score: 1.14)</li>
 </ul>
 
-<p><em>Note: scores were computed by normalizing publication counts by the number of authors per paper.</em></p>
+<p><em>Note that the normalised publication count socres were computed by normalizing publication counts by the number of authors per paper.</em></p>
 
-<h5 id="top-10-authors--all-papers-full-short-perspective-reproducibility-demo-resource-sirip-industrial-doctoral-consortium-tracks--based-on-publication-count">TOP 10 AUTHORS – All Papers (Full, Short, Perspective, Reproducibility, Demo, Resource, SIRIP Industrial, Doctoral Consortium tracks) – Based on Publication Count</h5>
+<h5 id="top-10-authors--all-papers-full-short-perspective-reproducibility-demo-resource-sirip-industrial-tracks--based-on-publication-count">TOP 10 AUTHORS – All Papers (Full, Short, Perspective, Reproducibility, Demo, Resource, SIRIP Industrial tracks) – Based on Publication Count</h5>
 
 <ul>
   <li><strong>#1</strong> Maarten De Rijke, Professor, University of Amsterdam (10 papers)</li>
@@ -155,7 +157,7 @@
   <li><strong>#7</strong> Hongzhi Yin, Associate Professor, University of Queensland (score: 0.71)</li>
 </ul>
 
-<p><em>Note: scores were computed by normalizing publication counts by the number of authors per paper.</em></p>
+<p><em>Note that the normalised publication count socres were computed by normalizing publication counts by the number of authors per paper.</em></p>
 
 <h4 id="top-10-authors--only-full-papers--based-on-publication-count">TOP 10 AUTHORS – Only full papers – Based on Publication Count</h4>
 
