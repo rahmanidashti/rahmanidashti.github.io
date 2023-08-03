@@ -20,6 +20,7 @@ nav: true
     - CIKM 2023 (Resource paper)
     - RecSys 2023 (Long and short paper)
     - SIGIR 2023 (Reproducibility paper, SIRIP -- Industry track paper)
+    - ICTIR 2023
     - Workshops:
         - <a href="https://sites.google.com/view/ewaf23/">EWAF 2023</a>
 
