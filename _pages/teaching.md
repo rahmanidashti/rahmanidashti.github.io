@@ -12,6 +12,8 @@ nav_order: 5
 <h4>University College London (UCL)</h4>
 
 - COMP0084: Information Retrieval and Data Mining, Term 2 (2022/23)
+- COMP0173: Artificial Intelligence for Sustainable Development, Term 1, (2023/24)
+- COMP0186: Foundation of Artificial Intelligence, Term 1, (2023/24)
 
 <h4>The Institute for Advanced Studies in Basic Sciences (IASBS)</h4>
 
