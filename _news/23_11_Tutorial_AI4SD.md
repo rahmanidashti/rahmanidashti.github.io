@@ -4,4 +4,4 @@ date: 2023-11-24 11:00:00-0400
 inline: true
 ---
 
-I delivered a presentation at <a href="https://sites.google.com/view/cs-reading-group/home">CS Reading Group</a> at Qazvin Islamic Azad University (QIAU) on Fairness and Bias in Recommender Systems.
+I presented a tutorial on Fairness in Recommender System for MSc students of Artificial Intelligence for Sustainable Develpopment course at UCL. Check the <a href="https://github.com/rahmanidashti/FairnessRecSysTutorial">GitHub repository</a>.
