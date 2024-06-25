@@ -23,7 +23,7 @@ nav_order: 5
 
 <h4>University of Zanjan (ZNU)</h4>
 
--  Artificial Intelligence (**Head TA**), Spring 2019,  [<a href="https://rahmanidashti.github.io/znuai/" target="\_blank">Link</a>]
+-  Artificial Intelligence (**Head TA**), Spring 2019 [<a href="https://rahmanidashti.github.io/znuai/" target="\_blank">Link</a>]
 - Software Engineering (**Head TA**), Fall 2018
 - Software Engineering, Spring 2016
 - Big Data, Spring 2016
