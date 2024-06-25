@@ -11,15 +11,15 @@ nav_order: 5
 <hr>
 <h4>University College London (UCL)</h4>
 
-- COMP0084: Information Retrieval and Data Mining, Term 2 (2022/23)
-- COMP0173: Artificial Intelligence for Sustainable Development, Term 1, (2023/24)
 - COMP0186: Foundation of Artificial Intelligence, Term 1, (2023/24)
+- COMP0173: Artificial Intelligence for Sustainable Development, Term 1, (2023/24)
+- COMP0084: Information Retrieval and Data Mining, Term 2 (2022/23)
 
 <h4>The Institute for Advanced Studies in Basic Sciences (IASBS)</h4>
 
-- Software Engineering I, Fall 2016
-- Software Engineering II, Winter 2017
 - Software Engineering III, Spring 2018
+- Software Engineering II, Winter 2017
+- Software Engineering I, Fall 2016
 
 <h4>University of Zanjan (ZNU)</h4>
 
