@@ -15,10 +15,14 @@ nav: true
     <td>An Intro to AI: From Traditional ML to LLMs, University of Gonabad, Iran</td>
   </tr>
   <tr>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>July 09, 2023</td>
+    <td>Fairness and Bias in Recommender Systems, <a href="https://sites.google.com/view/cs-reading-group/home">CS Reading Group</a>, Qazvin Islamic Azad University (QIAU), Iran</td>
   </tr>
 </table>
+
+
+
+
 
 - <span class="font-weight-bold">March 02, 2024</span> An Intro to AI: From Traditional ML to LLMs, University of Gonabad, Iran
 - <span class="font-weight-bold">July 09, 2023</span> Fairness and Bias in Recommender Systems, <a href="https://sites.google.com/view/cs-reading-group/home">CS Reading Group</a>, Qazvin Islamic Azad University (QIAU), Iran
