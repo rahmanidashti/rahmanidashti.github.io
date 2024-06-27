@@ -20,8 +20,8 @@ nav: true
 
 - Program Committee:
     - CIKM 2023
-    - RecSys 2023
-    - SIGIR 2023
+    - RecSys 2023, 2024
+    - SIGIR 2023, 2024
     - ICTIR 2023
     - Workshops:
         - <a href="https://sites.google.com/view/ewaf23/">EWAF 2023</a>
