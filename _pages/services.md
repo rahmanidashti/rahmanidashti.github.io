@@ -19,6 +19,8 @@ nav: true
 <hr>
 
 - Program Committee:
+    - ACL 2024
+    - EMNLP 2024
     - CIKM 2023
     - RecSys 2023, 2024
     - SIGIR 2023, 2024
