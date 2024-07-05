@@ -7,11 +7,11 @@ tags: Synthetic Data LLM Evaluation
 categories: Research
 ---
 
-Can we use Large Language Models (LLMs) to build a reliable Synthetic Test Collection?
+### Can we use Large Language Models (LLMs) to build a reliable Synthetic Test Collection?
 
 Many recent studies have explored generating synthetic data using Large Language Models (LLMs) in various domains such as Computer Vision (CV) and Information Retrieval (IR). While previous work in IR (see InPars [[1](#references)]) exploited the capabilities of LLMs to generate synthetic queries or documents to augment training data for our-of-domain and our-of-distribution generalisation, using LLMs for constructing Synthetic Test Collections is relatively unexplored.
 
-#### Why Construction Synthetic Test Collection?
+#### Why construction Synthetic Test Collection?
 Test collections play a vital role in the evaluation of IR systems. Obtaining a diverse set of user queries for test collection construction can be challenging, and acquiring relevance judgments, which indicate the appropriateness of retrieved documents to a query, is often __costly__ and __resource-intensive__.
 
 In our recent research study [[2](#references)], we comprehensively investigate whether it is possible to use LLMs to construct fully synthetic test collections by generating synthetic queries and synthetic judgments. To generate the synthetic test collection, we proposed the following generation pipeline:
