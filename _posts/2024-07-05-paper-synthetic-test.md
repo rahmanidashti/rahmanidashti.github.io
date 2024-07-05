@@ -67,5 +67,3 @@ While previous studies (see G-Eval [2](#references) paper for more detailed anal
 1. Luiz Bonifacio, Hugo Abonizio, Marzieh Fadaee, and Rodrigo Nogueira. "Inpars: Unsupervised dataset generation for information retrieval."In Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 2387-2392. 2022.
 
 2. Liu, Yang, Dan Iter, Yichong Xu, Shuohang Wang, Ruochen Xu, and Chenguang Zhu. "G-eval: Nlg evaluation using gpt-4 with better human alignment." arXiv preprint arXiv:2303.16634 (2023).
-
-3. 
