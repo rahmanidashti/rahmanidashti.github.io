@@ -18,7 +18,7 @@ In our recent research study, we comperehensively investigate whether it is poss
 
 <div class="row mt-6">
     <div class="col-sm mt-6 mt-md-0">
-        {% include figure.html path="assets/img/blogs/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
