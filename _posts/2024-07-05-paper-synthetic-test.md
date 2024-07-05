@@ -22,7 +22,7 @@ In our recent research study, we comperehensively investigate whether it is poss
     </div>
 </div>
 <div class="caption">
-    Synthetic Test Generation Piepline
+    Figure 1. Synthetic Test Generation Piepline
 </div>
 
 1. <span class="font-weight-bold">Passage Selection:</span> We first randomly sampled 1000 passages from the MSMARCO v2 passage corpus.
@@ -42,8 +42,10 @@ We compare our fully synthetic test collation with real test collection on syste
     </div>
 </div>
 <div class="caption">
-    Scatter plot of the effectiveness (i.e., NDCG@10) of TREC DL 2023 runs according to the (1) real test collection and (b) synthetic test collection with human judgments. A point represents a single run averaged over all queries.
+    Figure 2. Scatter plot of the effectiveness (i.e., NDCG@10) of TREC DL 2023 runs according to the (1) real test collection and (b) synthetic test collection with human judgments. A point represents a single run averaged over all queries.
 </div>
+
+We evaluate the quality of the 31 systems from TREC DL 2023 using official judgments obtained from expert human assessors from NIST, and compare the ranking of these systems on real queries and synthetic queries. Figure 2(a) shows how the performance of systems using synthetically generated queries compare with system performance on real queries. It can be seen that synthetic queries and real queries show similar patterns in terms of evaluation results and system ranking, with a system ordering agreement of Kendall’s $\tau$ = 0.8151. More interestingly, when we extend our synthetic test collection to a fully synthetic test collection by generating synthetic relevance judgment the agreement shows a higher value, see Figure 2(b) Kendall's $\tau$ value of 0.8568. 
 
 ## Bias Analysis
 A Major concernee
