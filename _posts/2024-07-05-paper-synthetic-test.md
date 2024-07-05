@@ -50,7 +50,7 @@ We evaluate the quality of the 31 systems from TREC DL 2023 using official judgm
 ##### What could be the major issue when we use Synthetic Test Collection for evaluation?
 One potential issue with using fully synthetic test collection construction is the possible bias these collections may exhibit towards systems that are based on a similar approach (similar language model) to the one that was used in the synthetic test collection construction process.
 
-In order to answer to this questions, we extend our experients by categorising the systems based on the langaumge models or the architecture they used in their piepline. This reuslts four types of systems: systems based on GPT, T5, GPT + T5 (i.e., a combination of GPT and T5), and others (i.e., traditional methods such as BM25, or any model that does not use either GPT or T5).
+In order to answer to this questions, we extend our experients by categorising the systems based on the langaumge models or the architecture they used in their piepline. This reuslts four types of systems: systems based on `GPT`, `T5`, `GPT + T5` (i.e., a combination of GPT and T5), and `others` (i.e., traditional methods such as BM25, or any model that does not use either GPT or T5).
 
 <div class="row mt-6">
     <div class="col-sm mt-6 mt-md-0">
