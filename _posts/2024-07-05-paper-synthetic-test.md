@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Synthetic Test Collection
+title:  Synthetic Test Collection for Evaluation
 date:   2023-07-26 22:40:16
 description: A short blog on Synthetic Test Collection
-tags: Synthetic Data, LLM
+tags: Synthetic Data LLM Evaluation
 categories: Research
 ---
 
