@@ -14,11 +14,11 @@ Many recent studeis have explored generating synthetic data using Large Language
 ## Why Construction Synthetic Test Collection?
 Test collections play a vital role in evaluation of IR systems. Obtaining a diverse set of user queries for test collection construction can be challenging, and acquiring relevance judgments, which indicate the appropriateness of retrieved documents to a query, is often __costly__ and __resource-intensive__.
 
-In our recent research study, we comperehensively investigate whether it is possible to use LLMs to construct fully synthetic test collections by generating synthetic queries and synthetic judgments. To generate the synthetic test collection, we considered the following generation piepline:
+In our recent research study, we comperehensively investigate whether it is possible to use LLMs to construct fully synthetic test collections by generating synthetic queries and synthetic judgments. To generate the synthetic test collection, we proposed the following generation piepline:
 
 <div class="row mt-6">
     <div class="col-sm mt-6 mt-md-0">
-        {% include figure.html path="assets/img/blogs/assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/blogs/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
