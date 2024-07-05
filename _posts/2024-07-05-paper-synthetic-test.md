@@ -25,7 +25,7 @@ In our recent research study, we comperehensively investigate whether it is poss
     Synthetic Test Generation Piepline
 </div>
 
-1. __Passage Selection:__ We first randomly sampled 1000 passages from the MSMARCO v2 passage corpus.
+1. <span class="font-weight-bold">Passage Selection:</span> We first randomly sampled 1000 passages from the MSMARCO v2 passage corpus.
 2. __Passage Filtering:__ We then filtered for passages that could be good stand-alone search results using GPT-4.
 3. __Query Generation__: We generated queries using (i) a pre-trained T5-based query generation model from BeIR and (ii) a zero-shot query generation approach using GPT-4.
 4. __Query Selection:__ We sampled the T5 query-passage pairs to match a target sample of positive qrels from the 2022 passage task; NIST assessors further removed queries that did not look reasonable and contained too few or too many relevant documents.
