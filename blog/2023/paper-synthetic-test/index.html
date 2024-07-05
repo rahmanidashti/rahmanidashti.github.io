@@ -181,6 +181,50 @@
 <span class="font-weight-bold">Relevance Judgment Generation:</span> We used GPT-4 to automatically label the documents (that were originally annotated using NIST annotators) for the synthetic queries to generate synthetic relevance judgements.</li>
 </ol>
 
+<p>We compare our fully synthetic test collation with real test collection on system evalaution ordering to see if it is possible to obtain evaluation results that are similar to results obtained using real test collections. Our experiments indicate that using LLMs it is possible to construct synthetic test collections that can reliably be used for retrieval evaluation:</p>
+
+<div class="row mt-2">
+    <div class="col-sm mt-2 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    The WordCloud of (a) Full, (b) SIRIP, (c) Doctoral Consortium papers
+</div>
+
 <h2 id="bias-analysis">Bias Analysis</h2>
 <p>A Major concernee</p>
 
