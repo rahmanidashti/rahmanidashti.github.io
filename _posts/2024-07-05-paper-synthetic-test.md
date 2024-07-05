@@ -35,10 +35,10 @@ We compare our fully synthetic test collation with real test collection on syste
 
 <div class="row mt-2">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/blogs/24-sigir-synthetic-data/full-real-vs-queries-synthetic.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/blogs/24-sigir-synthetic-data/full-real-vs-full-synthetic.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
