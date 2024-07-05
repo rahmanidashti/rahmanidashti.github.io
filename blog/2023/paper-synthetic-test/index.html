@@ -172,13 +172,13 @@
   <li>
 <span class="font-weight-bold">Passage Selection:</span> We first randomly sampled 1000 passages from the MSMARCO v2 passage corpus.</li>
   <li>
-<strong>Passage Filtering:</strong> We then filtered for passages that could be good stand-alone search results using GPT-4.</li>
+<span class="font-weight-bold">Passage Filtering:</span> We then filtered for passages that could be good stand-alone search results using GPT-4.</li>
   <li>
-<strong>Query Generation</strong>: We generated queries using (i) a pre-trained T5-based query generation model from BeIR and (ii) a zero-shot query generation approach using GPT-4.</li>
+<span class="font-weight-bold">Query Generation:</span> We generated queries using (i) a pre-trained T5-based query generation model from BeIR and (ii) a zero-shot query generation approach using GPT-4.</li>
   <li>
-<strong>Query Selection:</strong> We sampled the T5 query-passage pairs to match a target sample of positive qrels from the 2022 passage task; NIST assessors further removed queries that did not look reasonable and contained too few or too many relevant documents.</li>
+<span class="font-weight-bold">Query Selection:</span> We sampled the T5 query-passage pairs to match a target sample of positive qrels from the 2022 passage task; NIST assessors further removed queries that did not look reasonable and contained too few or too many relevant documents.</li>
   <li>
-<strong>Relevance Judgment Generation:</strong> We used GPT-4 to automatically label the documents (that were originally annotated using NIST annotators) for the synthetic queries to generate synthetic relevance judgements.</li>
+<span class="font-weight-bold">Relevance Judgment Generation:</span> We used GPT-4 to automatically label the documents (that were originally annotated using NIST annotators) for the synthetic queries to generate synthetic relevance judgements.</li>
 </ol>
 
 <h2 id="bias-analysis">Bias Analysis</h2>
