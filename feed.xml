@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://rahmanidashti.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahmanidashti.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-07-05T09:05:58+00:00</updated><id>https://rahmanidashti.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://rahmanidashti.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahmanidashti.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-07-05T09:27:23+00:00</updated><id>https://rahmanidashti.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">SIGIR 2023 Statistics</title><link href="https://rahmanidashti.github.io/blog/2023/sigir23-stats/" rel="alternate" type="text/html" title="SIGIR 2023 Statistics" /><published>2023-07-26T22:40:16+00:00</published><updated>2023-07-26T22:40:16+00:00</updated><id>https://rahmanidashti.github.io/blog/2023/sigir23-stats</id><content type="html" xml:base="https://rahmanidashti.github.io/blog/2023/sigir23-stats/"><![CDATA[<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">This blog post is inspired from Hamed's earlier blog posts for SIGIR reports. 
 </span></code></pre></div></div>
 
@@ -200,7 +200,7 @@
     </div>
 </div>
 <div class="caption">
-    Synthetic Test Generation Piepline
+    Figure 1. Synthetic Test Generation Piepline
 </div>
 
 <ol>
@@ -252,8 +252,10 @@
     </div>
 </div>
 <div class="caption">
-    Scatter plot of the effectiveness (i.e., NDCG@10) of TREC DL 2023 runs according to the (1) real test collection and (b) synthetic test collection with human judgments. A point represents a single run averaged over all queries.
+    Figure 2. Scatter plot of the effectiveness (i.e., NDCG@10) of TREC DL 2023 runs according to the (1) real test collection and (b) synthetic test collection with human judgments. A point represents a single run averaged over all queries.
 </div>
+
+<p>We evaluate the quality of the 31 systems from TREC DL 2023 using official judgments obtained from expert human assessors from NIST, and compare the ranking of these systems on real queries and synthetic queries. Figure 2(a) shows how the performance of systems using synthetically generated queries compare with system performance on real queries. It can be seen that synthetic queries and real queries show similar patterns in terms of evaluation results and system ranking, with a system ordering agreement of Kendall’s $\tau$ = 0.8151. More interestingly, when we extend our synthetic test collection to a fully synthetic test collection by generating synthetic relevance judgment the agreement shows a higher value, see Figure 2(b) Kendall’s $\tau$ value of 0.8568.</p>
 
 <h2 id="bias-analysis">Bias Analysis</h2>
 <p>A Major concernee</p>]]></content><author><name></name></author><category term="Research" /><category term="Synthetic" /><category term="Data," /><category term="LLM" /><summary type="html"><![CDATA[A short blog on Synthetic Test Collection]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://rahmanidashti.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog" /><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://rahmanidashti.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://rahmanidashti.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry></feed>
