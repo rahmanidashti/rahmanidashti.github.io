@@ -42,7 +42,7 @@ We compare our fully synthetic test collation with real test collection on syste
     </div>
 </div>
 <div class="caption">
-    The WordCloud of (a) Full, (b) SIRIP, (c) Doctoral Consortium papers
+    Scatter plot of the effectiveness (i.e., NDCG@10) of TREC DL 2023 runs according to the (1) real test collection and (b) synthetic test collection with human judgments. A point represents a single run averaged over all queries.
 </div>
 
 ## Bias Analysis
