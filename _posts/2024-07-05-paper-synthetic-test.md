@@ -31,6 +31,20 @@ In our recent research study, we comperehensively investigate whether it is poss
 4. <span class="font-weight-bold">Query Selection:</span> We sampled the T5 query-passage pairs to match a target sample of positive qrels from the 2022 passage task; NIST assessors further removed queries that did not look reasonable and contained too few or too many relevant documents.
 5. <span class="font-weight-bold">Relevance Judgment Generation:</span> We used GPT-4 to automatically label the documents (that were originally annotated using NIST annotators) for the synthetic queries to generate synthetic relevance judgements.
 
+We compare our fully synthetic test collation with real test collection on system evalaution ordering to see if it is possible to obtain evaluation results that are similar to results obtained using real test collections. Our experiments indicate that using LLMs it is possible to construct synthetic test collections that can reliably be used for retrieval evaluation:
+
+<div class="row mt-2">
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.html path="assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.html path="assets/img/blogs/24-sigir-synthetic-data/synthetic-test-generation-piepline.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    The WordCloud of (a) Full, (b) SIRIP, (c) Doctoral Consortium papers
+</div>
+
 ## Bias Analysis
 A Major concernee
 
