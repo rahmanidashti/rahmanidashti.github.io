@@ -35,6 +35,7 @@
 }
 
 @article{rahmani2024llmjudge,
+  abbr={arXiv},
   title={LLMJudge: LLMs for Relevance Judgments},
   author={Rahmani, Hossein A and Yilmaz, Emine and Craswell, Nick and Mitra, Bhaskar and Thomas, Paul and Clarke, Charles LA and Aliannejadi, Mohammad and Siro, Clemencia and Faggioli, Guglielmo},
   journal={arXiv preprint arXiv:2408.08896},
@@ -57,6 +58,21 @@
   abstract={Utilizing user profiles to personalize Large Language Models (LLMs) has been shown to enhance the performance on a wide range of tasks. However, the precise role of user profiles and their effect mechanism on LLMs remains unclear. This study first confirms that the effectiveness of user profiles is primarily due to personalization information rather than semantic information. Furthermore, we investigate how user profiles affect the personalization of LLMs. Within the user profile, we reveal that it is the historical personalized response produced or approved by users that plays a pivotal role in personalizing LLMs. This discovery unlocks the potential of LLMs to incorporate a greater number of user profiles within the constraints of limited input length. As for the position of user profiles, we observe that user profiles integrated into different positions of the input context do not contribute equally to personalization. Instead, where the user profile that is closer to the beginning affects more on the personalization of LLMs. Our findings reveal the role of user profiles for the personalization of LLMs, and showcase how incorporating user profiles impacts performance providing insight to leverage user profiles effectively.},
   url={https://arxiv.org/abs/2406.17803},
   code={https://github.com/Bingo-W/Personalisation-in-LLM} 
+}
+
+@inproceedings{10.1145/3664190.3672507,
+  abbr={ICTIR},
+  author = {Naghiaei, Mohammadmehdi and Dehghan, Mahdi and Rahmani, Hossein A. and Azizi, Javad and Aliannejadi, Mohammad},
+  title = {Personalized Beyond-accuracy Calibration in Recommendation},
+  year = {2024},
+  url = {https://doi.org/10.1145/3664190.3672507},
+  abstract = {Recommender systems usually aim to optimize accuracy in a supervised setting. Due to various data biases, they often fail to enhance other critical qualities that go beyond accuracy, such as diversity, novelty, and serendipity. Prior studies focus on addressing the bias in beyond-accuracy metrics from the provider's perspective, such as increasing the overall diversity of recommendations to combat popularity bias. In this work, we take a user-centric approach to this problem and demonstrate that users have distinct preferences for beyond-accuracy metrics. We hypothesize that users have an implicit behavioral model that goes beyond optimizing their choices only for accuracy. For instance, we assume that a user's purchase behavior is a mix of items that are more familiar to the user (optimizing for accuracy), and new items that are aimed for exploration (optimizing for novelty). We argue that a recommender system should reflect users' interest in such beyond-accuracy metrics. This perspective allows for a more holistic understanding of users' behavior and preferences leading to more fine-grained personalized recommendations. To this end, we propose a post-ranking greedy optimization algorithm that ensures recommendations are not only accurate but also meet users' beyond-accuracy preferences. Through extensive experiments, we demonstrate our proposed method's ability to balance the trade-off between ranking accuracy and user-centric beyond-accuracy preferences.},
+  booktitle = {ACM SIGIR International Conference on Theory of Information Retrieval},
+  pages = {107–116},
+  numpages = {10},
+  keywords = {calibration, fairness, re-ranking, recommender systems},
+  location = {Washington DC, USA},
+  series = {ICTIR '24}
 }
 
 @inproceedings{rahmani2024synthetic,
