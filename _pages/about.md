@@ -24,4 +24,8 @@ social: true  # includes social icons at the bottom of the page
 <p> Prior to that, I obtained my MSc in <a href="https://www.znu.ac.ir/engineering/department-computer-engineering/en" target="\_blank">Computer Science</a> from <a href="https://www.znu.ac.ir/en">University of Zanjan (ZNU)</a>, where I was advised by <a href="http://cv.znu.ac.ir/afsharchim/" target="\_blank">Prof. Mohsen Afsharchi</a> and <a href="http://www.mitrabaratchi.com/" target="_blank">Dr. Mitra Baratchi</a> (co-supervisor from <a href="https://www.universiteitleiden.nl/en" target="_blank">Leiden University</a>) and worked on context-aware recommender systems. I received my B.Sc. degree from the University of Zanjan. </p>
 </div>
 
+I am interested in creating machine learning algorithms that can make strong decisions in complex environments while continually learning new skills. My goal is to develop models that can handle a variety of new tasks with minimal supervision. I am also focused on making these systems reliable, trustworthy, and aligned with human goals.
+
+<!-- My work spans areas like information retrieval, recommendation systems, and natural language processing. Currently, I am focused on enhancing large language models (LLMs) with decision-making abilities, such as planning, reasoning, and using tools, and teaching them to learn from human feedback in an open-ended way. -->
+
 <a href="/assets/pdf/Hossein_A_Saeed_Rahmani_CV.pdf" target="_blank">CV</a> / <a href="https://scholar.google.com/citations?user=1uzYEI0AAAAJ&hl=en" target="_blank">Google Scholar</a>
