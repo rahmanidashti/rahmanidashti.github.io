@@ -28,4 +28,4 @@ I am interested in creating machine learning algorithms that can make strong dec
 
 <!-- My work spans areas like information retrieval, recommendation systems, and natural language processing. Currently, I am focused on enhancing large language models (LLMs) with decision-making abilities, such as planning, reasoning, and using tools, and teaching them to learn from human feedback in an open-ended way. -->
 
-<a href="/assets/pdf/Hossein_A_Saeed_Rahmani_CV.pdf" target="_blank">CV</a> / <a href="https://scholar.google.com/citations?user=1uzYEI0AAAAJ&hl=en" target="_blank">Google Scholar</a>
+<a href="/assets/pdf/Hossein_Rahmani_CV.pdf" target="_blank">CV</a> / <a href="https://scholar.google.com/citations?user=1uzYEI0AAAAJ&hl=en" target="_blank">Google Scholar</a>
