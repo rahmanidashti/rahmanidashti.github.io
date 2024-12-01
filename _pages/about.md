@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle:  Ph.D. Student • <a href='http://wi.cs.ucl.ac.uk/'>Web Intelligence Group (WI)</a> • <a href='https://www.ucl.ac.uk/ai-centre/ucl-centre-artificial-intelligence'>UCL Centre for Artificial Intelligence</a> • <a href='https://www.ucl.ac.uk/'>UCL</a> <br> Ph.D. Enrichment Student @ <a href='https://www.turing.ac.uk/'>The Alan Turing Institue</a>
 

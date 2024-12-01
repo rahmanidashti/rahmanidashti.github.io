@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /collaborate/
-title: collaborate
+title: Collaborate
 description: collaborate
 nav: true
 ---
