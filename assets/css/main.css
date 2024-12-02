@@ -114,6 +114,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-weight: 500;
 }
 
 hr {
