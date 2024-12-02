@@ -28,8 +28,12 @@ I am interested in creating machine learning algorithms that can make strong dec
 
 <!-- My work spans areas like information retrieval, recommendation systems, and natural language processing. Currently, I am focused on enhancing large language models (LLMs) with decision-making abilities, such as planning, reasoning, and using tools, and teaching them to learn from human feedback in an open-ended way. -->
 
-<span class="font-weight-bold">Community Office Hours:</span> I have temporarily paused my public office hours. If you’re seeking feedback on your Ph.D. application materials or have questions about the UCL CS Ph.D. program, I highly recommend applying to the UCL CS Ph.D. Pre-Application Mentorship Service (PAMS), and exploring similar programs at other institutions. Unfortunately, I won’t be able to mentor new students during the 2024-2025 academic year. If you’re interested in collaborating with students from H2Lab, please submit an inquiry through our group website’s inqury.
+<span class="font-weight-bold">Community Office Hours:</span> I have been running <a href="#" target="_blank">weekly office hours</a> open to everyone since 2023 to answer questions about research, Ph.D. applications, UK research culture, etc.
 
-<!-- I’ve been running weekly office hours open to everyone since 2022 to answer questions about research, Ph.D. applications … etc. -->
+
+
+<!-- I have temporarily paused my public office hours. If you’re seeking feedback on your Ph.D. application materials or have questions about the UCL CS Ph.D. program, I highly recommend applying to the UCL CS Ph.D. Pre-Application Mentorship Service (PAMS), and exploring similar programs at other institutions. Unfortunately, I won’t be able to mentor new students during the 2024-2025 academic year. If you’re interested in collaborating with students from H2Lab, please submit an inquiry through our group website’s inqury. -->
+
+<!-- I have been running weekly office hours open to everyone since 2022 to answer questions about research, Ph.D. applications … etc. -->
 
 <!-- <mark><a href="/assets/pdf/Hossein_Rahmani_CV.pdf" target="_blank">CV</a></mark> / <a href="https://scholar.google.com/citations?user=1uzYEI0AAAAJ&hl=en" target="_blank">Google Scholar</a> -->
