@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My internship work at Thomson Reuters Labs is featured as an innovation on their website!
+title: Research highlighted as innovation on Thomson Reuters website! 🎉
 date: 2025-01-16 09:00:00-0400
 inline: false
 related_posts: false
