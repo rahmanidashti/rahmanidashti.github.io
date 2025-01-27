@@ -15,7 +15,7 @@ My internship work at Thomson Reuters Labs is featured as an <span class="font-w
 📝 I recently had the opportunity to explore this question during my internship at Thomson Reuters. In our blog post, which is highlighted as Innovation, we discuss how LLMs are transforming evaluation processes while highlighting the need for humans in the loop.
 
 <p align="center">
-  <img src="assets/img/blog-post-TR-innovation.png" width="350" title="blog-post-TR-innovation">
+  <img src="../../assets/img/blog-post-TR-innovation.png" width="350" title="blog-post-TR-innovation">
 </p>
 
 - <span class="font-weight-bold">Thomson Reuters Innovation:</span> https://www.thomsonreuters.com/en-us/posts/innovation/the-rise-of-large-language-models-in-automatic-evaluation-why-we-still-need-humans-in-the-loop/
