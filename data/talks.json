@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2024-03-02",
+    "title": "An Intro to AI: From Traditional ML to LLMs",
+    "venue": "University of Gonabad",
+    "location": "Iran",
+    "links": {}
+  },
+  {
+    "date": "2023-11-17",
+    "title": "Synthetic Data Generation for Test Collections",
+    "venue": "The Text Retrieval Conference (TREC) 2023",
+    "venueUrl": "https://trec.nist.gov/pubs/call2023.html",
+    "location": "NIST, US",
+    "links": {
+      "slides": "https://www.slideshare.net/slideshow/trec-2023-dl-synthetic-data-generation-slides/271115172"
+    }
+  },
+  {
+    "date": "2023-07-09",
+    "title": "Fairness and Bias in Recommender Systems",
+    "venue": "CS Reading Group",
+    "venueUrl": "https://sites.google.com/view/cs-reading-group/home",
+    "location": "Qazvin Islamic Azad University (QIAU), Iran",
+    "links": {}
+  },
+  {
+    "date": "2023-03-23",
+    "title": "Generalizability of User Fairness in Recommender Systems",
+    "venue": "DEFirst Reading Group",
+    "venueUrl": "https://noon-cobbler-caa.notion.site/DEFirst-Reading-Group-23c288b0cdc540aea53bf7960754ba21",
+    "location": "Mila x Vector Institute, Canada",
+    "links": {
+      "video": "https://www.youtube.com/watch?v=k4u5rih4zVM",
+      "slides": "https://www.slideshare.net/SaeedRahmani9/generalizibilityfairness-defirst-reading-group"
+    }
+  },
+  {
+    "date": "2016-10-30",
+    "title": "Complex Networks",
+    "venue": "Department of Computer Engineering",
+    "location": "University of Zanjan, Iran",
+    "links": {
+      "slides": "https://www.slideshare.net/SaeedRahmani9/introduction-to-complex-networks-77679817"
+    }
+  },
+  {
+    "date": "2016-03-05",
+    "title": "R in Probabilistic",
+    "venue": "Department of Computer Engineering",
+    "location": "University of Zanjan, Iran",
+    "links": {}
+  }
+]

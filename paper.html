@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<div style="min-height:100vh; background:#F8FAF8; color:#1A2E21; font-family:Inter,-apple-system,sans-serif; line-height:1.6;">
+  <div style="max-width:820px; margin:0 auto; padding:32px 28px 40px;">
+    <dc-import name="SiteNav" active="publications" hint-size="100%,64px"></dc-import>
+
+    <a href="publications.html" style="display:inline-block; font-size:0.8125rem; color:#4E7260; text-decoration:none; margin-bottom:24px;" style-hover="color:#1B4332;"><span style="display:inline-flex; align-items:center; gap:6px;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;" aria-hidden="true"><path d="M19 12H5 M12 19l-7-7 7-7"></path></svg><span>All publications</span></span></a>
+
+    <div style="display:flex; align-items:center; gap:9px; flex-wrap:wrap; margin-bottom:14px;">
+      <span style="font-size:0.68rem; font-weight:700; padding:3px 10px; border-radius:100px; letter-spacing:0.06em; text-transform:uppercase; background:{{ venueBg }}; color:{{ venueFg }};">{{ abbr }}</span>
+      <span style="font-size:0.8125rem; color:#4E7260;">{{ venue }}</span>
+      <span style="font-size:0.8125rem; color:#8CA898;">{{ year }}</span>
+    </div>
+
+    <h1 style="font-family:Fraunces,serif; font-size:clamp(1.7rem,3.4vw,2.3rem); font-weight:400; color:#1B4332; letter-spacing:-0.02em; line-height:1.25; margin:0 0 8px;">{{ title }}</h1>
+    <p style="font-size:0.875rem; color:#4E7260; margin:0 0 32px;">{{ note }}</p>
+
+    <div style="display:flex; flex-wrap:wrap; gap:10px 20px; margin-bottom:32px;">
+      <sc-for list="{{ authorCards }}" as="a" hint-placeholder-count="5">
+        <a href="{{ a.href }}" target="{{ a.target }}" rel="noopener" style="display:flex; align-items:center; gap:9px; text-decoration:none;">
+          <span style="width:36px; height:36px; border-radius:50%; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-size:0.72rem; font-weight:700; background:{{ a.tintBg }}; color:{{ a.tintFg }}; background-image:{{ a.photoCss }}; background-size:cover; background-position:center; border:1px solid #D0E8D8;">{{ a.initials }}</span>
+          <span style="font-size:0.875rem; font-weight:{{ a.weight }}; color:{{ a.color }};">{{ a.name }}</span>
+        </a>
+      </sc-for>
+    </div>
+
+    <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:40px;">
+      <sc-for list="{{ linkList }}" as="l" hint-placeholder-count="3">
+        <a href="{{ l.url }}" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:7px; font-size:0.8125rem; font-weight:500; padding:6px 16px; border-radius:100px; border:1.5px solid #D0E8D8; color:#4E7260; text-decoration:none; transition:all .2s;" style-hover="background:#1B4332; border-color:#1B4332; color:#FFFFFF;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;" aria-hidden="true"><path d="{{ l.iconPath }}"></path></svg>
+          <span>{{ l.label }}</span>
+        </a>
+      </sc-for>
+    </div>
+
+    <sc-if value="{{ hasFigure }}" hint-placeholder-val="{{ false }}">
+      <figure style="margin:0 0 40px;">{{ figureNode }}</figure>
+    </sc-if>
+
+    <sc-if value="{{ hasAbstract }}" hint-placeholder-val="{{ true }}">
+      <section style="margin-bottom:40px;">
+        <h2 style="font-family:Fraunces,serif; font-size:1.4rem; font-weight:300; font-style:italic; color:#1B4332; margin:0 0 12px;">Abstract</h2>
+        <p style="font-size:0.975rem; line-height:1.8; font-weight:300; color:#1A2E21; margin:0;">{{ abstract }}</p>
+      </section>
+    </sc-if>
+
+    <section style="margin-bottom:40px;">
+      <h2 style="font-family:Fraunces,serif; font-size:1.4rem; font-weight:300; font-style:italic; color:#1B4332; margin:0 0 12px;">Topics</h2>
+      <div style="display:flex; gap:6px; flex-wrap:wrap;">
+        <sc-for list="{{ topicChips }}" as="c" hint-placeholder-count="2">
+          <span style="font-size:0.72rem; font-weight:600; padding:3px 11px; border-radius:100px; background:{{ c.bg }}; color:{{ c.fg }};">{{ c.label }}</span>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="margin-bottom:16px;">
+      <div style="display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-bottom:12px;">
+        <h2 style="font-family:Fraunces,serif; font-size:1.4rem; font-weight:300; font-style:italic; color:#1B4332; margin:0;">BibTeX</h2>
+        <button type="button" onClick="{{ onCopy }}" style="display:inline-flex; align-items:center; gap:6px; font-family:Inter,sans-serif; font-size:0.76rem; font-weight:500; padding:5px 13px; border-radius:100px; border:1px solid #D0E8D8; background:#FFFFFF; color:#4E7260; cursor:pointer; transition:all .2s;" style-hover="background:#1B4332; border-color:#1B4332; color:#FFFFFF;">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;" aria-hidden="true"><path d="{{ copyIcon }}"></path></svg>
+          <span>{{ copyLabel }}</span>
+        </button>
+      </div>
+      <pre style="background:#FFFFFF; border:1px solid #D0E8D8; border-radius:14px; padding:20px 22px; overflow-x:auto; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:0.78rem; line-height:1.7; color:#1A2E21; margin:0; white-space:pre-wrap;">{{ bibtex }}</pre>
+    </section>
+
+    <dc-import name="SiteFooter" hint-size="100%,160px"></dc-import>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const LINK_LABELS = { paper: 'Paper', arxiv: 'arXiv', code: 'Code', website: 'Website', slides: 'Slides', poster: 'Poster', video: 'Video' };
+let ICONS = {}, LINK_ICONS = {};
+
+class Component extends DCLogic {
+  state = { data: null, copied: false };
+
+  async componentDidMount() {
+    const [S, I] = await Promise.all([import('./js/site.js'), import('./js/icons.js')]);
+    ICONS = I.ICONS; LINK_ICONS = I.LINK_ICONS;
+    const [publications, coauthors] = await Promise.all([S.loadJSON('publications'), S.loadJSON('coauthors')]);
+    this.S = S;
+    const id = S.queryParam('id') || publications[0].id;
+    const pub = publications.find(p => p.id === id) || publications[0];
+    document.title = pub.title + ' — Hossein A. Rahmani';
+    this.setState({ data: { pub, coauthors } });
+  }
+
+  renderVals() {
+    const d = this.state.data, S = this.S;
+    if (!d) return { title: 'Loading…', copyLabel: 'Copy', hasAbstract: false, hasFigure: false };
+    const p = d.pub;
+    const [venueBg, venueFg] = S.venueColors(p.venueType);
+    const byName = {};
+    d.coauthors.forEach(c => { byName[c.name] = c; });
+
+    const authorCards = p.authors.map(name => {
+      const c = byName[name];
+      const isMe = name === S.ME;
+      const [tb, tf] = S.avatarTint(isMe ? 'me' : (c ? c.id : name));
+      const photo = isMe ? 'assets/img/prof_pic.jpg' : (c && c.photo);
+      return {
+        name,
+        href: isMe ? 'index.html' : (c && c.url) || 'publications.html',
+        target: isMe || !(c && c.url) ? '_self' : '_blank',
+        initials: photo ? '' : (c ? c.initials : S.initialsOf(name)),
+        photoCss: photo ? 'url(' + photo + ')' : 'none',
+        tintBg: tb, tintFg: tf,
+        weight: isMe ? 600 : 400,
+        color: isMe ? '#1B4332' : '#1A2E21'
+      };
+    });
+
+    const bibtex = S.bibtexFor(p);
+
+    return {
+      title: p.title, abbr: p.abbr, venue: p.venue, year: p.year,
+      note: p.note || '',
+      venueBg, venueFg, authorCards,
+      linkList: Object.keys(p.links || {}).filter(k => p.links[k]).map(k => ({ label: LINK_LABELS[k] || k, url: p.links[k], iconPath: ICONS[LINK_ICONS[k]] || ICONS.website })),
+      hasFigure: !!p.image,
+      figureNode: p.image ? React.createElement('img', {
+        src: p.image,
+        alt: p.title,
+        style: { width: '100%', borderRadius: 14, border: '1px solid #D0E8D8', display: 'block' }
+      }) : null,
+      hasAbstract: !!p.abstract, abstract: p.abstract || '',
+      topicChips: (p.topics || []).map(t => { const [b, f] = S.topicColors(t); return { label: t, bg: b, fg: f }; }),
+      bibtex,
+      copyLabel: this.state.copied ? 'Copied' : 'Copy',
+      copyIcon: this.state.copied ? ICONS.check : ICONS.copy,
+      onCopy: () => {
+        navigator.clipboard.writeText(bibtex);
+        this.setState({ copied: true });
+        setTimeout(() => this.setState({ copied: false }), 1600);
+      }
+    };
+  }
+}
+</script>
+</body>
+</html>

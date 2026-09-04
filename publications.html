@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<div style="min-height:100vh; background:#F8FAF8; color:#1A2E21; font-family:Inter,-apple-system,sans-serif; line-height:1.6;">
+  <div style="max-width:1000px; margin:0 auto; padding:32px 28px 40px;">
+    <dc-import name="SiteNav" active="publications" hint-size="100%,64px"></dc-import>
+
+    <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#52B788; margin-bottom:10px;">Research output</div>
+    <h1 style="font-family:Fraunces,serif; font-size:clamp(2rem,4vw,2.6rem); font-weight:300; font-style:italic; color:#1B4332; letter-spacing:-0.02em; margin:0 0 12px;">Publications</h1>
+    <p style="font-size:0.8125rem; color:#4E7260; margin:0 0 40px;">For the most up-to-date list, see my <a href="https://scholar.google.com/citations?user=1uzYEI0AAAAJ&hl=en" target="_blank" rel="noopener" class="body-link">Google Scholar profile</a>.</p>
+
+    <section style="margin-bottom:56px;">
+      <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8CA898; margin-bottom:16px;">Featured</div>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:18px;">
+        <sc-for list="{{ featured }}" as="f" hint-placeholder-count="3">
+          <a href="{{ f.href }}" style="display:block; background:#FFFFFF; border:1px solid #D0E8D8; border-radius:14px; overflow:hidden; text-decoration:none; color:inherit; transition:border-color .2s, box-shadow .2s;" style-hover="border-color:#B7E4C7; box-shadow:0 4px 24px rgba(27,67,50,0.11);">
+            <div style="height:132px; background:#EDF5EF; overflow:hidden;">{{ f.thumbNode }}</div>
+            <div style="padding:16px 18px 18px;">
+              <div style="font-size:0.9rem; font-weight:600; color:#1B4332; line-height:1.4; margin-bottom:6px;">{{ f.title }}</div>
+              <div style="font-size:0.78rem; color:#8CA898;">{{ f.venueLine }}</div>
+            </div>
+          </a>
+        </sc-for>
+      </div>
+    </section>
+
+    <div style="display:flex; flex-direction:column; gap:12px; margin-bottom:36px;">
+      <div style="display:flex; gap:8px; flex-wrap:wrap;">
+        <sc-for list="{{ topicFilters }}" as="t" hint-placeholder-count="6">
+          <button type="button" onClick="{{ t.onClick }}" style="font-family:Inter,sans-serif; font-size:0.8125rem; font-weight:500; padding:6px 16px; border-radius:100px; border:1.5px solid {{ t.border }}; background:{{ t.bg }}; color:{{ t.fg }}; cursor:pointer; transition:all .2s;">{{ t.label }}</button>
+        </sc-for>
+      </div>
+      <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px;">
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <sc-for list="{{ yearFilters }}" as="y" hint-placeholder-count="7">
+            <button type="button" onClick="{{ y.onClick }}" style="font-family:Inter,sans-serif; font-size:0.8125rem; font-weight:500; padding:6px 16px; border-radius:100px; border:1.5px solid {{ y.border }}; background:{{ y.bg }}; color:{{ y.fg }}; cursor:pointer; transition:all .2s;">{{ y.label }}</button>
+          </sc-for>
+        </div>
+        <input type="text" value="{{ query }}" onChange="{{ onSearch }}" placeholder="Search by title, venue, or author…" style="font-family:Inter,sans-serif; font-size:0.875rem; padding:8px 16px; border:1.5px solid #D0E8D8; border-radius:100px; background:#FFFFFF; color:#1A2E21; width:280px; outline:none;" style-focus="border-color:#52B788;">
+      </div>
+      <div style="font-size:0.78rem; color:#8CA898;">{{ countLabel }}</div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:14px;">
+      <sc-for list="{{ items }}" as="p" hint-placeholder-count="8">
+        <div style="background:#FFFFFF; border:1px solid #D0E8D8; border-radius:14px; padding:22px 26px; display:grid; grid-template-columns:1fr auto; gap:0; align-items:start; transition:border-color .2s, box-shadow .2s;" style-hover="border-color:#B7E4C7; box-shadow:0 1px 8px rgba(27,67,50,0.07);">
+          <div style="min-width:0;">
+            <div style="display:flex; align-items:center; gap:7px; margin-bottom:8px; flex-wrap:wrap;">
+              <span style="font-size:0.68rem; font-weight:700; padding:3px 10px; border-radius:100px; letter-spacing:0.06em; text-transform:uppercase; background:{{ p.venueBg }}; color:{{ p.venueFg }};">{{ p.abbr }}</span>
+              <span style="font-size:0.75rem; color:#8CA898;">{{ p.venue }}</span>
+              <span style="font-size:0.72rem; font-weight:700; color:#8CA898; letter-spacing:0.06em;">{{ p.year }}</span>
+            </div>
+            <div style="font-size:0.95rem; font-weight:600; line-height:1.45; margin-bottom:7px;"><a href="{{ p.href }}" style="color:#1B4332; text-decoration:none;" style-hover="text-decoration:underline;">{{ p.title }}</a></div>
+            <div style="font-size:0.83rem; color:#4E7260; font-weight:300; line-height:1.55; margin-bottom:10px;">{{ p.authorLine }}</div>
+            <div style="display:flex; gap:7px; flex-wrap:wrap;">
+              <sc-for list="{{ p.linkList }}" as="l" hint-placeholder-count="2">
+                <a href="{{ l.url }}" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:5px; font-size:0.76rem; font-weight:500; padding:4px 12px; border-radius:100px; border:1px solid #D0E8D8; color:#4E7260; text-decoration:none; transition:all .2s;" style-hover="background:#1B4332; border-color:#1B4332; color:#FFFFFF;">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;" aria-hidden="true"><path d="{{ l.iconPath }}"></path></svg>
+                  <span>{{ l.label }}</span>
+                </a>
+              </sc-for>
+              <a href="{{ p.href }}" style="display:inline-flex; align-items:center; gap:5px; font-size:0.76rem; font-weight:500; padding:4px 12px; border-radius:100px; border:1px solid #B7E4C7; color:#2D6A4F; text-decoration:none; transition:all .2s;" style-hover="background:#52B788; border-color:#52B788; color:#FFFFFF;">
+                <span>Details</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;" aria-hidden="true"><path d="M9 18l6-6-6-6"></path></svg>
+              </a>
+            </div>
+            <div style="display:flex; gap:5px; flex-wrap:wrap; margin-top:10px;">
+              <sc-for list="{{ p.topicChips }}" as="c" hint-placeholder-count="2">
+                <span style="font-size:0.68rem; font-weight:600; padding:2px 9px; border-radius:100px; letter-spacing:0.04em; background:{{ c.bg }}; color:{{ c.fg }};">{{ c.label }}</span>
+              </sc-for>
+            </div>
+          </div>
+          <sc-if value="{{ p.hasThumb }}" hint-placeholder-val="{{ false }}">
+            <a href="{{ p.href }}" style="display:block; width:176px; height:132px; margin-left:26px; border-radius:10px; overflow:hidden; border:1px solid #D0E8D8; background:#EDF5EF; text-decoration:none;">{{ p.thumbNode }}</a>
+          </sc-if>
+          <sc-if value="{{ p.spacer }}" hint-placeholder-val="{{ false }}">
+            <div style="width:176px; margin-left:26px;"></div>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+
+    <section style="margin-top:72px;">
+      <div style="display:flex; align-items:baseline; justify-content:space-between; gap:16px; margin-bottom:8px;">
+        <h2 style="font-family:Fraunces,serif; font-size:1.7rem; font-weight:300; font-style:italic; color:#1B4332; letter-spacing:-0.02em; margin:0;">Co-authors</h2>
+      </div>
+      <p style="font-size:0.8125rem; color:#8CA898; margin:0 0 24px;">Click a name to filter the list above.</p>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:14px;">
+        <sc-for list="{{ coauthorCards }}" as="c" hint-placeholder-count="12">
+          <button type="button" onClick="{{ c.onClick }}" style="display:flex; align-items:center; gap:10px; padding:8px 10px; border-radius:100px; border:1px solid {{ c.border }}; background:{{ c.bg }}; cursor:pointer; text-align:left; font-family:Inter,sans-serif; transition:all .2s;">
+            <span style="width:34px; height:34px; border-radius:50%; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-size:0.72rem; font-weight:700; letter-spacing:0.02em; background:{{ c.tintBg }}; color:{{ c.tintFg }}; background-image:{{ c.photoCss }}; background-size:cover; background-position:center;">{{ c.initials }}</span>
+            <span style="min-width:0;">
+              <span style="display:block; font-size:0.78rem; font-weight:500; color:#1A2E21; line-height:1.25; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">{{ c.name }}</span>
+              <span style="display:block; font-size:0.68rem; color:#8CA898;">{{ c.count }}</span>
+            </span>
+          </button>
+        </sc-for>
+      </div>
+    </section>
+
+    <dc-import name="SiteFooter" hint-size="100%,160px"></dc-import>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const LINK_LABELS = { paper: 'Paper', arxiv: 'arXiv', code: 'Code', website: 'Website', slides: 'Slides', poster: 'Poster', video: 'Video' };
+let ICONS = {}, LINK_ICONS = {};
+
+class Component extends DCLogic {
+  state = { data: null, topic: 'all', year: 'all', q: '', coauthor: null };
+
+  async componentDidMount() {
+    const [S, I] = await Promise.all([import('./js/site.js'), import('./js/icons.js')]);
+    ICONS = I.ICONS; LINK_ICONS = I.LINK_ICONS;
+    const [publications, coauthors] = await Promise.all([S.loadJSON('publications'), S.loadJSON('coauthors')]);
+    this.S = S;
+    this.setState({ data: { publications, coauthors } });
+  }
+
+  // A paper's still: `thumb` in the JSON, falling back to the paper-page `image`.
+  // Returns null when neither is set — the row then has no thumbnail at all.
+  thumb(p) {
+    const src = p.thumb || p.image;
+    if (!src) return null;
+    return React.createElement('img', {
+      src,
+      alt: p.title,
+      loading: 'lazy',
+      style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block' }
+    });
+  }
+
+  // Featured cards keep a quiet venue mark when a paper has no image yet.
+  featuredThumb(p, bg, fg) {
+    return this.thumb(p) || React.createElement('span', {
+      style: {
+        width: '100%', height: '100%', display: 'flex', alignItems: 'center',
+        justifyContent: 'center', background: bg, color: fg, opacity: 0.85,
+        fontFamily: 'Fraunces, serif', fontSize: '1.6rem', letterSpacing: '0.02em'
+      }
+    }, p.abbr);
+  }
+
+  pill(active) {
+    return active
+      ? { bg: '#1B4332', border: '#1B4332', fg: '#FFFFFF' }
+      : { bg: 'transparent', border: '#D0E8D8', fg: '#4E7260' };
+  }
+
+  renderVals() {
+    const d = this.state.data, S = this.S;
+    if (!d) return { countLabel: 'Loading…', query: this.state.q, featured: [], items: [] };
+    const { topic, year, q, coauthor } = this.state;
+
+    const featured = d.publications.filter(p => p.featured).slice(0, 3).map(p => {
+      const [bg, fg] = S.venueColors(p.venueType);
+      return {
+        href: 'paper.html?id=' + p.id,
+        title: p.title,
+        venueLine: p.abbr + ' ' + p.year,
+        thumbNode: this.featuredThumb(p, bg, fg)
+      };
+    });
+
+    const topics = ['all'].concat(Array.from(new Set(d.publications.flatMap(p => p.topics))).sort());
+    const years = ['all'].concat(Array.from(new Set(d.publications.map(p => p.year))).sort((a, b) => b - a));
+
+    const topicFilters = topics.map(t => Object.assign({
+      label: t === 'all' ? 'All topics' : t,
+      onClick: () => this.setState({ topic: t })
+    }, this.pill(topic === t)));
+
+    const yearFilters = years.map(y => Object.assign({
+      label: y === 'all' ? 'All years' : String(y),
+      onClick: () => this.setState({ year: y })
+    }, this.pill(String(year) === String(y))));
+
+    const needle = q.trim().toLowerCase();
+    const filtered = d.publications.filter(p => {
+      if (topic !== 'all' && !p.topics.includes(topic)) return false;
+      if (year !== 'all' && String(p.year) !== String(year)) return false;
+      if (coauthor && !p.authors.some(a => S.slugify(a) === coauthor)) return false;
+      if (needle) {
+        const hay = (p.title + ' ' + p.venue + ' ' + p.abbr + ' ' + p.authors.join(' ')).toLowerCase();
+        if (!hay.includes(needle)) return false;
+      }
+      return true;
+    });
+
+    // Reserve the still column only when something in the current view has an image.
+    const anyThumb = filtered.some(p => p.thumb || p.image);
+
+    const items = filtered.map(p => {
+      const [bg, fg] = S.venueColors(p.venueType);
+      return {
+        href: 'paper.html?id=' + p.id,
+        abbr: p.abbr, venue: p.venue, title: p.title, year: p.year,
+        venueBg: bg, venueFg: fg,
+        authorLine: React.createElement('span', null, S.authorNodes(React, p.authors, d.coauthors, null)),
+        linkList: Object.keys(p.links || {}).filter(k => p.links[k]).map(k => ({ label: LINK_LABELS[k] || k, url: p.links[k], iconPath: ICONS[LINK_ICONS[k]] || ICONS.website })),
+        topicChips: p.topics.map(t => { const [b, f] = S.topicColors(t); return { label: t, bg: b, fg: f }; }),
+        hasThumb: !!(p.thumb || p.image),
+        spacer: anyThumb && !(p.thumb || p.image),
+        thumbNode: this.thumb(p)
+      };
+    });
+
+    const activeName = coauthor ? (d.coauthors.find(c => c.id === coauthor) || {}).name : null;
+    const countLabel = (activeName ? 'With ' + activeName + ' — ' : '') + filtered.length + ' of ' + d.publications.length + ' publications';
+
+    const coauthorCards = d.coauthors.map(c => {
+      const [tb, tf] = S.avatarTint(c.id);
+      const active = coauthor === c.id;
+      return {
+        name: c.name, initials: c.photo ? '' : c.initials,
+        count: c.papers.length + (c.papers.length === 1 ? ' paper' : ' papers'),
+        tintBg: tb, tintFg: tf,
+        photoCss: c.photo ? 'url(' + c.photo + ')' : 'none',
+        bg: active ? '#D8F3E3' : '#FFFFFF',
+        border: active ? '#52B788' : '#D0E8D8',
+        onClick: () => this.setState({ coauthor: active ? null : c.id })
+      };
+    });
+
+    return {
+      featured, topicFilters, yearFilters, items, countLabel, coauthorCards,
+      query: q,
+      onSearch: e => this.setState({ q: e.target.value })
+    };
+  }
+}
+</script>
+</body>
+</html>

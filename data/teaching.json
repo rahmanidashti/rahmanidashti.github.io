@@ -1,0 +1,83 @@
+[
+  {
+    "institution": "University College London (UCL)",
+    "items": [
+      {
+        "course": "COMP0186: Foundation of Artificial Intelligence",
+        "role": "Teaching Assistant",
+        "term": "Term 1, 2023/24"
+      },
+      {
+        "course": "COMP0173: Artificial Intelligence for Sustainable Development",
+        "role": "Teaching Assistant",
+        "term": "Term 1, 2023/24"
+      },
+      {
+        "course": "COMP0084: Information Retrieval and Data Mining",
+        "role": "Teaching Assistant",
+        "term": "Term 2, 2022/23"
+      }
+    ]
+  },
+  {
+    "institution": "The Institute for Advanced Studies in Basic Sciences (IASBS)",
+    "items": [
+      {
+        "course": "Software Engineering III",
+        "role": "Teaching Assistant",
+        "term": "Spring 2018"
+      },
+      {
+        "course": "Software Engineering II",
+        "role": "Teaching Assistant",
+        "term": "Winter 2017"
+      },
+      {
+        "course": "Software Engineering I",
+        "role": "Teaching Assistant",
+        "term": "Fall 2016"
+      }
+    ]
+  },
+  {
+    "institution": "University of Zanjan (ZNU)",
+    "items": [
+      {
+        "course": "Artificial Intelligence",
+        "role": "Head TA",
+        "term": "Spring 2019",
+        "url": "https://rahmanidashti.github.io/znuai/"
+      },
+      {
+        "course": "Software Engineering",
+        "role": "Head TA",
+        "term": "Fall 2018"
+      },
+      {
+        "course": "Software Engineering",
+        "role": "Teaching Assistant",
+        "term": "Spring 2016"
+      },
+      {
+        "course": "Big Data",
+        "role": "Teaching Assistant",
+        "term": "Spring 2016"
+      },
+      {
+        "course": "Scientific and Technical Presentation",
+        "role": "Teaching Assistant",
+        "term": "Spring 2015"
+      },
+      {
+        "course": "Advanced Programming",
+        "role": "Teaching Assistant",
+        "term": "Spring 2015"
+      },
+      {
+        "course": "Introduction to Programming",
+        "role": "Teaching Assistant",
+        "term": "Spring 2014"
+      }
+    ]
+  }
+]

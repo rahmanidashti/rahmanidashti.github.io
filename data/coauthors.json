@@ -1,0 +1,477 @@
+[
+  {
+    "id": "mohammad-aliannejadi",
+    "name": "Mohammad Aliannejadi",
+    "initials": "MA",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "llm4eval-report",
+      "llmjudge",
+      "beyond-accuracy-calibration",
+      "llm4eval-workshop",
+      "clarifying-path",
+      "confidence-calibration",
+      "user-oriented-fairness",
+      "contexts-poi",
+      "sucp",
+      "stacp",
+      "cape"
+    ]
+  },
+  {
+    "id": "mohammadmehdi-naghiaei",
+    "name": "Mohammadmehdi Naghiaei",
+    "initials": "MN",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "beyond-accuracy-calibration",
+      "tors-cpfairrank",
+      "clarifying-path",
+      "provider-fairness",
+      "confidence-calibration",
+      "temporal-bias-poi",
+      "pycpfair",
+      "user-oriented-fairness",
+      "cpfair",
+      "fairbook",
+      "fairpoi"
+    ]
+  },
+  {
+    "id": "emine-yilmaz",
+    "name": "Emine Yilmaz",
+    "initials": "EY",
+    "photo": null,
+    "url": "https://sites.google.com/site/emineyilmaz/home",
+    "papers": [
+      "syndl",
+      "llm4eval-report",
+      "llmjudge",
+      "user-profile-personalization",
+      "llm4eval-workshop",
+      "synthetic-test-collections",
+      "clarifying-path",
+      "acqsurvey",
+      "viralbert"
+    ]
+  },
+  {
+    "id": "yashar-deldjoo",
+    "name": "Yashar Deldjoo",
+    "initials": "YD",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "tors-cpfairrank",
+      "temporal-bias-poi",
+      "pycpfair",
+      "context-fusion",
+      "cpfair",
+      "fairpoi"
+    ]
+  },
+  {
+    "id": "bhaskar-mitra",
+    "name": "Bhaskar Mitra",
+    "initials": "BM",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "syndl",
+      "llm4eval-report",
+      "llmjudge",
+      "llm4eval-workshop",
+      "synthetic-test-collections"
+    ]
+  },
+  {
+    "id": "nick-craswell",
+    "name": "Nick Craswell",
+    "initials": "NC",
+    "photo": null,
+    "url": "https://www.microsoft.com/en-us/research/people/nickcr/",
+    "papers": [
+      "syndl",
+      "llm4eval-report",
+      "llmjudge",
+      "llm4eval-workshop",
+      "synthetic-test-collections"
+    ]
+  },
+  {
+    "id": "paul-thomas",
+    "name": "Paul Thomas",
+    "initials": "PT",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "syndl",
+      "llm4eval-report",
+      "llmjudge",
+      "llm4eval-workshop"
+    ]
+  },
+  {
+    "id": "xi-wang",
+    "name": "Xi Wang",
+    "initials": "XW",
+    "photo": null,
+    "url": "https://scholar.google.co.uk/citations?user=nFmvLQgAAAAJ&hl=en",
+    "papers": [
+      "syndl",
+      "clarifying-path",
+      "acqsurvey",
+      "iglu-nlp"
+    ]
+  },
+  {
+    "id": "aldo-lipani",
+    "name": "Aldo Lipani",
+    "initials": "AL",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "acqsurvey",
+      "iglu-nlp",
+      "aae-bias"
+    ]
+  },
+  {
+    "id": "charles-l-a-clarke",
+    "name": "Charles L. A. Clarke",
+    "initials": "CC",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "llm4eval-report",
+      "llmjudge",
+      "llm4eval-workshop"
+    ]
+  },
+  {
+    "id": "clemencia-siro",
+    "name": "Clemencia Siro",
+    "initials": "CS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "llm4eval-report",
+      "llmjudge",
+      "llm4eval-workshop"
+    ]
+  },
+  {
+    "id": "fabio-crestani",
+    "name": "Fabio Crestani",
+    "initials": "FC",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "contexts-poi",
+      "stacp",
+      "cape"
+    ]
+  },
+  {
+    "id": "guglielmo-faggioli",
+    "name": "Guglielmo Faggioli",
+    "initials": "GF",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "llm4eval-report",
+      "llmjudge",
+      "llm4eval-workshop"
+    ]
+  },
+  {
+    "id": "mahdi-dehghan",
+    "name": "Mahdi Dehghan",
+    "initials": "MD",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "beyond-accuracy-calibration",
+      "user-oriented-fairness",
+      "fairbook"
+    ]
+  },
+  {
+    "id": "mitra-baratchi",
+    "name": "Mitra Baratchi",
+    "initials": "MB",
+    "photo": null,
+    "url": "http://www.mitrabaratchi.com/",
+    "papers": [
+      "contexts-poi",
+      "stacp",
+      "cape"
+    ]
+  },
+  {
+    "id": "ali-tourani",
+    "name": "Ali Tourani",
+    "initials": "AT",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "temporal-bias-poi",
+      "fairpoi"
+    ]
+  },
+  {
+    "id": "jerome-ramos",
+    "name": "Jerome Ramos",
+    "initials": "JR",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "iglu-nlp",
+      "aae-bias"
+    ]
+  },
+  {
+    "id": "leila-safari",
+    "name": "Leila Safari",
+    "initials": "LS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "provider-fairness",
+      "ie-review"
+    ]
+  },
+  {
+    "id": "mohsen-afsharchi",
+    "name": "Mohsen Afsharchi",
+    "initials": "MA",
+    "photo": null,
+    "url": "http://cv.znu.ac.ir/afsharchim/",
+    "papers": [
+      "sucp",
+      "cape"
+    ]
+  },
+  {
+    "id": "alireza-khanteymoori",
+    "name": "Alireza Khanteymoori",
+    "initials": "AK",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "ppi-network"
+    ]
+  },
+  {
+    "id": "bin-wu",
+    "name": "Bin Wu",
+    "initials": "BW",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "user-profile-personalization"
+    ]
+  },
+  {
+    "id": "daniel-campos",
+    "name": "Daniel Campos",
+    "initials": "DC",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "synthetic-test-collections"
+    ]
+  },
+  {
+    "id": "flavia-salutari",
+    "name": "Flavia Salutari",
+    "initials": "FS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "aae-bias"
+    ]
+  },
+  {
+    "id": "javad-azizi",
+    "name": "Javad Azizi",
+    "initials": "JA",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "beyond-accuracy-calibration"
+    ]
+  },
+  {
+    "id": "jie-yang",
+    "name": "Jie Yang",
+    "initials": "JY",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "crowd-bias"
+    ]
+  },
+  {
+    "id": "kosar-seyedhoseinzadeh",
+    "name": "Kosar Seyedhoseinzadeh",
+    "initials": "KS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "sucp"
+    ]
+  },
+  {
+    "id": "leonardo-linguaglossa",
+    "name": "Leonardo Linguaglossa",
+    "initials": "LL",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "aae-bias"
+    ]
+  },
+  {
+    "id": "mohammad-olyaee",
+    "name": "Mohammad Olyaee",
+    "initials": "MO",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "ppi-network"
+    ]
+  },
+  {
+    "id": "nasim-sonboli",
+    "name": "Nasim Sonboli",
+    "initials": "NS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "confidence-calibration"
+    ]
+  },
+  {
+    "id": "parisa-naderi",
+    "name": "Parisa Naderi",
+    "initials": "PN",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "ie-review"
+    ]
+  },
+  {
+    "id": "qiang-zhang",
+    "name": "Qiang Zhang",
+    "initials": "QZ",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "acqsurvey"
+    ]
+  },
+  {
+    "id": "rasoul-mirzaei-zadeh",
+    "name": "Rasoul Mirzaei Zadeh",
+    "initials": "RM",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "cape"
+    ]
+  },
+  {
+    "id": "rikaz-rameez",
+    "name": "Rikaz Rameez",
+    "initials": "RR",
+    "photo": null,
+    "url": "https://www.linkedin.com/in/rikaz-rameez-534147195/",
+    "papers": [
+      "viralbert"
+    ]
+  },
+  {
+    "id": "saeedeh-karimi",
+    "name": "Saeedeh Karimi",
+    "initials": "SK",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "provider-fairness"
+    ]
+  },
+  {
+    "id": "shahrzad-azizi",
+    "name": "Shahrzad Azizi",
+    "initials": "SA",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "ie-review"
+    ]
+  },
+  {
+    "id": "to-eun-kim",
+    "name": "To Eun Kim",
+    "initials": "TE",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "iglu-nlp"
+    ]
+  },
+  {
+    "id": "tommaso-di-noia",
+    "name": "Tommaso di Noia",
+    "initials": "TD",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "context-fusion"
+    ]
+  },
+  {
+    "id": "varsha-ramineni",
+    "name": "Varsha Ramineni",
+    "initials": "VR",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "user-profile-personalization"
+    ]
+  },
+  {
+    "id": "yue-feng",
+    "name": "Yue Feng",
+    "initials": "YF",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "acqsurvey"
+    ]
+  },
+  {
+    "id": "zhengxiang-shi",
+    "name": "Zhengxiang Shi",
+    "initials": "ZS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "iglu-nlp"
+    ]
+  },
+  {
+    "id": "zhengyan-shi",
+    "name": "Zhengyan Shi",
+    "initials": "ZS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "user-profile-personalization"
+    ]
+  }
+]

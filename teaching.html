@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<div style="min-height:100vh; background:#F8FAF8; color:#1A2E21; font-family:Inter,-apple-system,sans-serif; line-height:1.6;">
+  <div style="max-width:860px; margin:0 auto; padding:32px 28px 40px;">
+    <dc-import name="SiteNav" active="teaching" hint-size="100%,64px"></dc-import>
+
+    <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#52B788; margin-bottom:10px;">Teaching</div>
+    <h1 style="font-family:Fraunces,serif; font-size:clamp(2rem,4vw,2.6rem); font-weight:300; font-style:italic; color:#1B4332; letter-spacing:-0.02em; margin:0 0 40px;">Teaching assistantships</h1>
+
+    <sc-for list="{{ groups }}" as="g" hint-placeholder-count="3">
+      <section style="margin-bottom:40px;">
+        <h2 style="font-family:Fraunces,serif; font-size:1.3rem; font-weight:400; color:#1B4332; margin:0 0 4px;">{{ g.institution }}</h2>
+        <div style="height:1px; background:#D0E8D8; margin-bottom:12px;"></div>
+        <div style="display:flex; flex-direction:column;">
+          <sc-for list="{{ g.items }}" as="i" hint-placeholder-count="3">
+            <div style="display:grid; grid-template-columns:1fr auto; gap:16px; align-items:baseline; padding:11px 0; border-bottom:1px solid #EDF5EF;">
+              <div>
+                <a href="{{ i.href }}" target="{{ i.target }}" rel="noopener" style="font-size:0.925rem; color:#1A2E21; text-decoration:{{ i.deco }}; text-underline-offset:3px; text-decoration-color:#B7E4C7;">{{ i.course }}</a>
+                <span style="font-size:0.75rem; color:#2D6A4F; background:#EDF5EF; padding:2px 8px; border-radius:100px; margin-left:8px;">{{ i.role }}</span>
+              </div>
+              <div style="font-size:0.8rem; color:#8CA898; white-space:nowrap;">{{ i.term }}</div>
+            </div>
+          </sc-for>
+        </div>
+      </section>
+    </sc-for>
+
+    <dc-import name="SiteFooter" hint-size="100%,160px"></dc-import>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { groups: null };
+  async componentDidMount() {
+    const S = await import('./js/site.js');
+    this.setState({ groups: await S.loadJSON('teaching') });
+  }
+  renderVals() {
+    if (!this.state.groups) return { groups: [] };
+    return {
+      groups: this.state.groups.map(g => ({
+        institution: g.institution,
+        items: g.items.map(i => ({
+          course: i.course, role: i.role, term: i.term,
+          href: i.url || null,
+          target: i.url ? '_blank' : '_self',
+          deco: i.url ? 'underline' : 'none'
+        }))
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>

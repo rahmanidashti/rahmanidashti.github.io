@@ -1,0 +1,48 @@
+{
+  "pdf": "assets/pdf/Hossein_Rahmani_CV.pdf",
+  "education": [
+    {
+      "degree": "Ph.D. in Computer Science",
+      "institution": "University College London (UCL)",
+      "years": "2022 – present",
+      "detail": "Web Intelligence Group, UCL Centre for Artificial Intelligence. Advised by Prof. Emine Yilmaz and Nick Craswell."
+    },
+    {
+      "degree": "M.Sc. in Computer Science",
+      "institution": "University of Zanjan (ZNU)",
+      "years": "",
+      "detail": "Advised by Prof. Mohsen Afsharchi and Dr. Mitra Baratchi (Leiden University). Context-aware recommender systems."
+    },
+    {
+      "degree": "B.Sc. in Computer Engineering",
+      "institution": "University of Zanjan (ZNU)",
+      "years": "",
+      "detail": "Thesis: Natural and Cancer Cells Detection using Analysis of Protein Interaction Networks."
+    }
+  ],
+  "positions": [
+    {
+      "role": "Research Scholar (Ph.D. Enrichment)",
+      "org": "The Alan Turing Institute",
+      "years": "2025 – present",
+      "detail": "Understanding the capabilities of foundation models, within fundamental research in data science and AI."
+    },
+    {
+      "role": "Research Intern",
+      "org": "Thomson Reuters Labs",
+      "years": "2024",
+      "detail": "LLMs for automatic evaluation; work featured as an innovation by Thomson Reuters."
+    },
+    {
+      "role": "Teaching Assistant",
+      "org": "University College London",
+      "years": "2022 – 2024",
+      "detail": "Foundations of AI, AI for Sustainable Development, Information Retrieval and Data Mining."
+    }
+  ],
+  "honours": [
+    { "year": "2024", "text": "Doctoral Enrichment Placement, The Alan Turing Institute" },
+    { "year": "2023", "text": "1st place, TREC iKAT 2023" },
+    { "year": "2022", "text": "Research prize, IGLU challenge (NeurIPS competition), with UCL-WI-Group" }
+  ]
+}

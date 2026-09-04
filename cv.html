@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<div style="min-height:100vh; background:#F8FAF8; color:#1A2E21; font-family:Inter,-apple-system,sans-serif; line-height:1.6;">
+  <div style="max-width:860px; margin:0 auto; padding:32px 28px 40px;">
+    <dc-import name="SiteNav" active="cv" hint-size="100%,64px"></dc-import>
+
+    <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:20px; flex-wrap:wrap; margin-bottom:40px;">
+      <div>
+        <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#52B788; margin-bottom:10px;">Background</div>
+        <h1 style="font-family:Fraunces,serif; font-size:clamp(2rem,4vw,2.6rem); font-weight:300; font-style:italic; color:#1B4332; letter-spacing:-0.02em; margin:0;">Curriculum vitae</h1>
+      </div>
+      <a href="assets/pdf/Hossein_Rahmani_CV.pdf" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:7px; font-size:0.8125rem; font-weight:500; padding:8px 18px; border-radius:100px; border:1.5px solid #1B4332; background:#1B4332; color:#FFFFFF; text-decoration:none; transition:all .2s;" style-hover="background:#2D6A4F; border-color:#2D6A4F;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;" aria-hidden="true"><path d="M12 3v12 M7 11l5 5 5-5 M4 21h16"></path></svg><span>Download PDF</span></a>
+    </div>
+
+    <section style="margin-bottom:44px;">
+      <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8CA898; margin-bottom:14px;">Education</div>
+      <div style="display:flex; flex-direction:column;">
+        <sc-for list="{{ education }}" as="e" hint-placeholder-count="3">
+          <div style="display:grid; grid-template-columns:1fr 150px; gap:20px; padding:18px 0; border-bottom:1px solid #D0E8D8;">
+            <div>
+              <div style="font-size:0.95rem; font-weight:600; color:#1B4332; margin-bottom:2px;">{{ e.degree }}</div>
+              <div style="font-size:0.85rem; color:#1A2E21; margin-bottom:6px;">{{ e.institution }}</div>
+              <p style="font-size:0.83rem; color:#4E7260; font-weight:300; margin:0;">{{ e.detail }}</p>
+            </div>
+            <div style="font-size:0.78rem; color:#8CA898; font-weight:600; text-align:right;">{{ e.years }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="margin-bottom:44px;">
+      <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8CA898; margin-bottom:14px;">Positions</div>
+      <div style="display:flex; flex-direction:column;">
+        <sc-for list="{{ positions }}" as="p" hint-placeholder-count="3">
+          <div style="display:grid; grid-template-columns:1fr 150px; gap:20px; padding:18px 0; border-bottom:1px solid #D0E8D8;">
+            <div>
+              <div style="font-size:0.95rem; font-weight:600; color:#1B4332; margin-bottom:2px;">{{ p.role }}</div>
+              <div style="font-size:0.85rem; color:#1A2E21; margin-bottom:6px;">{{ p.org }}</div>
+              <p style="font-size:0.83rem; color:#4E7260; font-weight:300; margin:0;">{{ p.detail }}</p>
+            </div>
+            <div style="font-size:0.78rem; color:#8CA898; font-weight:600; text-align:right;">{{ p.years }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="margin-bottom:44px;">
+      <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8CA898; margin-bottom:14px;">Honours &amp; awards</div>
+      <div style="display:flex; flex-direction:column;">
+        <sc-for list="{{ honours }}" as="h" hint-placeholder-count="3">
+          <div style="display:grid; grid-template-columns:70px 1fr; gap:16px; padding:11px 0; border-bottom:1px solid #EDF5EF;">
+            <div style="font-size:0.78rem; color:#8CA898; font-weight:700;">{{ h.year }}</div>
+            <div style="font-size:0.9rem; color:#1A2E21;">{{ h.text }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="margin-bottom:24px;">
+      <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8CA898; margin-bottom:14px;">Full CV</div>
+      <object data="assets/pdf/Hossein_Rahmani_CV.pdf" type="application/pdf" style="width:100%; height:820px; border:1px solid #D0E8D8; border-radius:14px; background:#FFFFFF;">
+        <p style="padding:24px; font-size:0.9rem; color:#4E7260;">Your browser cannot display the embedded PDF. <a href="assets/pdf/Hossein_Rahmani_CV.pdf" style="color:#2D6A4F;">Download it instead</a>.</p>
+      </object>
+    </section>
+
+    <dc-import name="SiteFooter" hint-size="100%,160px"></dc-import>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { cv: null };
+  async componentDidMount() {
+    const S = await import('./js/site.js');
+    this.setState({ cv: await S.loadJSON('cv') });
+  }
+  renderVals() {
+    const cv = this.state.cv;
+    if (!cv) return { education: [], positions: [], honours: [] };
+    return { education: cv.education, positions: cv.positions, honours: cv.honours };
+  }
+}
+</script>
+</body>
+</html>

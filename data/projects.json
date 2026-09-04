@@ -1,0 +1,69 @@
+[
+  {
+    "id": "llm4eval",
+    "title": "LLM4Eval",
+    "years": "2024–",
+    "category": "Workshop & Community",
+    "desc": "A workshop series and research programme on using large language models for evaluation in information retrieval — automated judgments, RAG pipeline evaluation, and the robustness of LLM-based assessment.",
+    "links": {
+      "website": "https://llm4eval.github.io/",
+      "paper": "https://arxiv.org/abs/2408.05388"
+    }
+  },
+  {
+    "id": "llmjudge",
+    "title": "LLMJudge Challenge",
+    "years": "2024–2025",
+    "category": "Benchmark",
+    "desc": "A challenge and benchmark asking participants to generate relevance labels with LLMs while maximising correlation with human judgments.",
+    "links": {
+      "website": "https://llm4eval.github.io/challenge/",
+      "code": "https://github.com/llm4eval/LLMJudge",
+      "paper": "https://arxiv.org/abs/2502.13908"
+    }
+  },
+  {
+    "id": "syndl",
+    "title": "SynDL",
+    "years": "2024",
+    "category": "Resource",
+    "desc": "A large-scale synthetic test collection for passage retrieval, built on MS MARCO with LLM-generated queries and judgments.",
+    "links": {
+      "website": "https://rahmanidashti.github.io/SynDL/",
+      "code": "https://github.com/rahmanidashti/SynDL",
+      "paper": "https://arxiv.org/abs/2408.16312"
+    }
+  },
+  {
+    "id": "trec-ikat",
+    "title": "TREC iKAT 2023",
+    "years": "2023",
+    "category": "Challenge",
+    "desc": "Ranked 1st in TREC Interactive Knowledge Assistance Track with Retrieve-then-Generate and Generate-then-Retrieve models for conversational search.",
+    "links": {
+      "website": "https://www.trecikat.com/"
+    }
+  },
+  {
+    "id": "iglu",
+    "title": "IGLU Challenge",
+    "years": "2022",
+    "category": "Challenge",
+    "desc": "Research prize at the NeurIPS IGLU competition, on deciding when a collaborative building agent should ask a clarification question and which one.",
+    "links": {
+      "website": "https://www.iglu-contest.net/iglu-2022/winners",
+      "paper": "https://arxiv.org/abs/2305.05754"
+    }
+  },
+  {
+    "id": "cpfair",
+    "title": "CPFair / PyCPFair",
+    "years": "2022–2024",
+    "category": "Software",
+    "desc": "A framework and re-ranking algorithm for joint consumer and producer fairness in recommender systems.",
+    "links": {
+      "code": "https://github.com/rahmanidashti/CPFairRank",
+      "paper": "https://doi.org/10.1145/3651167"
+    }
+  }
+]

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<div style="min-height:100vh; background:#F8FAF8; color:#1A2E21; font-family:Inter,-apple-system,sans-serif; line-height:1.6;">
+  <div style="max-width:760px; margin:0 auto; padding:32px 28px 40px;">
+    <dc-import name="SiteNav" active="collaborate" hint-size="100%,64px"></dc-import>
+
+    <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#52B788; margin-bottom:10px;">Get in touch</div>
+    <h1 style="font-family:Fraunces,serif; font-size:clamp(2rem,4vw,2.6rem); font-weight:300; font-style:italic; color:#1B4332; letter-spacing:-0.02em; margin:0 0 28px;">Collaborate</h1>
+
+    <p style="font-size:1rem; line-height:1.8; font-weight:300; margin:0 0 20px;">If you are interested in collaboration, do let me know and I will be happy to share and cooperate on more ideas in information retrieval, machine learning, and recommender systems. You can contact me at <a href="mailto:hossein.rahmani.22@ucl.ac.uk" class="body-link">hossein.rahmani.22@ucl.ac.uk</a>.</p>
+
+    <div style="background:#FFFFFF; border:1px solid #D0E8D8; border-radius:14px; padding:24px 26px; margin:0 0 48px;">
+      <h2 style="font-family:Fraunces,serif; font-size:1.2rem; font-weight:400; color:#1B4332; margin:0 0 8px;">Community office hours</h2>
+      <p style="font-size:0.925rem; color:#4E7260; font-weight:300; line-height:1.7; margin:0 0 16px;">I have been running weekly office hours open to everyone since 2023, to answer questions about research, Ph.D. applications, UK research culture, and anything else that would help.</p>
+      <a href="https://calendly.com/rahmanidashti/meet-saeed" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:7px; font-size:0.8125rem; font-weight:500; padding:8px 18px; border-radius:100px; border:1.5px solid #1B4332; background:#1B4332; color:#FFFFFF; text-decoration:none; transition:all .2s;" style-hover="background:#2D6A4F; border-color:#2D6A4F;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;" aria-hidden="true"><path d="M8 2v4 M16 2v4 M4 6h16a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1z M3 11h18"></path></svg><span>Book a slot</span></a>
+    </div>
+
+    <section>
+      <h2 style="font-family:Fraunces,serif; font-size:1.5rem; font-weight:300; font-style:italic; color:#1B4332; margin:0 0 8px;">Students</h2>
+      <p style="font-size:0.925rem; color:#4E7260; font-weight:300; margin:0 0 20px;">I have had the chance to work with the following students in different capacities.</p>
+      <div style="display:flex; flex-direction:column; gap:12px;">
+        <sc-for list="{{ students }}" as="s" hint-placeholder-count="2">
+          <div style="padding:18px 20px; background:#FFFFFF; border:1px solid #D0E8D8; border-radius:12px;">
+            <div style="display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:6px;">
+              <a href="{{ s.url }}" target="_blank" rel="noopener" style="font-size:0.95rem; font-weight:600; color:#1B4332; text-decoration:none;" style-hover="text-decoration:underline;">{{ s.name }}</a>
+              <span style="font-size:0.75rem; color:#2D6A4F; background:#EDF5EF; padding:2px 9px; border-radius:100px;">{{ s.programme }}</span>
+            </div>
+            <div class="newsbody" style="font-size:0.85rem; color:#4E7260; font-weight:300;">{{ s.note }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <dc-import name="SiteFooter" hint-size="100%,160px"></dc-import>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { students: null };
+  async componentDidMount() {
+    const S = await import('./js/site.js');
+    this.setState({ students: await S.loadJSON('students') });
+  }
+  renderVals() {
+    if (!this.state.students) return { students: [] };
+    return {
+      students: this.state.students.map(s => ({
+        name: s.name, url: s.url, programme: s.programme,
+        note: React.createElement('span', { dangerouslySetInnerHTML: { __html: s.note } })
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>

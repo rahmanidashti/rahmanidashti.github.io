@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<div style="min-height:100vh; background:#F8FAF8; color:#1A2E21; font-family:Inter,-apple-system,sans-serif; line-height:1.6;">
+  <div style="max-width:860px; margin:0 auto; padding:32px 28px 40px;">
+    <dc-import name="SiteNav" active="service" hint-size="100%,64px"></dc-import>
+
+    <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#52B788; margin-bottom:10px;">Community</div>
+    <h1 style="font-family:Fraunces,serif; font-size:clamp(2rem,4vw,2.6rem); font-weight:300; font-style:italic; color:#1B4332; letter-spacing:-0.02em; margin:0 0 40px;">Service</h1>
+
+    <section style="margin-bottom:44px;">
+      <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8CA898; margin-bottom:16px;">Organising</div>
+      <div style="display:flex; flex-direction:column; gap:12px;">
+        <sc-for list="{{ organising }}" as="o" hint-placeholder-count="4">
+          <div style="padding:16px 18px; background:#FFFFFF; border:1px solid #D0E8D8; border-radius:10px;">
+            <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:5px;">
+              <a href="{{ o.url }}" target="_blank" rel="noopener" style="font-size:0.875rem; font-weight:700; color:#1B4332; text-decoration:none;" style-hover="text-decoration:underline;">{{ o.venue }}</a>
+              <span style="font-size:0.75rem; color:#2D6A4F; background:#EDF5EF; padding:2px 9px; border-radius:100px;">{{ o.role }}</span>
+              <span style="font-size:0.75rem; color:#8CA898;">{{ o.years }}</span>
+            </div>
+            <p style="font-size:0.83rem; color:#4E7260; font-weight:300; margin:0;">{{ o.desc }}</p>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="margin-bottom:44px;">
+      <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8CA898; margin-bottom:16px;">Programme committee &amp; reviewing</div>
+      <div style="display:flex; flex-wrap:wrap; gap:7px;">
+        <sc-for list="{{ pc }}" as="v" hint-placeholder-count="10">
+          <span style="font-size:0.8rem; padding:5px 13px; border-radius:100px; background:#FFFFFF; border:1px solid #D0E8D8; color:#1A2E21;">{{ v }}</span>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="margin-bottom:24px;">
+      <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8CA898; margin-bottom:16px;">Journal reviewer</div>
+      <div style="display:flex; flex-wrap:wrap; gap:7px;">
+        <sc-for list="{{ journals }}" as="j" hint-placeholder-count="1">
+          <span style="font-size:0.8rem; padding:5px 13px; border-radius:100px; background:#FFFFFF; border:1px solid #D0E8D8; color:#1A2E21;">{{ j }}</span>
+        </sc-for>
+      </div>
+    </section>
+
+    <dc-import name="SiteFooter" hint-size="100%,160px"></dc-import>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { s: null };
+  async componentDidMount() {
+    const S = await import('./js/site.js');
+    this.setState({ s: await S.loadJSON('service') });
+  }
+  renderVals() {
+    const s = this.state.s;
+    if (!s) return { organising: [], pc: [], journals: [] };
+    return { organising: s.organising, pc: s.programCommittee, journals: s.journalReviewer };
+  }
+}
+</script>
+</body>
+</html>

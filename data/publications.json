@@ -1,0 +1,727 @@
+[
+  {
+    "id": "syndl",
+    "year": 2024,
+    "abbr": "arXiv",
+    "venue": "arXiv preprint",
+    "venueType": "arxiv",
+    "title": "SynDL: A Large-Scale Synthetic Test Collection for Passage Retrieval",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Xi Wang",
+      "Emine Yilmaz",
+      "Nick Craswell",
+      "Bhaskar Mitra",
+      "Paul Thomas"
+    ],
+    "topics": [
+      "IR Evaluation",
+      "LLMs"
+    ],
+    "selected": true,
+    "note": "Accepted at TheWebConf (WWW) 2025.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2408.16312",
+      "website": "https://rahmanidashti.github.io/SynDL/",
+      "code": "https://github.com/rahmanidashti/SynDL"
+    },
+    "featured": true
+  },
+  {
+    "id": "llm4eval-report",
+    "year": 2024,
+    "abbr": "arXiv",
+    "venue": "arXiv preprint",
+    "venueType": "arxiv",
+    "title": "Report on the 1st Workshop on Large Language Model for Evaluation in Information Retrieval (LLM4Eval 2024) at SIGIR 2024",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Clemencia Siro",
+      "Mohammad Aliannejadi",
+      "Nick Craswell",
+      "Charles L. A. Clarke",
+      "Guglielmo Faggioli",
+      "Bhaskar Mitra",
+      "Paul Thomas",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "IR Evaluation",
+      "LLMs"
+    ],
+    "abstract": "The first edition of the workshop on Large Language Model for Evaluation in Information Retrieval (LLM4Eval 2024) took place in July 2024, co-located with the ACM SIGIR Conference 2024 in the USA (SIGIR 2024). The aim was to bring information retrieval researchers together around the topic of LLMs for evaluation in information retrieval that gathered attention with the advancement of large language models and generative AI. Given the novelty of the topic, the workshop was focused around multi-sided discussions, namely panels and poster sessions of the accepted proceedings papers.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2408.05388",
+      "website": "https://llm4eval.github.io/"
+    }
+  },
+  {
+    "id": "llmjudge",
+    "year": 2024,
+    "abbr": "arXiv",
+    "venue": "arXiv preprint",
+    "venueType": "arxiv",
+    "title": "LLMJudge: LLMs for Relevance Judgments",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Emine Yilmaz",
+      "Nick Craswell",
+      "Bhaskar Mitra",
+      "Paul Thomas",
+      "Charles L. A. Clarke",
+      "Mohammad Aliannejadi",
+      "Clemencia Siro",
+      "Guglielmo Faggioli"
+    ],
+    "topics": [
+      "IR Evaluation",
+      "LLMs"
+    ],
+    "selected": true,
+    "links": {
+      "paper": "https://arxiv.org/abs/2408.08896",
+      "website": "https://llm4eval.github.io/challenge/",
+      "code": "https://github.com/llm4eval/LLMJudge"
+    }
+  },
+  {
+    "id": "user-profile-personalization",
+    "year": 2024,
+    "abbr": "arXiv",
+    "venue": "arXiv preprint",
+    "venueType": "arxiv",
+    "title": "Understanding the Role of User Profile in the Personalization of Large Language Models",
+    "authors": [
+      "Bin Wu",
+      "Zhengyan Shi",
+      "Hossein A. Rahmani",
+      "Varsha Ramineni",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "LLMs"
+    ],
+    "abstract": "Utilizing user profiles to personalize Large Language Models (LLMs) has been shown to enhance the performance on a wide range of tasks. However, the precise role of user profiles and their effect mechanism on LLMs remains unclear. This study first confirms that the effectiveness of user profiles is primarily due to personalization information rather than semantic information. Furthermore, we investigate how user profiles affect the personalization of LLMs. Within the user profile, we reveal that it is the historical personalized response produced or approved by users that plays a pivotal role in personalizing LLMs. This discovery unlocks the potential of LLMs to incorporate a greater number of user profiles within the constraints of limited input length. As for the position of user profiles, we observe that user profiles integrated into different positions of the input context do not contribute equally to personalization. Instead, where the user profile that is closer to the beginning affects more on the personalization of LLMs.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2406.17803",
+      "code": "https://github.com/Bingo-W/Personalisation-in-LLM"
+    }
+  },
+  {
+    "id": "beyond-accuracy-calibration",
+    "year": 2024,
+    "abbr": "ICTIR",
+    "venue": "ACM SIGIR International Conference on Theory of Information Retrieval (ICTIR)",
+    "venueType": "ictir",
+    "title": "Personalized Beyond-accuracy Calibration in Recommendation",
+    "authors": [
+      "Mohammadmehdi Naghiaei",
+      "Mahdi Dehghan",
+      "Hossein A. Rahmani",
+      "Javad Azizi",
+      "Mohammad Aliannejadi"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "Fairness"
+    ],
+    "abstract": "Recommender systems usually aim to optimize accuracy in a supervised setting. Due to various data biases, they often fail to enhance other critical qualities that go beyond accuracy, such as diversity, novelty, and serendipity. In this work, we take a user-centric approach and demonstrate that users have distinct preferences for beyond-accuracy metrics. We propose a post-ranking greedy optimization algorithm that ensures recommendations are not only accurate but also meet users' beyond-accuracy preferences.",
+    "links": {
+      "paper": "https://doi.org/10.1145/3664190.3672507"
+    }
+  },
+  {
+    "id": "llm4eval-workshop",
+    "year": 2024,
+    "abbr": "SIGIR",
+    "venue": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+    "venueType": "sigir",
+    "title": "LLM4Eval: Large Language Model for Evaluation in IR",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Clemencia Siro",
+      "Mohammad Aliannejadi",
+      "Nick Craswell",
+      "Charles L. A. Clarke",
+      "Guglielmo Faggioli",
+      "Bhaskar Mitra",
+      "Paul Thomas",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "IR Evaluation",
+      "LLMs"
+    ],
+    "selected": true,
+    "abstract": "Large language models (LLMs) have demonstrated increasing task-solving abilities not present in smaller models. Utilizing the capabilities and responsibilities of LLMs for automated evaluation (LLM4Eval) has recently attracted considerable attention in multiple research communities. The main goal of the LLM4Eval workshop is to bring together researchers from industry and academia to discuss various aspects of LLMs for evaluation in information retrieval, including automated judgments, retrieval-augmented generation pipeline evaluation, altering human evaluation, robustness, and trustworthiness of LLMs for evaluation.",
+    "links": {
+      "paper": "https://doi.org/10.1145/3626772.3657992",
+      "website": "https://llm4eval.github.io/"
+    }
+  },
+  {
+    "id": "synthetic-test-collections",
+    "year": 2024,
+    "abbr": "SIGIR",
+    "venue": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+    "venueType": "sigir",
+    "title": "Synthetic Test Collections for Retrieval Evaluation",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Nick Craswell",
+      "Emine Yilmaz",
+      "Bhaskar Mitra",
+      "Daniel Campos"
+    ],
+    "topics": [
+      "IR Evaluation",
+      "LLMs"
+    ],
+    "selected": true,
+    "abstract": "Test collections play a vital role in evaluation of information retrieval (IR) systems. Obtaining a diverse set of user queries for test collection construction can be challenging, and acquiring relevance judgments is often costly and resource-intensive. In this paper, we comprehensively investigate whether it is possible to use LLMs to construct fully synthetic test collections by generating not only synthetic judgments but also synthetic queries. In particular, we analyse whether it is possible to construct reliable synthetic test collections and the potential risks of bias such test collections may exhibit towards LLM-based models. Our experiments indicate that using LLMs it is possible to construct synthetic test collections that can reliably be used for retrieval evaluation.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2405.07767",
+      "code": "https://github.com/rahmanidashti/SyntheticTestCollections",
+      "poster": "https://www.slideshare.net/slideshow/synthetic-test-collections-for-retrieval-evaluation-poster/270080247"
+    },
+    "featured": true
+  },
+  {
+    "id": "tors-cpfairrank",
+    "year": 2024,
+    "abbr": "ACM TORS",
+    "venue": "ACM Transactions on Recommender Systems (TORS)",
+    "venueType": "journal",
+    "title": "A Personalized Framework for Consumer and Producer Group Fairness Optimization in Recommender Systems",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Mohammadmehdi Naghiaei",
+      "Yashar Deldjoo"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "Fairness"
+    ],
+    "abstract": "We propose CP-FairRank, an optimization-based re-ranking algorithm that seamlessly integrates fairness constraints from both the consumer and producer side in a joint objective framework. Through large-scale experiments on eight datasets and four mainstream collaborative filtering recommendation models, we demonstrate that our proposed strategy is able to improve both consumer and producer fairness without compromising overall recommendation quality.",
+    "links": {
+      "paper": "https://doi.org/10.1145/3651167",
+      "arxiv": "https://arxiv.org/abs/2402.00485",
+      "code": "https://github.com/rahmanidashti/CPFairRank"
+    }
+  },
+  {
+    "id": "clarifying-path",
+    "year": 2024,
+    "abbr": "EACL",
+    "venue": "Findings of the European Chapter of the ACL (EACL)",
+    "venueType": "acl",
+    "title": "Clarifying the Path to User Satisfaction: An Investigation into Clarification Usefulness",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Xi Wang",
+      "Mohammad Aliannejadi",
+      "Mohammadmehdi Naghiaei",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "Conversational Search"
+    ],
+    "selected": true,
+    "abstract": "Clarifying questions are an integral component of modern information retrieval systems, directly impacting user satisfaction and overall system performance. This research addresses the need to identify and leverage key features that contribute to the classification of clarifying questions. Our empirical results provide three main insights into the qualities of effective query clarification: (1) specific questions are more effective than generic ones; (2) the subjectivity and emotional tone of a question play a role; and (3) shorter and more ambiguous queries benefit significantly from clarification.",
+    "links": {
+      "paper": "https://aclanthology.org/2024.findings-eacl.84/",
+      "arxiv": "https://arxiv.org/abs/2402.01934",
+      "slides": "https://www.slideshare.net/slideshow/clarification-questions-usefulness-slides/271793051",
+      "code": "https://github.com/rahmanidashti/CQSatisfaction"
+    }
+  },
+  {
+    "id": "provider-fairness",
+    "year": 2023,
+    "abbr": "FAccTRec@RecSys",
+    "venue": "FAccTRec Workshop on Responsible Recommendation (RecSys)",
+    "venueType": "workshop",
+    "title": "Provider Fairness and Beyond-Accuracy Trade-offs in Recommender Systems",
+    "authors": [
+      "Saeedeh Karimi",
+      "Hossein A. Rahmani",
+      "Mohammadmehdi Naghiaei",
+      "Leila Safari"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "Fairness"
+    ],
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2309.04250",
+      "slides": "https://www.slideshare.net/SaeedRahmani9/beyondaccuracy-provider-fairness-slides",
+      "code": "https://github.com/rahmanidashti/BeyondAccProvider",
+      "video": "https://youtu.be/6QLAvZCfEAM",
+      "website": "https://facctrec.github.io/facctrec2023/program/"
+    }
+  },
+  {
+    "id": "acqsurvey",
+    "year": 2023,
+    "abbr": "ACL",
+    "venue": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+    "venueType": "acl",
+    "title": "A Survey on Asking Clarification Questions Datasets in Conversational Systems",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Xi Wang",
+      "Yue Feng",
+      "Qiang Zhang",
+      "Emine Yilmaz",
+      "Aldo Lipani"
+    ],
+    "topics": [
+      "Conversational Search"
+    ],
+    "selected": true,
+    "abstract": "The ability to understand a user's underlying needs is critical for conversational systems, especially with limited input from users in a conversation. Thus, Asking Clarification Questions (ACQs) to reveal users' true intent from their queries or utterances arise as an essential task. A key limitation of existing ACQs studies is their incomparability, from inconsistent use of data, distinct experimental setups and evaluation strategies. In this paper we comprehensively analyse the current ACQs research status, offering a detailed comparison of publicly available datasets, and discuss the applied evaluation metrics, joined with benchmarks for multiple ACQs-related tasks.",
+    "links": {
+      "paper": "https://aclanthology.org/2023.acl-long.152/",
+      "arxiv": "https://arxiv.org/abs/2305.15933",
+      "poster": "https://www.slideshare.net/SaeedRahmani9/acqsurvey-poster",
+      "slides": "https://www.slideshare.net/SaeedRahmani9/acqsurvey-slides",
+      "code": "https://github.com/rahmanidashti/ACQSurvey"
+    },
+    "featured": true
+  },
+  {
+    "id": "iglu-nlp",
+    "year": 2023,
+    "abbr": "IGLU@NeurIPS",
+    "venue": "NeurIPS IGLU Workshop",
+    "venueType": "workshop",
+    "title": "When and What to Ask Through World States and Text Instructions: IGLU NLP Challenge Solution",
+    "authors": [
+      "Zhengxiang Shi",
+      "Jerome Ramos",
+      "To Eun Kim",
+      "Xi Wang",
+      "Hossein A. Rahmani",
+      "Aldo Lipani"
+    ],
+    "topics": [
+      "Conversational Search"
+    ],
+    "abstract": "In collaborative building, builders may encounter situations that are difficult to interpret based on the available information and instructions, leading to ambiguity. In the NeurIPS 2022 Competition NLP Task, we address two key research questions: when should the agent ask for clarification, and what clarification questions should it ask? For the classification task, our model achieves an F1 score of 0.757, which placed 3rd on the leaderboard. For the ranking task, our model achieves about 0.38 for Mean Reciprocal Rank.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2305.05754"
+    }
+  },
+  {
+    "id": "aae-bias",
+    "year": 2023,
+    "abbr": "PAKDD",
+    "venue": "Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)",
+    "venueType": "conf",
+    "title": "Quantifying the Bias of Transformer-Based Language Models for African American English in Masked Language Modeling",
+    "authors": [
+      "Flavia Salutari",
+      "Jerome Ramos",
+      "Hossein A. Rahmani",
+      "Leonardo Linguaglossa",
+      "Aldo Lipani"
+    ],
+    "topics": [
+      "Fairness"
+    ],
+    "abstract": "We propose and thoroughly validate an evaluation technique to assess the quality and bias of language model predictions on transcripts of both spoken African American English (AAE) and Spoken American English (SAE). Our analysis reveals the presence of a bias towards SAE encoded by state-of-the-art LMs such as BERT and DistilBERT and a lower bias in distilled LMs.",
+    "links": {
+      "paper": "https://link.springer.com/chapter/10.1007/978-3-031-33374-3_42"
+    }
+  },
+  {
+    "id": "confidence-calibration",
+    "year": 2022,
+    "abbr": "CIKM",
+    "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+    "venueType": "conf",
+    "title": "Towards Confidence-Aware Calibrated Recommendation",
+    "authors": [
+      "Mohammadmehdi Naghiaei",
+      "Hossein A. Rahmani",
+      "Mohammad Aliannejadi",
+      "Nasim Sonboli"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "Fairness"
+    ],
+    "abstract": "Calibration ensures that the distribution of recommended item categories is consistent with the user's historical data. This work presents a set of properties that address various aspects of a desired calibrated recommender system, and proposes a confidence-aware optimization-based re-ranking algorithm to find the balance between calibration, relevance, and item diversity, while simultaneously accounting for calibration confidence based on user profile size.",
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3511808.3557713",
+      "arxiv": "https://arxiv.org/abs/2208.10192",
+      "poster": "https://www.slideshare.net/SaeedRahmani9/towards-confidenceaware-calibrated-recommendation-poster",
+      "slides": "https://www.slideshare.net/SaeedRahmani9/22cikmcalibrationslidespdf",
+      "code": "https://github.com/rahmanidashti/CalibrationFair"
+    }
+  },
+  {
+    "id": "temporal-bias-poi",
+    "year": 2022,
+    "abbr": "RecSys",
+    "venue": "ACM Conference on Recommender Systems (RecSys)",
+    "venueType": "conf",
+    "title": "Exploring the Impact of Temporal Bias in Point-of-Interest Recommendation",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Mohammadmehdi Naghiaei",
+      "Ali Tourani",
+      "Yashar Deldjoo"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "POI"
+    ],
+    "abstract": "This paper examines the effect of temporal bias, defined as the difference between users' check-in hours, leisure vs. work hours, on the consumer-side fairness of context-aware recommendation algorithms. The findings show that the examined context-aware recommendation models prefer one group of users over another based on the time of check-in and that this preference persists even when users have the same amount of interactions.",
+    "links": {
+      "paper": "https://doi.org/10.1145/3523227.3551481"
+    }
+  },
+  {
+    "id": "pycpfair",
+    "year": 2022,
+    "abbr": "Software Impacts",
+    "venue": "Software Impacts",
+    "venueType": "journal",
+    "title": "PyCPFair: A Framework for Consumer and Producer Fairness in Recommender Systems",
+    "authors": [
+      "Mohammadmehdi Naghiaei",
+      "Hossein A. Rahmani",
+      "Yashar Deldjoo"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "Fairness"
+    ],
+    "abstract": "This paper presents PyCPFair, a Python-based framework for consumer and producer fairness in recommender systems. The ease-of-use and flexibility of the presented framework have allowed reducing the development time and increased evaluation strategies of fairness models for recommender systems.",
+    "links": {
+      "paper": "https://www.sciencedirect.com/science/article/pii/S2665963822000835"
+    }
+  },
+  {
+    "id": "context-fusion",
+    "year": 2022,
+    "abbr": "ESWA",
+    "venue": "Expert Systems with Applications",
+    "venueType": "journal",
+    "title": "The Role of Context Fusion on Accuracy, Beyond-Accuracy, and Fairness of Point-of-Interest Recommendation Systems",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Yashar Deldjoo",
+      "Tommaso di Noia"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "POI"
+    ],
+    "abstract": "In this work, we propose a linear regression-based fusion of POI contexts that effectively finds the best combination of contexts for each user, or group of users, from their historical interactions. Our study suggests that appropriate context fusion is an essential element of an accurate, fair, and transparent POI recommendation system.",
+    "links": {
+      "paper": "https://www.sciencedirect.com/science/article/pii/S0957417422009903"
+    }
+  },
+  {
+    "id": "viralbert",
+    "year": 2022,
+    "abbr": "UMAP",
+    "venue": "ACM Conference on User Modeling, Adaptation and Personalization (UMAP)",
+    "venueType": "conf",
+    "title": "ViralBERT: A User Focused BERT-Based Approach to Virality Prediction",
+    "authors": [
+      "Rikaz Rameez",
+      "Hossein A. Rahmani",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "LLMs"
+    ],
+    "abstract": "In this paper we propose ViralBERT, which can be used to predict the virality of tweets using content- and user-based features. We collect a dataset of 330k tweets to train ViralBERT and validate the efficacy of our model using baselines from current studies in this field. Our experiments show that our approach outperforms these baselines, with a 13% increase in both F1 Score and Accuracy compared to the best performing baseline method.",
+    "links": {
+      "paper": "https://doi.org/10.1145/3511047.3536415"
+    }
+  },
+  {
+    "id": "user-oriented-fairness",
+    "year": 2022,
+    "abbr": "SIGIR",
+    "venue": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+    "venueType": "sigir",
+    "title": "Experiments on Generalizability of User-Oriented Fairness in Recommender Systems",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Mohammadmehdi Naghiaei",
+      "Mahdi Dehghan",
+      "Mohammad Aliannejadi"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "Fairness"
+    ],
+    "selected": true,
+    "abstract": "In this paper, we re-produce a user-oriented fairness study and provide extensive experiments to analyze the dependency of their proposed method on various fairness and recommendation aspects, including the recommendation domain, nature of the base ranking model, and user grouping method. We discover interesting trends and trade-offs between the model's performance in terms of different evaluation metrics.",
+    "links": {
+      "paper": "https://doi.org/10.1145/3477495.3531718",
+      "code": "https://github.com/rahmanidashti/FairRecSys"
+    }
+  },
+  {
+    "id": "cpfair",
+    "year": 2022,
+    "abbr": "SIGIR",
+    "venue": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+    "venueType": "sigir",
+    "title": "CPFair: Personalized Consumer and Producer Fairness Re-Ranking for Recommender Systems",
+    "authors": [
+      "Mohammadmehdi Naghiaei",
+      "Hossein A. Rahmani",
+      "Yashar Deldjoo"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "Fairness"
+    ],
+    "selected": true,
+    "abstract": "In this work, we present an optimization-based re-ranking approach that seamlessly integrates fairness constraints from both the consumer and producer-side in a joint objective framework. We demonstrate through large-scale experiments on 8 datasets that our proposed method is capable of improving both consumer and producer fairness without reducing overall recommendation quality.",
+    "links": {
+      "paper": "https://doi.org/10.1145/3477495.3531959"
+    }
+  },
+  {
+    "id": "fairbook",
+    "year": 2022,
+    "abbr": "Bias@ECIR",
+    "venue": "Workshop on Algorithmic Bias in Search and Recommendation (ECIR)",
+    "venueType": "workshop",
+    "title": "The Unfairness of Popularity Bias in Book Recommendation",
+    "authors": [
+      "Mohammadmehdi Naghiaei",
+      "Hossein A. Rahmani",
+      "Mahdi Dehghan"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "Fairness"
+    ],
+    "abstract": "We analyze the well-known Book-Crossing dataset and define three user groups based on their tendency towards popular items (Niche, Diverse, Bestseller-focused). Our results indicate that most state-of-the-art recommendation algorithms suffer from popularity bias in the book domain, and fail to meet users' expectations with Niche and Diverse tastes despite having a larger profile size.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2202.13446",
+      "website": "https://rahmanidashti.github.io/FairBook/",
+      "code": "https://github.com/rahmanidashti/FairBook"
+    }
+  },
+  {
+    "id": "fairpoi",
+    "year": 2022,
+    "abbr": "Bias@ECIR",
+    "venue": "Workshop on Algorithmic Bias in Search and Recommendation (ECIR)",
+    "venueType": "workshop",
+    "title": "The Unfairness of Active Users and Popularity Bias in Point-of-Interest Recommendation",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Yashar Deldjoo",
+      "Ali Tourani",
+      "Mohammadmehdi Naghiaei"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "Fairness",
+      "POI"
+    ],
+    "selected": true,
+    "abstract": "This paper studies the interplay between (i) the unfairness of active users, (ii) the unfairness of popular items, and (iii) the accuracy of recommendation as three angles of our study triangle. Experimental validation of eight different recommendation models on two publicly available POI datasets indicates that most well-performing models suffer seriously from the unfairness of popularity bias.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2202.13307",
+      "website": "https://recsys-lab.github.io/FairPOI/",
+      "code": "https://github.com/RecSys-lab/FairPOI"
+    }
+  },
+  {
+    "id": "contexts-poi",
+    "year": 2022,
+    "abbr": "TOIS",
+    "venue": "ACM Transactions on Information Systems (TOIS)",
+    "venueType": "journal",
+    "title": "A Systematic Analysis on the Impact of Contextual Information on Point-of-Interest Recommendation",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Mohammad Aliannejadi",
+      "Mitra Baratchi",
+      "Fabio Crestani"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "POI"
+    ],
+    "selected": true,
+    "abstract": "In this paper, we propose different contextual models and analyze the fusion of different major contextual information in POI recommendation. Our results indicate that while modeling geographical and temporal influences can improve recommendation quality, fusing all other contextual information into a recommendation model is not always the best strategy.",
+    "links": {
+      "paper": "https://doi.org/10.1145/3508478",
+      "arxiv": "https://arxiv.org/abs/2201.08150",
+      "slides": "https://www.slideshare.net/SaeedRahmani9/contextspoi-slides",
+      "website": "https://rahmanidashti.github.io/ContextsPOI/",
+      "code": "https://github.com/rahmanidashti/ContextsPOI"
+    }
+  },
+  {
+    "id": "sucp",
+    "year": 2022,
+    "abbr": "IP&M",
+    "venue": "Information Processing & Management",
+    "venueType": "journal",
+    "title": "Leveraging Social Influence Based on Users Activity Centers for Point-of-Interest Recommendation",
+    "authors": [
+      "Kosar Seyedhoseinzadeh",
+      "Hossein A. Rahmani",
+      "Mohsen Afsharchi",
+      "Mohammad Aliannejadi"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "POI"
+    ],
+    "abstract": "In this paper, we address data sparsity by incorporating social, geographical, and temporal information into the Matrix Factorization technique. Our ablation study shows that the social model improves the performance of our proposed POI recommendation system by 31% and 14% on the Gowalla and Yelp datasets in terms of Precision@10.",
+    "links": {
+      "paper": "https://www.sciencedirect.com/science/article/pii/S0306457321003290",
+      "code": "https://github.com/Seyedhosseinzadeh/SUCP"
+    }
+  },
+  {
+    "id": "crowd-bias",
+    "year": 2021,
+    "abbr": "BCD@CSCW",
+    "venue": "CSCW Workshop on Investigating and Mitigating Biases in Crowdsourced Data (BCD)",
+    "venueType": "workshop",
+    "title": "Demographic Biases of Crowd Workers in Key Opinion Leaders Finding",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Jie Yang"
+    ],
+    "topics": [
+      "Fairness"
+    ],
+    "abstract": "Data collected through crowdsourcing is affected by the inherent demographic biases of crowd workers. In this paper, we propose a simple yet effective approach based on demographic information of candidate Key Opinion Leaders and their counterfactual value.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2110.09248"
+    }
+  },
+  {
+    "id": "stacp",
+    "year": 2020,
+    "abbr": "ECIR",
+    "venue": "European Conference on Information Retrieval (ECIR)",
+    "venueType": "conf",
+    "title": "Joint Geographical and Temporal Modeling Based on Matrix Factorization for Point-of-Interest Recommendation",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Mohammad Aliannejadi",
+      "Mitra Baratchi",
+      "Fabio Crestani"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "POI"
+    ],
+    "selected": true,
+    "abstract": "We perform a study on user mobility patterns where we find that users' check-ins happen around several centers depending on their current temporal state. We propose a spatio-temporal activity-centers algorithm, STACP, to model users' behavior more accurately. Experimental results on Gowalla and Foursquare show a statistically significant performance improvement compared to the state of the art.",
+    "links": {}
+  },
+  {
+    "id": "cape",
+    "year": 2019,
+    "abbr": "ICTIR",
+    "venue": "ACM SIGIR International Conference on Theory of Information Retrieval (ICTIR)",
+    "venueType": "ictir",
+    "title": "Category-Aware Location Embedding for Point-of-Interest Recommendation",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Mohammad Aliannejadi",
+      "Rasoul Mirzaei Zadeh",
+      "Mitra Baratchi",
+      "Mohsen Afsharchi",
+      "Fabio Crestani"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "POI"
+    ],
+    "links": {}
+  },
+  {
+    "id": "msc-seminar",
+    "year": 2018,
+    "abbr": "MSc Seminar",
+    "venue": "MSc Seminar, University of Zanjan",
+    "venueType": "thesis",
+    "title": "A Short Review on Point-of-Interest Recommender Systems",
+    "authors": [
+      "Hossein A. Rahmani"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "POI"
+    ],
+    "links": {}
+  },
+  {
+    "id": "ie-review",
+    "year": 2018,
+    "abbr": "DCBDP",
+    "venue": "National Conference on Distributed Computing and Big Data Processing (DCBDP)",
+    "venueType": "conf",
+    "title": "A Study of Recent Contributions on Information Extraction",
+    "authors": [
+      "Parisa Naderi",
+      "Hossein A. Rahmani",
+      "Shahrzad Azizi",
+      "Leila Safari"
+    ],
+    "topics": [
+      "NLP"
+    ],
+    "links": {
+      "arxiv": "https://arxiv.org/abs/1803.05667"
+    }
+  },
+  {
+    "id": "ppi-network",
+    "year": 2016,
+    "abbr": "ICB",
+    "venue": "Iranian Conference on Bioinformatics (ICB)",
+    "venueType": "conf",
+    "title": "Comparison of Tumor and Normal Cells Protein-Protein Interaction Network Parameters",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Alireza Khanteymoori",
+      "Mohammad Olyaee"
+    ],
+    "topics": [
+      "Other"
+    ],
+    "abstract": "In this paper, we compared cancerous and normal cells according to their protein-protein interaction network. The experimental results show that Graph Degree Mean, Subgraph Centrality, Betweenness, and Hubs have higher values in the cancer cells and can be used as a measure to distinguish between normal and cancerous networks.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/1903.07537",
+      "website": "https://rahmanidashti.github.io/PPINetworkAnalysis/"
+    }
+  },
+  {
+    "id": "bsc-thesis",
+    "year": 2016,
+    "abbr": "BSc Thesis",
+    "venue": "BSc Thesis, University of Zanjan (in Persian)",
+    "venueType": "thesis",
+    "title": "Natural and Cancer Cells Detection Using Analysis of Protein Interaction Networks",
+    "authors": [
+      "Hossein A. Rahmani"
+    ],
+    "topics": [
+      "Other"
+    ],
+    "links": {
+      "paper": "https://www.researchgate.net/profile/Hossein-A-Rahmani/publication/340309396_Natural_and_Cancer_Cells_Detection_using_Analysis_of_Protein_Interaction_Networks/links/5e83542492851c2f5270b1ff/Natural-and-Cancer-Cells-Detection-using-Analysis-of-Protein-Interaction-Networks.pdf"
+    }
+  }
+]

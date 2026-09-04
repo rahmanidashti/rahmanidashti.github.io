@@ -1,0 +1,47 @@
+{
+  "organising": [
+    {
+      "venue": "LLM4Eval @ SIGIR",
+      "role": "Co-organiser",
+      "years": "2024",
+      "desc": "Workshop on Large Language Model for Evaluation in Information Retrieval.",
+      "url": "https://llm4eval.github.io/"
+    },
+    {
+      "venue": "LLMJudge Challenge",
+      "role": "Co-organiser",
+      "years": "2024",
+      "desc": "A challenge on using LLMs to generate relevance judgments.",
+      "url": "https://llm4eval.github.io/challenge/"
+    },
+    {
+      "venue": "TREC Deep Learning Track",
+      "role": "Organiser",
+      "years": "2023",
+      "desc": "Synthetic query generation for test collection construction.",
+      "url": "https://microsoft.github.io/msmarco/TREC-Deep-Learning.html"
+    },
+    {
+      "venue": "WITalk, UCL AI Centre",
+      "role": "Organiser",
+      "years": "2023–",
+      "desc": "A seminar series inviting researchers to present and discuss research in IR and NLP.",
+      "url": "https://www.meetup.com/ucl-wi-meetup-group/"
+    }
+  ],
+  "programCommittee": [
+    "ACL 2024",
+    "EMNLP 2024",
+    "CIKM 2023",
+    "RecSys 2023, 2024",
+    "SIGIR 2023, 2024",
+    "ICTIR 2023",
+    "EWAF 2023",
+    "LTEDI@EACL 2024",
+    "FAccTRec 2024",
+    "SURE 2024"
+  ],
+  "journalReviewer": [
+    "ACM Transactions on Information Systems (TOIS)"
+  ]
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #F8FAF8; }
+  *, *::before, *::after { box-sizing: border-box; }
+  a { color: #2D6A4F; }
+  a:hover { color: #1B4332; }
+  ::selection { background: #D8F3E3; color: #1A2E21; }
+
+  .body-link, .prose a, .newsbody a {
+    color: #1A2E21;
+    text-decoration: none;
+    background-image: linear-gradient(#2D6A4F, #2D6A4F);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1.5px;
+    transition: background-size 0.2s ease, color 0.2s ease;
+    padding-bottom: 1px;
+  }
+  .body-link:hover, .prose a:hover, .newsbody a:hover {
+    color: #1A2E21;
+    background-image: linear-gradient(#D8F3E3, #D8F3E3);
+    background-size: 100% 100%;
+  }
+
+  .topnav-brand {
+    font-family: Fraunces, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+    color: #1B4332;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  .topnav-brand:hover { color: #2D6A4F; }
+
+  .topnav-link {
+    display: inline-block;
+    color: #1A2E21;
+    text-decoration: none;
+    padding-bottom: 1px;
+    background-image: linear-gradient(#2D6A4F, #2D6A4F);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1.5px;
+    transition: background-size 0.2s ease, color 0.2s ease;
+  }
+  .topnav-link:hover {
+    color: #1A2E21;
+    background-image: linear-gradient(#D8F3E3, #D8F3E3);
+    background-size: 100% 100%;
+  }
+  .topnav-link.is-active { font-weight: 600; }
+  .topnav-link:focus-visible { outline: 2px solid #52B788; outline-offset: 3px; border-radius: 2px; }
+
+  .topnav-group { position: relative; }
+  .topnav-trigger {
+    font: inherit;
+    font-size: 13px;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: left;
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    padding: 0 0 1px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  .topnav-caret {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 9px;
+    line-height: 1;
+    color: #8CA898;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+  .topnav-group:hover .topnav-caret,
+  .topnav-group:focus-within .topnav-caret { transform: rotate(180deg); color: #2D6A4F; }
+
+  .topnav-sub {
+    position: absolute;
+    top: 100%;
+    left: -14px;
+    z-index: 20;
+    list-style: none;
+    margin: 0;
+    padding: 8px;
+    min-width: 168px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background: #FFFFFF;
+    border: 1px solid #D0E8D8;
+    border-radius: 10px;
+    box-shadow: 0 8px 28px -10px rgba(27, 67, 50, 0.28);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4px);
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+  }
+  .topnav-group::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 14px;
+  }
+  .topnav-group:hover .topnav-sub,
+  .topnav-group:focus-within .topnav-sub {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(10px);
+  }
+  .topnav-sub a {
+    display: block;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: #1A2E21;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.18s ease, color 0.18s ease;
+  }
+  .topnav-sub a:hover { background: #D8F3E3; color: #1A2E21; }
+  .topnav-sub a.is-active { background: #EDF5EF; font-weight: 600; }
+  .topnav-sub a:focus-visible { outline: 2px solid #52B788; outline-offset: 1px; }
+</style>
+</helmet>
+<nav style="display:flex; align-items:baseline; justify-content:space-between; gap:24px; flex-wrap:wrap; padding-bottom:14px; border-bottom:1px solid #D0E8D8; margin-bottom:56px;">
+  <a href="index.html" data-nav="home" class="topnav-brand">Hossein A. Rahmani</a>
+  <ul style="list-style:none; display:flex; flex-wrap:wrap; gap:1.15rem; margin:0; padding:0; font-family:Inter,sans-serif; font-size:13px; letter-spacing:0.04em;">
+    <li><a href="publications.html" data-nav="publications" class="topnav-link">Publications</a></li>
+    <li><a href="projects.html" data-nav="projects" class="topnav-link">Projects</a></li>
+    <li><a href="experience.html" data-nav="experience" class="topnav-link">Experience</a></li>
+    <li><a href="news.html" data-nav="news" class="topnav-link">News</a></li>
+    <li><a href="blog.html" data-nav="blog" class="topnav-link">Blog</a></li>
+    <li class="topnav-group">
+      <button type="button" class="topnav-link topnav-trigger" data-nav="activities" aria-haspopup="true">Activities<span class="topnav-caret" aria-hidden="true">&#9662;</span></button>
+      <ul class="topnav-sub">
+        <li><a href="service.html" data-nav="service">Service</a></li>
+        <li><a href="talks.html" data-nav="talks">Talks</a></li>
+        <li><a href="teaching.html" data-nav="teaching">Teaching</a></li>
+        <li><a href="collaborate.html" data-nav="collaborate">Collaborate</a></li>
+      </ul>
+    </li>
+    <li><a href="cv.html" data-nav="cv" class="topnav-link">CV</a></li>
+    <li><a href="about.html" data-nav="about" class="topnav-link">About</a></li>
+  </ul>
+</nav>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;active&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() { this.mark(); }
+  componentDidUpdate() { this.mark(); }
+  mark() {
+    const key = this.props.active;
+    document.querySelectorAll('.is-active').forEach(el => el.classList.remove('is-active'));
+    if (!key || key === 'home') return;
+    const link = document.querySelector('[data-nav="' + key + '"]');
+    if (link) link.classList.add('is-active');
+    // A page inside the group also lights up the Activities trigger.
+    if (['service', 'talks', 'teaching', 'collaborate'].includes(key)) {
+      const parent = document.querySelector('.topnav-trigger');
+      if (parent) parent.classList.add('is-active');
+    }
+  }
+}
+</script>
+</body>
+</html>

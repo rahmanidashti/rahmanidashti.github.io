@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2025-02-17",
+    "html": "We released the report and resource of the LLMJudge challenge 🌙! <a href=\"https://arxiv.org/abs/2502.13908\">Paper</a> / <a href=\"https://llm4eval.github.io/LLMJudge-benchmark/\">Website</a>"
+  },
+  {
+    "date": "2025-01-20",
+    "html": "<a href=\"https://arxiv.org/pdf/2412.13268\">JudgeBlender</a> has been highlighted in the <a href=\"https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-13-2025/\">Microsoft Research Focus</a> blog series. ⭐️"
+  },
+  {
+    "date": "2025-01-17",
+    "html": "<a href=\"https://rahmanidashti.github.io/SynDL/\">SynDL</a> and <a href=\"https://arxiv.org/pdf/2412.13268\">LLMJudge</a> have been accepted at TheWebConf (formerly known as WWW) 2025."
+  },
+  {
+    "date": "2025-01-17",
+    "html": "I have officially started as a research scholar at the <a href=\"https://www.turing.ac.uk/\">Alan Turing Institute</a>, working on <a href=\"https://www.turing.ac.uk/research/research-projects/understanding-capabilities-foundation-models\">understanding the capabilities of foundation models</a> as part of <a href=\"https://www.turing.ac.uk/research/research-programmes/fundamental-ai\">fundamental research in data science and AI</a>."
+  },
+  {
+    "date": "2025-01-16",
+    "id": "tr-innovation",
+    "title": "Research highlighted as innovation on Thomson Reuters website! 🎉",
+    "html": "My internship work at Thomson Reuters Labs is featured as an <strong>innovation</strong> on their website!",
+    "hasPage": true
+  },
+  {
+    "date": "2025-01-08",
+    "html": "My blog post on <strong>The Rise of Large Language Models in Automatic Evaluation: Why We Still Need Humans in the Loop</strong> is now online on the Thomson Reuters Labs Medium channel! [<a href=\"https://medium.com/tr-labs-ml-engineering-blog/the-rise-of-large-language-models-in-automatic-evaluation-why-we-still-need-humans-in-the-loop-87a0d17996bd\">Link</a>]"
+  },
+  {
+    "date": "2024-11-27",
+    "html": "I gave a lecture, <strong>Basics of LLMs and their Safety</strong>, at UCL (Data Science for Crime Scientists)! <a href=\"https://www.slideshare.net/slideshow/intro-to-llms-basics-and-their-safety-consideration/273774965\">Slides</a>"
+  },
+  {
+    "date": "2024-10-03",
+    "html": "I have been awarded the prestigious <a href=\"https://www.turing.ac.uk/people/doctoral-students/hossein-rahmani\">doctoral enrichment placement</a> by <a href=\"https://www.turing.ac.uk/\">The Alan Turing Institute</a>. I will be focusing on <strong>understanding the capabilities of foundation models and LLM evaluation</strong>. <a href=\"https://www.ucl.ac.uk/foundational-ai-cdt/news/2024/sep/two-foundational-artificial-intelligence-cdt-students-awarded-places-turing-enrichment\">UCL AI Centre News</a> ✨"
+  },
+  {
+    "date": "2024-10-01",
+    "html": "Our work, <a href=\"https://arxiv.org/abs/2408.16312\">SynDL</a>, has been featured in the <a href=\"https://www.microsoft.com/en-us/research/blog/research-focus-week-of-september-23-2024/\">Microsoft Research Focus</a> blog series. 🥳"
+  },
+  {
+    "date": "2024-09-02",
+    "html": "We are happy to release our large-scale synthetic test collection for passage retrieval evaluation: <a href=\"https://arxiv.org/abs/2408.16312\">SynDL</a> is out! <a href=\"https://rahmanidashti.github.io/SynDL/\">Website</a> / <a href=\"https://github.com/rahmanidashti/SynDL\">GitHub</a>"
+  },
+  {
+    "date": "2024-08-23",
+    "html": "Serving as PC for <a href=\"https://facctrec.github.io/facctrec2024/\">FAccTRec &rsquo;24</a> and <a href=\"https://sites.google.com/view/sure-2024/\">SURE &rsquo;24</a>."
+  },
+  {
+    "date": "2024-07-02",
+    "html": "Check out our <a href=\"https://llm4eval.github.io/\">LLM4Eval</a> report: <a href=\"https://arxiv.org/abs/2408.05388v1\">Report on the 1st Workshop on Large Language Model for Evaluation in Information Retrieval (LLM4Eval 2024) at SIGIR 2024</a>"
+  },
+  {
+    "date": "2024-05-02",
+    "html": "Our paper on <a href=\"https://arxiv.org/pdf/2406.17803\">the role of user profile in the personalization of LLMs</a> is out!"
+  },
+  {
+    "date": "2024-04-02",
+    "html": "The <a href=\"https://llm4eval.github.io/challenge/\">LLMJudge</a> challenge is officially launched! The challenge aims to explore an alternative approach by using LLMs to generate relevance judgments. <a href=\"https://llm4eval.github.io/challenge/\">Website</a> / <a href=\"https://github.com/llm4eval/LLMJudge\">GitHub</a>"
+  },
+  {
+    "date": "2024-03-23",
+    "html": "Serving as PC for <a href=\"https://2024.aclweb.org/\">ACL</a> and <a href=\"https://2024.emnlp.org/\">EMNLP 2024</a> 🤗"
+  },
+  {
+    "date": "2024-03-20",
+    "html": "<strong>Can we build a reliable synthetic test collection for evaluation?</strong> To answer this question please check our recent paper on <a href=\"https://arxiv.org/pdf/2405.07767\">the construction of fully synthetic test collections for IR evaluation</a>, accepted by <strong>SIGIR &rsquo;24</strong> 🥳."
+  },
+  {
+    "date": "2024-02-23",
+    "html": "Serving as PC for <a href=\"https://sigir-2024.github.io/\">SIGIR 2024</a> and <a href=\"https://recsys.acm.org/recsys24/\">RecSys 2024</a> 😄"
+  },
+  {
+    "date": "2024-02-02",
+    "html": "Gave a talk at the University of Gonabad on <strong>An Intro to AI: From Traditional ML to LLMs</strong>."
+  },
+  {
+    "date": "2024-01-10",
+    "html": "Our paper on multi-stakeholder fairness, <a href=\"https://dl.acm.org/doi/abs/10.1145/3651167\">A Personalized Framework for Consumer and Producer Group Fairness Optimization in Recommender Systems</a>, has been accepted by <strong>ACM TORS</strong> 🎉"
+  },
+  {
+    "date": "2024-01-05",
+    "html": "Our full paper on <a href=\"https://aclanthology.org/2024.findings-eacl.84/\">user satisfaction in asking clarification questions</a> accepted by <strong>EACL 2024</strong> 🎯"
+  },
+  {
+    "date": "2024-01-04",
+    "html": "Serving as PC for <a href=\"https://sites.google.com/view/lt-edi-2024/\">LTEDI@EACL &rsquo;24</a>."
+  },
+  {
+    "date": "2024-01-01",
+    "html": "The <a href=\"https://llm4eval.github.io/\">LLM4Eval</a> workshop proposal has been accepted to <strong>SIGIR 2024</strong> 🥳! The main focus of LLM4Eval is utilizing the capabilities and responsibilities of LLMs for evaluation in IR."
+  },
+  {
+    "date": "2023-11-24",
+    "html": "I presented a tutorial on Fairness in Recommender Systems for MSc students of the Artificial Intelligence for Sustainable Development course at UCL. Check the <a href=\"https://github.com/rahmanidashti/FairnessRecSysTutorial\">GitHub repository</a>."
+  },
+  {
+    "date": "2023-11-17",
+    "html": "Our team ranked 1st in <a href=\"https://www.trecikat.com/\">TREC iKAT 2023</a> 🥇🎉. We submitted Retrieve-then-Generate and Generate-then-Retrieve models, combining LLMs and search for conversational search."
+  },
+  {
+    "date": "2023-11-17",
+    "html": "I attended <a href=\"https://trec.nist.gov/pubs/call2023.html\">The Text Retrieval Conference (TREC) 2023</a> as part of the <a href=\"https://microsoft.github.io/msmarco/TREC-Deep-Learning.html\">Deep Learning Track</a> organisers and presented our findings on using synthetic queries to build test collections. <a href=\"https://microsoft.github.io/msmarco/TREC-Deep-Learning.html\">Website</a> / <a href=\"https://trec.nist.gov/pubs/trec32/papers/Overview_deep.pdf\">Paper</a> / <a href=\"https://www.slideshare.net/slideshow/trec-2023-dl-synthetic-data-generation-slides/271115172\">Slides</a>"
+  },
+  {
+    "date": "2023-08-01",
+    "html": "We are organising <a href=\"https://www.meetup.com/ucl-wi-meetup-group/\">WITalk</a>, a seminar series that invites researchers to present, share and discuss their research findings in IR and NLP, at the UCL AI Centre."
+  },
+  {
+    "date": "2023-07-09",
+    "html": "I delivered a presentation at the <a href=\"https://sites.google.com/view/cs-reading-group/home\">CS Reading Group</a> at Qazvin Islamic Azad University (QIAU) on Fairness and Bias in Recommender Systems."
+  },
+  {
+    "date": "2023-05-01",
+    "html": "Our survey paper on Asking Clarification Questions (ACQSurvey) accepted at ACL 2023 Main Track! See the <a href=\"publications.html\">publications page</a>."
+  },
+  {
+    "date": "2023-03-23",
+    "html": "Serving as PC for <a href=\"https://recsys.acm.org/recsys23/\">RecSys &rsquo;23</a> and <a href=\"https://sigir.org/ictir2023/\">ICTIR &rsquo;23</a>."
+  },
+  {
+    "date": "2023-03-23",
+    "html": "I gave a talk at the <a href=\"https://noon-cobbler-caa.notion.site/DEFirst-Reading-Group-23c288b0cdc540aea53bf7960754ba21\">DEFirst Reading Group</a> at Mila x Vector Institute on Generalizability of User Fairness in Recommender Systems."
+  },
+  {
+    "date": "2023-03-23",
+    "html": "I attended the UCL AI Centre Hackathon."
+  },
+  {
+    "date": "2023-02-23",
+    "html": "Serving as PC for <a href=\"https://sigir.org/sigir2023/\">SIGIR &rsquo;23</a> and <a href=\"https://sites.google.com/view/ewaf23/\">EWAF &rsquo;23</a>. 😄"
+  },
+  {
+    "date": "2022-12-01",
+    "html": "Joining the <a href=\"http://wi.cs.ucl.ac.uk/\">WI Group</a> at <a href=\"http://ucl.ac.uk/\">UCL</a> as a PhD student. ✨"
+  },
+  {
+    "date": "2022-11-28",
+    "html": "Our team, <em>UCL-WI-Group</em>, won the research prize at the <a href=\"https://www.iglu-contest.net/iglu-2022/winners\">IGLU challenge</a> for providing novel solutions!"
+  },
+  {
+    "date": "2022-02-20",
+    "html": "Two full papers accepted at <a href=\"https://biasinrecsys.github.io/ecir2022/\">Bias@ECIR &rsquo;22</a>! See the <a href=\"publications.html\">publications page</a>."
+  }
+]

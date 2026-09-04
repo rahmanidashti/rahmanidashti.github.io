@@ -1,0 +1,89 @@
+[
+  {
+    "section": "Positions",
+    "items": [
+      {
+        "org": "The Alan Turing Institute",
+        "role": "Research Scholar — Ph.D. Enrichment",
+        "date": "Jan 2025 – present",
+        "location": "London, UK",
+        "supervisor": null,
+        "desc": "Understanding the capabilities of foundation models, within the fundamental research in data science and AI programme.",
+        "url": "https://www.turing.ac.uk/",
+        "logo": null,
+        "abbr": "ATI"
+      },
+      {
+        "org": "Thomson Reuters Labs",
+        "role": "Research Intern",
+        "date": "2024",
+        "location": "London, UK",
+        "supervisor": null,
+        "desc": "Large language models for automatic evaluation, with humans kept in the loop. The work is featured as an innovation on the Thomson Reuters website.",
+        "url": "https://www.thomsonreuters.com/",
+        "logo": null,
+        "abbr": "TRL"
+      },
+      {
+        "org": "University College London",
+        "role": "Teaching Assistant",
+        "date": "2022 – 2024",
+        "location": "London, UK",
+        "supervisor": null,
+        "desc": "Foundations of Artificial Intelligence, AI for Sustainable Development, and Information Retrieval and Data Mining.",
+        "url": "https://www.ucl.ac.uk/",
+        "logo": null,
+        "abbr": "UCL"
+      },
+      {
+        "org": "The Institute for Advanced Studies in Basic Sciences",
+        "role": "Teaching Assistant",
+        "date": "2016 – 2018",
+        "location": "Zanjan, Iran",
+        "supervisor": null,
+        "desc": "Software Engineering I, II and III.",
+        "url": "https://iasbs.ac.ir/",
+        "logo": null,
+        "abbr": "IASBS"
+      }
+    ]
+  },
+  {
+    "section": "Education",
+    "items": [
+      {
+        "org": "University College London",
+        "role": "Ph.D. in Computer Science",
+        "date": "2022 – present",
+        "location": "London, UK",
+        "supervisor": "Prof. Emine Yilmaz and Nick Craswell",
+        "desc": "Web Intelligence Group, UCL Centre for Artificial Intelligence. Evaluation of retrieval and generation systems with large language models.",
+        "url": "https://www.ucl.ac.uk/",
+        "logo": null,
+        "abbr": "UCL"
+      },
+      {
+        "org": "University of Zanjan",
+        "role": "M.Sc. in Computer Science",
+        "date": "",
+        "location": "Zanjan, Iran",
+        "supervisor": "Prof. Mohsen Afsharchi and Dr. Mitra Baratchi",
+        "desc": "Context-aware recommender systems. Co-supervised from Leiden University.",
+        "url": "https://www.znu.ac.ir/en",
+        "logo": null,
+        "abbr": "ZNU"
+      },
+      {
+        "org": "University of Zanjan",
+        "role": "B.Sc. in Computer Engineering",
+        "date": "",
+        "location": "Zanjan, Iran",
+        "supervisor": null,
+        "desc": "Thesis on detecting cancerous and normal cells through the analysis of protein interaction networks.",
+        "url": "https://www.znu.ac.ir/en",
+        "logo": null,
+        "abbr": "ZNU"
+      }
+    ]
+  }
+]

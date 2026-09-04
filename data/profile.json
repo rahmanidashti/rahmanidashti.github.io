@@ -1,0 +1,125 @@
+{
+  "name": "Hossein A. Rahmani",
+  "shortName": "Hossein Rahmani",
+  "initials": "HR",
+  "role": "PhD Student in Computer Science",
+  "affiliations": [
+    {
+      "label": "Web Intelligence Group (WI)",
+      "url": "http://wi.cs.ucl.ac.uk/"
+    },
+    {
+      "label": "UCL Centre for Artificial Intelligence",
+      "url": "https://www.ucl.ac.uk/ai-centre/ucl-centre-artificial-intelligence"
+    },
+    {
+      "label": "University College London",
+      "url": "https://www.ucl.ac.uk/"
+    }
+  ],
+  "secondaryRole": "PhD Enrichment Student, The Alan Turing Institute",
+  "secondaryUrl": "https://www.turing.ac.uk/",
+  "advisors": [
+    {
+      "name": "Prof. Emine Yilmaz",
+      "url": "https://sites.google.com/site/emineyilmaz/home"
+    },
+    {
+      "name": "Nick Craswell",
+      "url": "https://www.microsoft.com/en-us/research/people/nickcr/"
+    }
+  ],
+  "photo": "assets/img/prof_pic.jpg",
+  "cv": "assets/pdf/Hossein_Rahmani_CV.pdf",
+  "emails": [
+    "hossein.rahmani.22@ucl.ac.uk",
+    "rahmanidashti@gmail.com"
+  ],
+  "address": [
+    "UCL AI Centre",
+    "90 High Holborn",
+    "University College London"
+  ],
+  "bio": [
+    "I am currently a third-year PhD student in Computer Science at <a href=\"https://www.ucl.ac.uk/\">University College London (UCL)</a>, affiliated with the <a href=\"http://wi.cs.ucl.ac.uk/\">Web Intelligence Group (WI)</a> at the <a href=\"https://www.ucl.ac.uk/ai-centre/ucl-centre-artificial-intelligence\">UCL Centre for Artificial Intelligence</a>. I am fortunate to be advised by <a href=\"https://sites.google.com/site/emineyilmaz/home\">Prof. Emine Yilmaz</a> and <a href=\"https://www.microsoft.com/en-us/research/people/nickcr/\">Nick Craswell</a>. Prior to joining UCL, I obtained an MSc in <a href=\"https://www.znu.ac.ir/engineering/department-computer-engineering/en\">Computer Science</a> from the <a href=\"https://www.znu.ac.ir/en\">University of Zanjan (ZNU)</a>, where I was advised by <a href=\"http://cv.znu.ac.ir/afsharchim/\">Prof. Mohsen Afsharchi</a> and <a href=\"http://www.mitrabaratchi.com/\">Dr. Mitra Baratchi</a> (co-supervisor from <a href=\"https://www.universiteitleiden.nl/en\">Leiden University</a>) and worked on context-aware recommender systems.",
+    "I am interested in creating machine learning algorithms that can make strong decisions in complex environments while continually learning new skills. My goal is to develop models that can handle a variety of new tasks with minimal supervision. I am also focused on making these systems reliable, trustworthy, and aligned with human goals."
+  ],
+  "officeHours": {
+    "text": "I have been running weekly office hours open to everyone since 2023 to answer questions about research, Ph.D. applications, UK research culture, etc.",
+    "url": "https://calendly.com/rahmanidashti/meet-saeed"
+  },
+  "social": {
+    "email": "hossein.rahmani.22@ucl.ac.uk",
+    "scholar": "https://scholar.google.com/citations?user=1uzYEI0AAAAJ&hl=en",
+    "github": "https://github.com/rahmanidashti",
+    "twitter": "https://twitter.com/srahmanidashti",
+    "linkedin": "https://www.linkedin.com/in/rahmanidashti",
+    "semanticscholar": "https://www.semanticscholar.org/author/2065968996"
+  },
+  "research": [
+    {
+      "topic": "LLMs for Evaluation",
+      "desc": "Using large language models to produce relevance judgments and to evaluate retrieval and generation systems, with humans kept in the loop.",
+      "papers": [
+        {
+          "id": "llm4eval-workshop",
+          "label": "LLM4Eval"
+        },
+        {
+          "id": "llmjudge",
+          "label": "LLMJudge"
+        },
+        {
+          "id": "llm4eval-report",
+          "label": "Workshop Report"
+        }
+      ]
+    },
+    {
+      "topic": "Synthetic Test Collections",
+      "desc": "Building and validating fully synthetic collections — queries and judgments — for reliable IR evaluation.",
+      "papers": [
+        {
+          "id": "syndl",
+          "label": "SynDL"
+        },
+        {
+          "id": "synthetic-test-collections",
+          "label": "Synthetic Collections"
+        }
+      ]
+    },
+    {
+      "topic": "Conversational Search",
+      "desc": "Asking clarification questions, understanding user intent, and measuring what makes a clarification useful.",
+      "papers": [
+        {
+          "id": "acqsurvey",
+          "label": "ACQSurvey"
+        },
+        {
+          "id": "clarifying-path",
+          "label": "Clarification Usefulness"
+        }
+      ]
+    },
+    {
+      "topic": "Fairness in Recommendation",
+      "desc": "Consumer and producer fairness, popularity bias, and beyond-accuracy trade-offs in two-sided marketplaces.",
+      "papers": [
+        {
+          "id": "cpfair",
+          "label": "CPFair"
+        },
+        {
+          "id": "user-oriented-fairness",
+          "label": "User Fairness"
+        },
+        {
+          "id": "tors-cpfairrank",
+          "label": "CP-FairRank"
+        }
+      ]
+    }
+  ]
+}

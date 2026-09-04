@@ -1,0 +1,25 @@
+[
+  {
+    "id": "synthetic-test-collection",
+    "date": "2024-07-04",
+    "title": "Synthetic Test Collection for Evaluation",
+    "description": "A short blog on synthetic test collections.",
+    "tags": [
+      "Synthetic Data",
+      "LLM",
+      "Evaluation"
+    ],
+    "category": "Research"
+  },
+  {
+    "id": "sigir23-stats",
+    "date": "2023-07-26",
+    "title": "SIGIR 2023 Statistics",
+    "description": "A short statistics report on SIGIR 2023.",
+    "tags": [
+      "SIGIR",
+      "Statistics"
+    ],
+    "category": "Report"
+  }
+]

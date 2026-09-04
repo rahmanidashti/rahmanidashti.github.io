@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<div style="min-height:100vh; background:#F8FAF8; color:#1A2E21; font-family:Inter,-apple-system,sans-serif; line-height:1.6;">
+  <div style="max-width:860px; margin:0 auto; padding:32px 28px 40px;">
+    <dc-import name="SiteNav" active="experience" hint-size="100%,64px"></dc-import>
+
+    <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#52B788; margin-bottom:10px;">Background</div>
+    <h1 style="font-family:Fraunces,serif; font-size:clamp(2rem,4vw,2.6rem); font-weight:300; font-style:italic; color:#1B4332; letter-spacing:-0.02em; margin:0 0 12px;">Experience</h1>
+    <p style="font-size:0.95rem; color:#4E7260; font-weight:300; max-width:620px; margin:0 0 44px;">Research positions, internships and education. The full record is in my <a href="cv.html" class="body-link">CV</a>.</p>
+
+    <sc-for list="{{ groups }}" as="g" hint-placeholder-count="2">
+      <section style="margin-bottom:48px;">
+        <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8CA898; margin-bottom:16px;">{{ g.section }}</div>
+        <div style="display:flex; flex-direction:column; gap:14px;">
+          <sc-for list="{{ g.items }}" as="e" hint-placeholder-count="4">
+            <div style="background:#FFFFFF; border:1px solid #D0E8D8; border-radius:14px; padding:22px 26px; display:grid; grid-template-columns:56px 1fr; gap:20px; align-items:start; transition:border-color .2s, box-shadow .2s;" style-hover="border-color:#B7E4C7; box-shadow:0 1px 8px rgba(27,67,50,0.07);">
+              <a href="{{ e.url }}" target="_blank" rel="noopener" style="display:block; width:56px; height:56px; border-radius:10px; overflow:hidden; border:1px solid #D0E8D8; background:#FFFFFF; text-decoration:none;">{{ e.logoNode }}</a>
+              <div style="min-width:0;">
+                <div style="display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:3px;">
+                  <a href="{{ e.url }}" target="_blank" rel="noopener" style="font-size:0.975rem; font-weight:600; color:#1B4332; text-decoration:none;" style-hover="text-decoration:underline;">{{ e.org }}</a>
+                  <span style="font-size:0.75rem; font-weight:600; color:#8CA898; white-space:nowrap;">{{ e.date }}</span>
+                </div>
+                <div style="display:flex; align-items:baseline; gap:9px; flex-wrap:wrap; margin-bottom:9px;">
+                  <span style="font-size:0.875rem; color:#1A2E21;">{{ e.role }}</span>
+                  <span style="font-size:0.75rem; color:#8CA898;">{{ e.location }}</span>
+                </div>
+                <p style="font-size:0.875rem; color:#4E7260; font-weight:300; line-height:1.65; margin:0;">{{ e.desc }}</p>
+                <sc-if value="{{ e.hasSupervisor }}" hint-placeholder-val="{{ false }}">
+                  <div style="font-size:0.8rem; color:#8CA898; margin-top:8px;">Advised by {{ e.supervisor }}</div>
+                </sc-if>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </section>
+    </sc-for>
+
+    <dc-import name="SiteFooter" hint-size="100%,160px"></dc-import>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { groups: null };
+
+  async componentDidMount() {
+    const S = await import('./js/site.js');
+    this.S = S;
+    this.setState({ groups: await S.loadJSON('experience') });
+  }
+
+  // The place's logo when `logo` is set in the JSON, otherwise a tinted monogram
+  // built from the organisation's initials.
+  logo(e) {
+    if (e.logo) {
+      return React.createElement('img', {
+        src: e.logo,
+        alt: e.org,
+        loading: 'lazy',
+        style: { width: '100%', height: '100%', objectFit: 'contain', display: 'block', padding: 6 }
+      });
+    }
+    const initials = e.abbr || e.org
+      .replace(/^The\s+/i, '')
+      .split(/\s+/)
+      .filter(w => /^[A-Za-z]/.test(w) && !['of', 'for', 'and', 'the', 'in'].includes(w.toLowerCase()))
+      .map(w => w[0])
+      .join('')
+      .slice(0, 4)
+      .toUpperCase();
+    const [bg, fg] = this.S.avatarTint(e.org);
+    return React.createElement('span', {
+      style: {
+        width: '100%', height: '100%', display: 'flex', alignItems: 'center',
+        justifyContent: 'center', background: bg, color: fg,
+        fontSize: initials.length > 3 ? '0.66rem' : '0.78rem', fontWeight: 700, letterSpacing: '0.04em'
+      }
+    }, initials);
+  }
+
+  renderVals() {
+    if (!this.state.groups) return { groups: [] };
+    return {
+      groups: this.state.groups.map(g => ({
+        section: g.section,
+        items: g.items.map(e => ({
+          org: e.org, role: e.role, date: e.date, location: e.location,
+          desc: e.desc, url: e.url,
+          hasSupervisor: !!e.supervisor,
+          supervisor: e.supervisor || '',
+          logoNode: this.logo(e)
+        }))
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>

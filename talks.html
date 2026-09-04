@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<div style="min-height:100vh; background:#F8FAF8; color:#1A2E21; font-family:Inter,-apple-system,sans-serif; line-height:1.6;">
+  <div style="max-width:860px; margin:0 auto; padding:32px 28px 40px;">
+    <dc-import name="SiteNav" active="talks" hint-size="100%,64px"></dc-import>
+
+    <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:#52B788; margin-bottom:10px;">Public speaking</div>
+    <h1 style="font-family:Fraunces,serif; font-size:clamp(2rem,4vw,2.6rem); font-weight:300; font-style:italic; color:#1B4332; letter-spacing:-0.02em; margin:0 0 40px;">Invited talks</h1>
+
+    <div style="display:flex; flex-direction:column;">
+      <sc-for list="{{ items }}" as="t" hint-placeholder-count="6">
+        <div style="display:grid; grid-template-columns:120px 1fr; gap:20px; padding:20px 0; border-bottom:1px solid #D0E8D8;">
+          <div style="font-size:0.78rem; color:#8CA898; font-weight:600; padding-top:2px;">{{ t.date }}</div>
+          <div>
+            <div style="font-size:0.975rem; font-weight:500; color:#1A2E21; margin-bottom:4px;">{{ t.title }}</div>
+            <div style="font-size:0.83rem; color:#4E7260; font-weight:300; margin-bottom:10px;">{{ t.where }}</div>
+            <div style="display:flex; gap:7px; flex-wrap:wrap;">
+              <sc-for list="{{ t.linkList }}" as="l" hint-placeholder-count="1">
+                <a href="{{ l.url }}" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:5px; font-size:0.76rem; font-weight:500; padding:4px 12px; border-radius:100px; border:1px solid #D0E8D8; color:#4E7260; text-decoration:none; transition:all .2s;" style-hover="background:#1B4332; border-color:#1B4332; color:#FFFFFF;">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;" aria-hidden="true"><path d="{{ l.iconPath }}"></path></svg>
+                  <span>{{ l.label }}</span>
+                </a>
+              </sc-for>
+            </div>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+
+    <dc-import name="SiteFooter" hint-size="100%,160px"></dc-import>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const LINK_LABELS = { slides: 'Slides', video: 'Video', paper: 'Paper', website: 'Website' };
+let ICONS = {}, LINK_ICONS = {};
+
+class Component extends DCLogic {
+  state = { items: null };
+  async componentDidMount() {
+    const [S, I] = await Promise.all([import('./js/site.js'), import('./js/icons.js')]);
+    ICONS = I.ICONS; LINK_ICONS = I.LINK_ICONS;
+    this.S = S;
+    this.setState({ items: await S.loadJSON('talks') });
+  }
+  renderVals() {
+    const S = this.S;
+    if (!this.state.items) return { items: [] };
+    return {
+      items: this.state.items.map(t => ({
+        date: S.longDate(t.date),
+        title: t.title,
+        where: [t.venue, t.location].filter(Boolean).join(' · '),
+        linkList: Object.keys(t.links || {}).filter(k => t.links[k]).map(k => ({ label: LINK_LABELS[k] || k, url: t.links[k], iconPath: ICONS[LINK_ICONS[k]] || ICONS.website }))
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>
