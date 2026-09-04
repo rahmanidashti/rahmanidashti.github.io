@@ -41,6 +41,7 @@ browser. All content lives in JSON (and a few HTML fragments), so you edit data,
 | `data/posts.json` | Blog index |
 | `data/students.json` | Collaborate |
 | `data/cv.json` | CV |
+| `data/travel.json` | About (world map) |
 
 Long-form bodies are plain HTML fragments:
 
@@ -107,6 +108,17 @@ SVG or transparent PNG works best; they are fitted inside a 56px rounded tile
 (`object-fit: contain`), so no cropping. Entries with `logo: null` show a tinted monogram —
 from the entry's `abbr` field when set (`"abbr": "ZNU"`), otherwise from the organisation's
 initials.
+
+**A visited country.** Add an entry to `data/travel.json`:
+
+```json
+{ "code": "FR", "name": "France", "photo": null }
+```
+
+`code` is the ISO-3166 alpha-2 code (used by the `about.html` world map, powered by
+[jsvectormap](https://www.jsvectormap.com/), loaded from a CDN). Set `photo` to an image
+path (e.g. `"assets/img/countries/france.jpg"`) to show it in the hover tooltip; `photo:
+null` highlights the country with a name-only tooltip until a photo is added.
 
 ## Shared code
 

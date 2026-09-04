@@ -1,0 +1,11 @@
+{
+  "visited": [
+    { "code": "TR", "name": "Turkey", "photo": "assets/img/countries/turkey.jpg" },
+    { "code": "IR", "name": "Iran", "photo": null },
+    { "code": "GB", "name": "United Kingdom", "photo": null },
+    { "code": "AT", "name": "Austria", "photo": null },
+    { "code": "IT", "name": "Italy", "photo": null },
+    { "code": "CH", "name": "Switzerland", "photo": null },
+    { "code": "DE", "name": "Germany", "photo": null }
+  ]
+}
