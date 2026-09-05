@@ -1,0 +1,5 @@
+[
+  { "icon": "🎓", "title": "Sample Fellowship", "href": "https://www.turing.ac.uk/", "year": 2024 },
+  { "icon": "🏆", "title": "Sample Award", "count": 2, "href": null, "year": null },
+  { "icon": "🌍", "title": "Sample Travel Grant", "href": null, "year": 2023 }
+]

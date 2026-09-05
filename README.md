@@ -30,6 +30,7 @@ browser. All content lives in JSON (and a few HTML fragments), so you edit data,
 | File | Used by |
 | --- | --- |
 | `data/profile.json` | Home (bio, research areas, social links) |
+| `data/honors.json` | Home (honor/award pills under the name) |
 | `data/publications.json` | Publications, Paper, Home |
 | `data/coauthors.json` | Publications gallery, Paper author row (generated from publications) |
 | `data/news.json` | News, Home |
@@ -95,6 +96,24 @@ same `thumb`/`image`, and fall back to a serif venue mark when a paper has no im
 (e.g. `assets/img/people/emine-yilmaz.jpg`). Until then the site shows a tinted initials
 avatar. `data/coauthors.json` is regenerated from the author lists in
 `data/publications.json` — if you add a paper with a new co-author, add them here too.
+
+**An honor/award pill.** Home shows a row of pills under your name, right below the
+Turing Institute line — one per entry in `data/honors.json`, hidden entirely when the file
+is an empty array. Only `title` is required:
+
+```json
+{
+  "icon": "🏆",
+  "title": "SIGIR Best Paper",
+  "count": 2,
+  "year": 2024,
+  "href": "https://example.com/paper"
+}
+```
+
+`icon` is any emoji/glyph shown before the title. `count`, if set, renders as `×N` after
+the title (for a repeated honor). `year` renders as a muted `· 2024` suffix. `href`, if
+set, makes the pill a link (opens in a new tab); omit it for a plain, non-clickable pill.
 
 **A blog post.** Add an entry to `data/posts.json` and write
 `content/posts/<id>.html`.
