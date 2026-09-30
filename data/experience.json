@@ -21,7 +21,7 @@
         "supervisor": null,
         "desc": "Large language models for automatic evaluation, with humans kept in the loop. The work is featured as an innovation on the Thomson Reuters website.",
         "url": "https://www.thomsonreuters.com/",
-        "logo": null,
+        "logo": "assets/img/logos/TRLabs.jpeg",
         "abbr": "TR Labs"
       },
       {
