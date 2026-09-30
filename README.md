@@ -123,7 +123,7 @@ write `content/news/<id>.html`.
 
 **A place logo.** `data/experience.json` entries take a `logo` path, e.g.
 `"logo": "assets/img/logos/ucl.svg"`. Drop the files in `assets/img/logos/` — square-ish
-SVG or transparent PNG works best; they are fitted inside a 56px rounded tile
+SVG or transparent PNG works best; they are fitted inside a 72px rounded tile
 (`object-fit: contain`), so no cropping. Entries with `logo: null` show a tinted monogram —
 from the entry's `abbr` field when set (`"abbr": "ZNU"`), otherwise from the organisation's
 initials.
