@@ -22,7 +22,7 @@
         "desc": "Large language models for automatic evaluation, with humans kept in the loop. The work is featured as an innovation on the Thomson Reuters website.",
         "url": "https://www.thomsonreuters.com/",
         "logo": null,
-        "abbr": "TRL"
+        "abbr": "TR Labs"
       },
       {
         "org": "University College London",
@@ -32,7 +32,7 @@
         "supervisor": null,
         "desc": "Foundations of Artificial Intelligence, AI for Sustainable Development, and Information Retrieval and Data Mining.",
         "url": "https://www.ucl.ac.uk/",
-        "logo": null,
+        "logo": "assets/img/logos/UCL.png",
         "abbr": "UCL"
       },
       {
@@ -59,7 +59,7 @@
         "supervisor": "Prof. Emine Yilmaz and Nick Craswell",
         "desc": "Web Intelligence Group, UCL Centre for Artificial Intelligence. Evaluation of retrieval and generation systems with large language models.",
         "url": "https://www.ucl.ac.uk/",
-        "logo": null,
+        "logo": "assets/img/logos/UCL.png",
         "abbr": "UCL"
       },
       {
@@ -70,7 +70,7 @@
         "supervisor": "Prof. Mohsen Afsharchi and Dr. Mitra Baratchi",
         "desc": "Context-aware recommender systems. Co-supervised from Leiden University.",
         "url": "https://www.znu.ac.ir/en",
-        "logo": null,
+        "logo": "assets/img/logos/ZNU.png",
         "abbr": "ZNU"
       },
       {
@@ -81,7 +81,7 @@
         "supervisor": null,
         "desc": "Thesis on detecting cancerous and normal cells through the analysis of protein interaction networks.",
         "url": "https://www.znu.ac.ir/en",
-        "logo": null,
+        "logo": "assets/img/logos/ZNU.png",
         "abbr": "ZNU"
       }
     ]
