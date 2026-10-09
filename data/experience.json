@@ -14,9 +14,31 @@
         "abbr": "ATI"
       },
       {
+        "org": "AstraZeneca",
+        "role": "Research Intern",
+        "date": "May 2026 – Jul 2026",
+        "location": "Cambridge, UK",
+        "supervisor": null,
+        "desc": "Post-training methods for LLM agents, focusing on evaluation and reward modeling, and external memory integration for reliable domain application.",
+        "url": "https://www.astrazeneca.com/",
+        "logo": null,
+        "abbr": "AZ"
+      },
+      {
+        "org": "Microsoft",
+        "role": "Research Intern",
+        "date": "Mar 2025 – Jun 2025",
+        "location": "Redmond, WA, USA",
+        "supervisor": null,
+        "desc": "Synthetic data generation and self-correction methods for large language models.",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "logo": null,
+        "abbr": "MSFT"
+      },
+      {
         "org": "Thomson Reuters Labs",
         "role": "Research Intern",
-        "date": "2024",
+        "date": "Sep 2023 - July 2024",
         "location": "London, UK",
         "supervisor": null,
         "desc": "Large language models for automatic evaluation, with humans kept in the loop. The work is featured as an innovation on the Thomson Reuters website.",
@@ -65,7 +87,7 @@
       {
         "org": "University of Zanjan",
         "role": "M.Sc. in Computer Science",
-        "date": "",
+        "date": "2016 - 2020",
         "location": "Zanjan, Iran",
         "supervisor": "Prof. Mohsen Afsharchi and Dr. Mitra Baratchi",
         "desc": "Context-aware recommender systems. Co-supervised from Leiden University.",
@@ -76,9 +98,9 @@
       {
         "org": "University of Zanjan",
         "role": "B.Sc. in Computer Engineering",
-        "date": "",
+        "date": "2012 - 2016",
         "location": "Zanjan, Iran",
-        "supervisor": null,
+        "supervisor": "Prof. Alireza Khanteymoori",
         "desc": "Thesis on detecting cancerous and normal cells through the analysis of protein interaction networks.",
         "url": "https://www.znu.ac.ir/en",
         "logo": "assets/img/logos/ZNU.png",
