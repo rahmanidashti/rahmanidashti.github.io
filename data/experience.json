@@ -3,17 +3,6 @@
     "section": "Positions",
     "items": [
       {
-        "org": "The Alan Turing Institute",
-        "role": "Research Scholar — Ph.D. Enrichment",
-        "date": "Jan 2025 – present",
-        "location": "London, UK",
-        "supervisor": null,
-        "desc": "Understanding the capabilities of foundation models, within the fundamental research in data science and AI programme.",
-        "url": "https://www.turing.ac.uk/people/doctoral-students/hossein-rahmani",
-        "logo": "assets/img/logos/turing.png",
-        "abbr": "ATI"
-      },
-      {
         "org": "AstraZeneca",
         "role": "Research Intern",
         "date": "May 2026 – Jul 2026",
@@ -34,6 +23,17 @@
         "url": "https://www.microsoft.com/en-us/research/",
         "logo": "assets/img/logos/Microsoft.jpg",
         "abbr": "MSFT"
+      },
+      {
+        "org": "The Alan Turing Institute",
+        "role": "Research Scholar — Ph.D. Enrichment",
+        "date": "Jan 2025 – present",
+        "location": "London, UK",
+        "supervisor": null,
+        "desc": "Understanding the capabilities of foundation models, within the fundamental research in data science and AI programme.",
+        "url": "https://www.turing.ac.uk/people/doctoral-students/hossein-rahmani",
+        "logo": "assets/img/logos/turing.png",
+        "abbr": "ATI"
       },
       {
         "org": "Thomson Reuters Labs",
@@ -65,7 +65,7 @@
         "supervisor": null,
         "desc": "Software Engineering I, II and III.",
         "url": "https://iasbs.ac.ir/",
-        "logo": null,
+        "logo": "assets/img/logos/IASBS.png",
         "abbr": "IASBS"
       }
     ]
