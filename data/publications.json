@@ -1,5 +1,554 @@
 [
   {
+    "id": "amuser-ux-recommendations",
+    "year": 2026,
+    "abbr": "arXiv",
+    "venue": "arXiv preprint",
+    "venueType": "arxiv",
+    "title": "Automatic Multimodal UX Improvement Recommendations from LLM Agent User Simulations",
+    "authors": [
+      "Anu Chowdhury",
+      "Bin Wu",
+      "Hossein A. Rahmani",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "LLMs",
+      "Other"
+    ],
+    "abstract": "The authors propose AMUSER, a multimodal LLM-agent framework that simulates realistic users on live websites and turns the simulation traces into prioritised, ranked UX improvement recommendations. On commercial websites, AMUSER substantially outperforms text-only simulation on ranking quality while reducing simulation cost by 89%.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2609.22971"
+    }
+  },
+  {
+    "id": "agent-tool-search-survey",
+    "year": 2026,
+    "abbr": "arXiv",
+    "venue": "Preprint",
+    "venueType": "arxiv",
+    "title": "Agent and Tool Search: Foundations, Techniques, and Open Challenges",
+    "authors": [
+      "Bin Wu",
+      "Hossein A. Rahmani",
+      "To Eun Kim",
+      "Arastun Mammadli",
+      "Shuofei Qiao",
+      "Xiao Fu",
+      "Varsha Ramineni"
+    ],
+    "topics": [
+      "LLMs",
+      "Other"
+    ],
+    "links": {}
+  },
+  {
+    "id": "biastrace",
+    "year": 2026,
+    "abbr": "arXiv",
+    "venue": "arXiv preprint",
+    "venueType": "arxiv",
+    "title": "BiasTrace: Linking Reasoning Behaviours to Biased Outputs in LLMs",
+    "authors": [
+      "Varsha Ramineni",
+      "Hossein A. Rahmani",
+      "Jerome Ramos",
+      "Karin Sevegnani",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "Fairness",
+      "LLMs"
+    ],
+    "abstract": "The authors introduce BiasTrace, a fine-grained annotation scheme that links LLM reasoning behaviours to biased outputs, applied at scale via a validated LLM-as-a-judge. They find biased outputs often stem from subtle reasoning behaviours rather than explicitly biased language, and that reasoning-level annotations improve bias detection and can support inference-time mitigation.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2608.14161"
+    }
+  },
+  {
+    "id": "innoeval",
+    "year": 2026,
+    "abbr": "ICML",
+    "venue": "International Conference on Machine Learning (ICML)",
+    "venueType": "conf",
+    "title": "InnoEval: On Research Idea Evaluation as a Knowledge-Grounded, Multi-Perspective Reasoning Problem",
+    "authors": [
+      "Shuofei Qiao",
+      "Yunxiang Wei",
+      "Xuehai Wang",
+      "Bin Wu",
+      "Boyang Xue",
+      "Ningyu Zhang",
+      "Hossein A. Rahmani",
+      "Yanshan Wang",
+      "Qiang Zhang",
+      "Keyan Ding",
+      "Jeff Z. Pan",
+      "Huajun Chen",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "LLMs",
+      "Other"
+    ],
+    "abstract": "The authors frame research idea evaluation as a knowledge-grounded, multi-perspective reasoning problem and introduce InnoEval, combining a knowledge search engine over papers, web pages and code with a panel of reviewer personas reaching consensus across decoupled scoring dimensions.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2602.14367",
+      "paper": "https://icml.cc/virtual/2026/poster/65987",
+      "code": "https://github.com/zjunlp/InnoEval"
+    }
+  },
+  {
+    "id": "auto-judge-rag",
+    "year": 2026,
+    "abbr": "SIGIR",
+    "venue": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+    "venueType": "sigir",
+    "title": "Auto-Judge: A Cross-Task Benchmark for Comparing LLM Judges for Citation-Grounded RAG Systems",
+    "authors": [
+      "Naghmeh Farzi",
+      "Tim Hagen",
+      "Eugene Yang",
+      "Maik Fröbe",
+      "Ronak Pradeep",
+      "Hossein A. Rahmani",
+      "Xi Wang",
+      "Oleg Zendel",
+      "Martin Potthast",
+      "Laura Dietz"
+    ],
+    "topics": [
+      "IR Evaluation",
+      "LLMs"
+    ],
+    "links": {
+      "paper": "https://doi.org/10.1145/3805712.3808601"
+    }
+  },
+  {
+    "id": "benchmark-saturation",
+    "year": 2026,
+    "abbr": "ICML",
+    "venue": "International Conference on Machine Learning (ICML)",
+    "venueType": "conf",
+    "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
+    "authors": [
+      "Mubashara Akhtar",
+      "Anka Reuel",
+      "Prajna Soni",
+      "Sanchit Ahuja",
+      "Pawan Sasanka Ammanamanchi",
+      "Ruchit Rawal",
+      "Vilem Zouhar",
+      "Srishti Yadav",
+      "Chenxi Whitehouse",
+      "Dayeon Ki",
+      "Jennifer Mickel",
+      "Leshem Choshen",
+      "Marek Suppa",
+      "Jan Batzner",
+      "Jenny Chim",
+      "Jeba Sania",
+      "Yanan Long",
+      "Hossein A. Rahmani",
+      "Christina Knight",
+      "Yiyang Nan",
+      "Jyoutir Raj",
+      "Yu Fan",
+      "Shubham Singh",
+      "Subramanyam Sahoo",
+      "Eliya Habba",
+      "Usman Gohar",
+      "Siddhesh Pawar",
+      "Robert Scholz",
+      "Arjun Subramonian",
+      "Jingwei Ni",
+      "Mykel Kochenderfer",
+      "Sanmi Koyejo",
+      "Mrinmaya Sachan",
+      "Stella Biderman",
+      "Zeerak Talat",
+      "Avijit Ghosh",
+      "Irene Solaiman"
+    ],
+    "topics": [
+      "LLMs",
+      "IR Evaluation"
+    ],
+    "abstract": "The authors define benchmark saturation as the loss of reliable discriminative power among top-performing models and study it across 60 LLM benchmarks using 14 design properties, finding nearly half are saturated and that resistance depends more on expert curation than on whether test data is public.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2602.16763",
+      "paper": "https://proceedings.mlr.press/v306/akhtar26a.html",
+      "code": "https://github.com/evaleval/benchmark-saturation"
+    }
+  },
+  {
+    "id": "self-thought-task-distillation",
+    "year": 2026,
+    "abbr": "arXiv",
+    "venue": "arXiv preprint",
+    "venueType": "arxiv",
+    "title": "Beyond Output Critique: Self-Correction via Task Distillation",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Mengting Wan",
+      "Pei Zhou",
+      "Longqi Yang",
+      "Nick Craswell",
+      "Emine Yilmaz",
+      "Sujay Kumar Jauhar"
+    ],
+    "topics": [
+      "LLMs"
+    ],
+    "abstract": "The authors argue most self-correction methods patch surface errors at the output level without fixing deeper reasoning flaws, and propose SELF-THOUGHT, which adds an intermediate task-abstraction step before solution refinement, helping smaller models self-correct more reliably.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2602.00871"
+    }
+  },
+  {
+    "id": "automated-rubrics-medical-dialogue",
+    "year": 2026,
+    "abbr": "EMNLP",
+    "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "venueType": "acl",
+    "title": "Automated Rubrics for Reliable Evaluation of Medical Dialogue Systems",
+    "authors": [
+      "Yinzhu Chen",
+      "Abdine Maiga",
+      "Hossein A. Rahmani",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "LLMs",
+      "IR Evaluation"
+    ],
+    "abstract": "The authors propose a retrieval-augmented multi-agent system that generates instance-specific evaluation rubrics for medical dialogue from decomposed medical evidence and user interaction constraints, improving discriminative power over a GPT-4o baseline on HealthBench.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2601.15161"
+    }
+  },
+  {
+    "id": "agentcoma",
+    "year": 2026,
+    "abbr": "ACL",
+    "venue": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+    "venueType": "acl",
+    "title": "AgentCoMa: A Compositional Benchmark Mixing Commonsense and Mathematical Reasoning in Real-World Scenarios",
+    "authors": [
+      "Lisa Alazraki",
+      "Lihu Chen",
+      "Ana Brassard",
+      "Joe Stacey",
+      "Hossein A. Rahmani",
+      "Marek Rei"
+    ],
+    "topics": [
+      "NLP",
+      "LLMs"
+    ],
+    "abstract": "AgentCoMa pairs a commonsense reasoning step with an elementary math step in each task. Across 61 LLMs, models handle each reasoning type well in isolation but accuracy drops by nearly 30% on average when the steps must be combined.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2508.19988",
+      "paper": "https://aclanthology.org/2026.acl-long.380/"
+    }
+  },
+  {
+    "id": "interplay-conv-rec-simulators",
+    "year": 2026,
+    "abbr": "ECIR",
+    "venue": "European Conference on Information Retrieval (ECIR)",
+    "venueType": "conf",
+    "title": "Interplay: Training Independent Simulators for Reference-Free Conversational Recommendation",
+    "authors": [
+      "Jerome Ramos",
+      "Feng Xia",
+      "Xi Wang",
+      "Shubham Chatterjee",
+      "Xiao Fu",
+      "Hossein A. Rahmani",
+      "Aldo Lipani"
+    ],
+    "topics": [
+      "Conversational Search",
+      "Recommender Systems"
+    ],
+    "abstract": "Instead of using a single LLM to write whole conversations around a predetermined target item, the authors train two independent simulators, one playing the user and one the recommender, that converse without a fixed target, matching or exceeding existing simulation methods.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2603.18573"
+    }
+  },
+  {
+    "id": "self-correct-generation-vs-mc",
+    "year": 2026,
+    "abbr": "REALM@EMNLP",
+    "venue": "REALM Workshop, co-located with EMNLP",
+    "venueType": "workshop",
+    "title": "Self-Correcting Large Language Models: Generation vs. Multiple Choice",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Satyapriya Krishna",
+      "Xi Wang",
+      "Mohammadmehdi Naghiaei",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "LLMs"
+    ],
+    "abstract": "The authors compare self-correction behaviour across open-ended generation and multiple-choice settings, finding free-form generation benefits from re-interpretation and compositional refinement while multiple-choice selection is capped by the provided options.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2511.09381"
+    }
+  },
+  {
+    "id": "who-evaluates-ai-social-impacts",
+    "year": 2026,
+    "abbr": "ICML",
+    "venue": "International Conference on Machine Learning (ICML)",
+    "venueType": "conf",
+    "title": "Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations",
+    "authors": [
+      "Anka Reuel",
+      "Avijit Ghosh",
+      "Jenny Chim",
+      "Andrew Tran",
+      "Yanan Long",
+      "Jennifer Mickel",
+      "Usman Gohar",
+      "Srishti Yadav",
+      "Pawan Sasanka Ammanamanchi",
+      "Mowafak Allaham",
+      "Hossein A. Rahmani",
+      "Mubashara Akhtar",
+      "Felix Friedrich",
+      "Robert Scholz",
+      "Michael Alexander Riegler",
+      "Jan Batzner",
+      "Eliya Habba",
+      "Arushi Saxena",
+      "Anastassia Kornilova",
+      "Kevin Wei",
+      "Prajna Soni",
+      "Yohan Mathew",
+      "Kevin Klyman",
+      "Jeba Sania",
+      "Subramanyam Sahoo",
+      "Olivia Beyer Bruvik",
+      "Pouya Sadeghi",
+      "Sujata Goswami",
+      "Angelina Wang",
+      "Yacine Jernite",
+      "Zeerak Talat",
+      "Stella Biderman",
+      "Mykel Kochenderfer",
+      "Sanmi Koyejo",
+      "Irene Solaiman"
+    ],
+    "topics": [
+      "Fairness",
+      "LLMs"
+    ],
+    "abstract": "The authors analyze first-party foundation model release reports alongside third-party evaluation sources and developer interviews to map who evaluates AI's social impacts, finding first-party reporting is often thin while outside researchers provide more thorough coverage of bias and harm.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2511.05613",
+      "paper": "https://icml.cc/virtual/2026/poster/62723"
+    }
+  },
+  {
+    "id": "llm4eval-sigir2025",
+    "year": 2025,
+    "abbr": "LLM4Eval@SIGIR",
+    "venue": "Workshop on Large Language Models for Evaluation in Information Retrieval, co-located with SIGIR",
+    "venueType": "workshop",
+    "title": "LLM4Eval: Large Language Model for Evaluation in IR",
+    "authors": [
+      "Clemencia Siro",
+      "Hossein A. Rahmani",
+      "Mohammad Aliannejadi",
+      "Nick Craswell",
+      "Charles L. A. Clarke",
+      "Guglielmo Faggioli",
+      "Bhaskar Mitra",
+      "Paul Thomas",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "IR Evaluation",
+      "LLMs"
+    ],
+    "links": {}
+  },
+  {
+    "id": "beyond-internal-data-bounding-fairness",
+    "year": 2025,
+    "abbr": "arXiv",
+    "venue": "arXiv preprint",
+    "venueType": "arxiv",
+    "title": "Beyond Internal Data: Bounding and Estimating Fairness from Incomplete Data",
+    "authors": [
+      "Varsha Ramineni",
+      "Hossein A. Rahmani",
+      "Emine Yilmaz",
+      "David Barber"
+    ],
+    "topics": [
+      "Fairness"
+    ],
+    "abstract": "Fairness-relevant data is often split across separate sources that each only give partial, marginal information. The authors estimate the set of all joint distributions consistent with the observed marginals, letting them bound and estimate fairness metrics even when protected attributes are missing from the model's input data.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2508.13040"
+    }
+  },
+  {
+    "id": "pref-personalization",
+    "year": 2025,
+    "abbr": "arXiv",
+    "venue": "arXiv preprint",
+    "venueType": "arxiv",
+    "title": "PREF: Reference-Free Evaluation of Personalised Text Generation in LLMs",
+    "authors": [
+      "Xiao Fu",
+      "Hossein A. Rahmani",
+      "Bin Wu",
+      "Jerome Ramos",
+      "Emine Yilmaz",
+      "Aldo Lipani"
+    ],
+    "topics": [
+      "LLMs",
+      "IR Evaluation"
+    ],
+    "abstract": "PREF evaluates personalised text generation in three stages: a coverage stage generates a query-specific guideline of quality criteria, a preference stage adapts it to the target user, and a scoring stage has an LLM judge rate candidates against the resulting rubric, improving accuracy and calibration over strong baselines.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2508.10028"
+    }
+  },
+  {
+    "id": "bias-synthetic-data-evaluation",
+    "year": 2025,
+    "abbr": "CIKM",
+    "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+    "venueType": "conf",
+    "title": "Towards Understanding Bias in Synthetic Data for Evaluation",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Varsha Ramineni",
+      "Emine Yilmaz",
+      "Nick Craswell",
+      "Bhaskar Mitra"
+    ],
+    "topics": [
+      "IR Evaluation",
+      "LLMs"
+    ],
+    "abstract": "The authors investigate the reliability of LLM-generated synthetic test collections for IR evaluation, finding that bias in synthetic test collections can meaningfully affect absolute system performance estimates, though its effect on relative system comparisons is smaller.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2506.10301",
+      "code": "https://github.com/rahmanidashti/BiasSyntheticData"
+    }
+  },
+  {
+    "id": "llm4eval-wsdm2025",
+    "year": 2025,
+    "abbr": "LLM4Eval@WSDM",
+    "venue": "Workshop on Large Language Models for Evaluation in Information Retrieval, co-located with WSDM",
+    "venueType": "workshop",
+    "title": "LLM4Eval@WSDM 2025: Large Language Model for Evaluation in Information Retrieval",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Clemencia Siro",
+      "Mohammad Aliannejadi",
+      "Nick Craswell",
+      "Charles L. A. Clarke",
+      "Guglielmo Faggioli",
+      "Bhaskar Mitra",
+      "Paul Thomas",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "IR Evaluation",
+      "LLMs"
+    ],
+    "links": {
+      "paper": "https://doi.org/10.1145/3701551.3705706"
+    }
+  },
+  {
+    "id": "judging-the-judges",
+    "year": 2025,
+    "abbr": "WWW",
+    "venue": "Companion Proceedings of the ACM Web Conference (WWW)",
+    "venueType": "conf",
+    "title": "Judging the Judges: A Collection of LLM-Generated Relevance Judgements",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Clemencia Siro",
+      "Mohammad Aliannejadi",
+      "Nick Craswell",
+      "Charles L. A. Clarke",
+      "Guglielmo Faggioli",
+      "Bhaskar Mitra",
+      "Paul Thomas",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "IR Evaluation",
+      "LLMs"
+    ],
+    "abstract": "The authors report on the LLMJudge challenge, run as part of the LLM4Eval workshop at SIGIR 2024, which released and evaluated 42 sets of LLM-generated relevance labels for the TREC 2023 Deep Learning track produced by eight participating teams, probing systematic biases and comparing LLMs with human assessors.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2502.13908",
+      "paper": "https://dl.acm.org/doi/10.1145/3701716.3715476"
+    }
+  },
+  {
+    "id": "judgeblender",
+    "year": 2025,
+    "abbr": "WWW",
+    "venue": "Companion Proceedings of the ACM Web Conference (WWW)",
+    "venueType": "conf",
+    "title": "JudgeBlender: Ensembling Judgments for Automatic Relevance Assessment",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Emine Yilmaz",
+      "Nick Craswell",
+      "Bhaskar Mitra"
+    ],
+    "topics": [
+      "IR Evaluation",
+      "LLMs"
+    ],
+    "abstract": "JudgeBlender combines relevance judgments across multiple smaller, open-source LLMs or multiple prompts instead of relying on a single large, expensive model like GPT-4. Evaluated on the LLMJudge benchmark, it achieves competitive performance, showing very large models are often unnecessary for reliable relevance assessment.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2412.13268"
+    }
+  },
+  {
+    "id": "user-profile-personalization",
+    "year": 2025,
+    "abbr": "CIKM",
+    "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+    "venueType": "conf",
+    "title": "Empirical Analysis on User Profile in Personalized LLMs",
+    "authors": [
+      "Bin Wu",
+      "Zhengyan Shi",
+      "Hossein A. Rahmani",
+      "Varsha Ramineni",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "LLMs"
+    ],
+    "abstract": "Utilizing user profiles to personalize Large Language Models (LLMs) has been shown to enhance the performance on a wide range of tasks. However, the precise role of user profiles and their effect mechanism on LLMs remains unclear. This study first confirms that the effectiveness of user profiles is primarily due to personalization information rather than semantic information. Furthermore, we investigate how user profiles affect the personalization of LLMs. Within the user profile, we reveal that it is the historical personalized response produced or approved by users that plays a pivotal role in personalizing LLMs. This discovery unlocks the potential of LLMs to incorporate a greater number of user profiles within the constraints of limited input length. As for the position of user profiles, we observe that user profiles integrated into different positions of the input context do not contribute equally to personalization. Instead, where the user profile that is closer to the beginning affects more on the personalization of LLMs.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2406.17803",
+      "code": "https://github.com/Bingo-W/Personalisation-in-LLM"
+    },
+    "note": "Published as a short paper at ACM CIKM 2025."
+  },
+  {
     "id": "syndl",
     "year": 2024,
     "abbr": "arXiv",
@@ -82,29 +631,6 @@
       "paper": "https://arxiv.org/abs/2408.08896",
       "website": "https://llm4eval.github.io/challenge/",
       "code": "https://github.com/llm4eval/LLMJudge"
-    }
-  },
-  {
-    "id": "user-profile-personalization",
-    "year": 2024,
-    "abbr": "arXiv",
-    "venue": "arXiv preprint",
-    "venueType": "arxiv",
-    "title": "Understanding the Role of User Profile in the Personalization of Large Language Models",
-    "authors": [
-      "Bin Wu",
-      "Zhengyan Shi",
-      "Hossein A. Rahmani",
-      "Varsha Ramineni",
-      "Emine Yilmaz"
-    ],
-    "topics": [
-      "LLMs"
-    ],
-    "abstract": "Utilizing user profiles to personalize Large Language Models (LLMs) has been shown to enhance the performance on a wide range of tasks. However, the precise role of user profiles and their effect mechanism on LLMs remains unclear. This study first confirms that the effectiveness of user profiles is primarily due to personalization information rather than semantic information. Furthermore, we investigate how user profiles affect the personalization of LLMs. Within the user profile, we reveal that it is the historical personalized response produced or approved by users that plays a pivotal role in personalizing LLMs. This discovery unlocks the potential of LLMs to incorporate a greater number of user profiles within the constraints of limited input length. As for the position of user profiles, we observe that user profiles integrated into different positions of the input context do not contribute equally to personalization. Instead, where the user profile that is closer to the beginning affects more on the personalization of LLMs.",
-    "links": {
-      "paper": "https://arxiv.org/abs/2406.17803",
-      "code": "https://github.com/Bingo-W/Personalisation-in-LLM"
     }
   },
   {
@@ -236,6 +762,51 @@
     }
   },
   {
+    "id": "transparent-scrutable-nl-profiles",
+    "year": 2024,
+    "abbr": "ACL",
+    "venue": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+    "venueType": "acl",
+    "title": "Transparent and Scrutable Recommendations Using Natural Language User Profiles",
+    "authors": [
+      "Jerome Ramos",
+      "Hossein A. Rahmani",
+      "Xi Wang",
+      "Xiao Fu",
+      "Aldo Lipani"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "NLP"
+    ],
+    "abstract": "The authors use an LLM to write a natural-language profile of a user's preferences from their past reviews, then fine-tune an LLM to predict ratings using only this readable text profile instead of opaque embeddings. Editing the profile directly changes the resulting recommendations.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2402.05810",
+      "paper": "https://aclanthology.org/2024.acl-long.753/"
+    }
+  },
+  {
+    "id": "beyond-internal-data-constructing-datasets",
+    "year": 2024,
+    "abbr": "AFME@NeurIPS",
+    "venue": "Algorithmic Fairness through the Lens of Metrics and Evaluation Workshop, co-located with NeurIPS",
+    "venueType": "workshop",
+    "title": "Beyond Internal Data: Constructing Complete Datasets for Fairness Testing",
+    "authors": [
+      "Varsha Ramineni",
+      "Hossein A. Rahmani",
+      "Emine Yilmaz",
+      "David Barber"
+    ],
+    "topics": [
+      "Fairness"
+    ],
+    "abstract": "The authors propose leveraging separate, overlapping incomplete datasets to construct a complete synthetic dataset that includes demographic information missing from an institution's internal data alone, enabling more thorough fairness testing.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2507.18561"
+    }
+  },
+  {
     "id": "provider-fairness",
     "year": 2023,
     "abbr": "FAccTRec@RecSys",
@@ -332,6 +903,151 @@
     "abstract": "We propose and thoroughly validate an evaluation technique to assess the quality and bias of language model predictions on transcripts of both spoken African American English (AAE) and Spoken American English (SAE). Our analysis reveals the presence of a bias towards SAE encoded by state-of-the-art LMs such as BERT and DistilBERT and a lower bias in distilled LMs.",
     "links": {
       "paper": "https://link.springer.com/chapter/10.1007/978-3-031-33374-3_42"
+    }
+  },
+  {
+    "id": "ikat-2023-retrieval-generation",
+    "year": 2023,
+    "abbr": "TREC",
+    "venue": "Text REtrieval Conference (TREC)",
+    "venueType": "conf",
+    "title": "LLM-based Retrieval and Generation Pipelines for TREC Interactive Knowledge Assistance Track (iKAT) 2023",
+    "authors": [
+      "Zahra Abbasiantaeb",
+      "Chuan Meng",
+      "David Rau",
+      "Antonis Krasakis",
+      "Hossein A. Rahmani",
+      "Mohammad Aliannejadi"
+    ],
+    "topics": [
+      "Conversational Search",
+      "IR Evaluation"
+    ],
+    "abstract": "The team compares retrieve-then-generate and generate-then-retrieve pipelines for TREC iKAT 2023. Their generate-then-retrieve approach, using GPT-4 to draft an initial answer turned into BM25 queries and reranked with MiniLM, outperformed their other automatic runs on passage ranking.",
+    "links": {
+      "paper": "https://trec.nist.gov/pubs/trec32/papers/IRLab-Amsterdam.K.pdf"
+    }
+  },
+  {
+    "id": "trec-2023-deep-learning-overview",
+    "year": 2023,
+    "abbr": "TREC",
+    "venue": "Text REtrieval Conference (TREC)",
+    "venueType": "conf",
+    "title": "Overview of the TREC 2023 Deep Learning Track",
+    "authors": [
+      "Nick Craswell",
+      "Bhaskar Mitra",
+      "Emine Yilmaz",
+      "Hossein A. Rahmani",
+      "Daniel Campos",
+      "Jimmy Lin",
+      "Ellen M. Voorhees",
+      "Ian Soboroff"
+    ],
+    "topics": [
+      "IR Evaluation"
+    ],
+    "abstract": "The official overview of the fifth year of the TREC Deep Learning track, built on the MS MARCO v2 passage and document collections, focused on building reusable, complete test collections, including experiments evaluating with LLM-synthesised queries alongside human-written ones.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2507.08890",
+      "paper": "https://trec.nist.gov/pubs/trec32/papers/Overview_deep.pdf"
+    }
+  },
+  {
+    "id": "conv-rec-bias-augmentation",
+    "year": 2023,
+    "abbr": "EMNLP",
+    "venue": "Findings of the Association for Computational Linguistics: EMNLP",
+    "venueType": "acl",
+    "title": "Improving Conversational Recommendation Systems via Bias Analysis and Language-Model-Enhanced Data Augmentation",
+    "authors": [
+      "Xi Wang",
+      "Hossein A. Rahmani",
+      "Jiqun Liu",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "Conversational Search",
+      "Recommender Systems"
+    ],
+    "abstract": "The authors analyze feedback-loop biases in conversational recommender benchmarks and propose two LLM-based data augmentation strategies, Once-Aug and PopNudge, which give consistent gains on the ReDial and TG-ReDial benchmarks.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2310.16738",
+      "paper": "https://aclanthology.org/2023.findings-emnlp.233/"
+    }
+  },
+  {
+    "id": "llm-goal-of-reach-tom",
+    "year": 2023,
+    "abbr": "TOM@ICML",
+    "venue": "Theory of Mind in Communicating Agents Workshop, co-located with ICML",
+    "venueType": "workshop",
+    "title": "Do LLMs Selectively Encode the Goal of an Agent's Reach?",
+    "authors": [
+      "Laura Ruis",
+      "Arduin Findeis",
+      "Herbie Bradley",
+      "Hossein A. Rahmani",
+      "Kyoung Whan Choe",
+      "Edward Grefenstette",
+      "Tim Rocktaschel"
+    ],
+    "topics": [
+      "LLMs",
+      "NLP"
+    ],
+    "abstract": "The authors test whether LLMs show an early Theory-of-Mind-like bias toward treating the object, rather than the location, as the goal of an agent's reach. Two models show a selective bias for purposeful agents, but it differs from humans' and is fragile to equivalent prompt variations.",
+    "links": {
+      "paper": "https://icml.cc/virtual/2023/27870"
+    }
+  },
+  {
+    "id": "capri-poi-framework",
+    "year": 2023,
+    "abbr": "Software Impacts",
+    "venue": "Software Impacts",
+    "venueType": "journal",
+    "title": "CAPRI: Context-aware Point-of-Interest Recommendation Framework",
+    "authors": [
+      "Ali Tourani",
+      "Hossein A. Rahmani",
+      "Mohammadmehdi Naghiaei",
+      "Yashar Deldjoo"
+    ],
+    "topics": [
+      "POI",
+      "Recommender Systems"
+    ],
+    "abstract": "CAPRI is an open-source framework for context-aware POI recommendation that integrates models such as GeoSoCa, LORE and USG with a strategy for fusing contextual information, and evaluates beyond accuracy with novelty, personalization, diversity and fairness metrics.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2306.11395",
+      "paper": "https://doi.org/10.1016/j.simpa.2023.100606",
+      "website": "https://capri.readthedocs.io"
+    }
+  },
+  {
+    "id": "clarification-questions-task-oriented",
+    "year": 2023,
+    "abbr": "arXiv",
+    "venue": "arXiv preprint",
+    "venueType": "arxiv",
+    "title": "Towards Asking Clarification Questions for Information Seeking on Task-Oriented Dialogues",
+    "authors": [
+      "Yue Feng",
+      "Hossein A. Rahmani",
+      "Aldo Lipani",
+      "Emine Yilmaz"
+    ],
+    "topics": [
+      "Conversational Search",
+      "NLP"
+    ],
+    "abstract": "The authors propose MAS2S, a Multi-Attention Seq2Seq Network that asks clarifying questions about both a user's information need and their profile in task-oriented dialogue, and extend an existing dataset into ClariT (~100k dialogues).",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2305.13690",
+      "code": "https://github.com/sweetalyssum/clarit"
     }
   },
   {
@@ -630,6 +1346,29 @@
     "links": {}
   },
   {
+    "id": "mining-shape-of-expertise",
+    "year": 2020,
+    "abbr": "IPM",
+    "venue": "Information Processing & Management",
+    "venueType": "journal",
+    "title": "Mining Shape of Expertise: A Novel Approach Based on Convolutional Neural Network",
+    "authors": [
+      "Mahdi Dehghan",
+      "Hossein A. Rahmani",
+      "Ahmad Ali Abin",
+      "Viet-Vu Vu"
+    ],
+    "topics": [
+      "Other",
+      "NLP"
+    ],
+    "abstract": "The authors address T-shaped expert finding, detecting and ranking people with a broad knowledge base plus one deep specialty, using a CNN model with two parallel branches that extract latent vectors of users and queries to match queries with experts on Stack Overflow.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2004.02184",
+      "paper": "https://doi.org/10.1016/j.ipm.2020.102239"
+    }
+  },
+  {
     "id": "cape",
     "year": 2019,
     "abbr": "ICTIR",
@@ -649,6 +1388,51 @@
       "POI"
     ],
     "links": {}
+  },
+  {
+    "id": "lglmf-poi",
+    "year": 2019,
+    "abbr": "AIRS",
+    "venue": "Asia Information Retrieval Societies Conference (AIRS)",
+    "venueType": "conf",
+    "title": "LGLMF: Local Geographical based Logistic Matrix Factorization Model for POI Recommendation",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Mohammad Aliannejadi",
+      "Sajad Ahmadian",
+      "Mitra Baratchi",
+      "Mohsen Afsharchi",
+      "Fabio Crestani"
+    ],
+    "topics": [
+      "POI",
+      "Recommender Systems"
+    ],
+    "abstract": "The authors model a user's main region of activity and the relevance of each location within it, then fuse this local geographical model into Logistic Matrix Factorization for POI recommendation, outperforming other state-of-the-art POI recommendation methods on two well-known datasets.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/1909.06667"
+    }
+  },
+  {
+    "id": "movie-rating-regression-mediaeval",
+    "year": 2019,
+    "abbr": "MediaEval",
+    "venue": "MediaEval Workshop",
+    "venueType": "workshop",
+    "title": "A Regression Approach to Movie Rating Prediction using Multimedia Content and Metadata",
+    "authors": [
+      "Hossein A. Rahmani",
+      "Yashar Deldjoo",
+      "Markus Schedl"
+    ],
+    "topics": [
+      "Recommender Systems",
+      "Other"
+    ],
+    "abstract": "The team treats movie rating prediction (average rating, rating standard deviation and number of ratings) as a regression problem using audio and visual trailer features plus metadata, comparing ridge regression, support vector regression and shallow/deep neural networks.",
+    "links": {
+      "paper": "https://ceurspt.wikidata.dbis.rwth-aachen.de/Vol-2670/MediaEval_19_paper_50.cermine"
+    }
   },
   {
     "id": "msc-seminar",

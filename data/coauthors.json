@@ -1,22 +1,402 @@
 [
   {
-    "id": "mohammad-aliannejadi",
-    "name": "Mohammad Aliannejadi",
+    "id": "bin-wu",
+    "name": "Bin Wu",
+    "initials": "BW",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "amuser-ux-recommendations",
+      "agent-tool-search-survey",
+      "innoeval",
+      "pref-personalization",
+      "user-profile-personalization"
+    ]
+  },
+  {
+    "id": "emine-yilmaz",
+    "name": "Emine Yilmaz",
+    "initials": "EY",
+    "photo": null,
+    "url": "https://sites.google.com/site/emineyilmaz/home",
+    "papers": [
+      "amuser-ux-recommendations",
+      "biastrace",
+      "innoeval",
+      "self-thought-task-distillation",
+      "automated-rubrics-medical-dialogue",
+      "self-correct-generation-vs-mc",
+      "llm4eval-sigir2025",
+      "beyond-internal-data-bounding-fairness",
+      "pref-personalization",
+      "bias-synthetic-data-evaluation",
+      "llm4eval-wsdm2025",
+      "judging-the-judges",
+      "judgeblender",
+      "user-profile-personalization",
+      "syndl",
+      "llm4eval-report",
+      "llmjudge",
+      "llm4eval-workshop",
+      "synthetic-test-collections",
+      "clarifying-path",
+      "beyond-internal-data-constructing-datasets",
+      "acqsurvey",
+      "trec-2023-deep-learning-overview",
+      "conv-rec-bias-augmentation",
+      "clarification-questions-task-oriented",
+      "viralbert"
+    ]
+  },
+  {
+    "id": "to-eun-kim",
+    "name": "To Eun Kim",
+    "initials": "TE",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "agent-tool-search-survey",
+      "iglu-nlp"
+    ]
+  },
+  {
+    "id": "shuofei-qiao",
+    "name": "Shuofei Qiao",
+    "initials": "SQ",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "agent-tool-search-survey",
+      "innoeval"
+    ]
+  },
+  {
+    "id": "xiao-fu",
+    "name": "Xiao Fu",
+    "initials": "XF",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "agent-tool-search-survey",
+      "interplay-conv-rec-simulators",
+      "pref-personalization",
+      "transparent-scrutable-nl-profiles"
+    ]
+  },
+  {
+    "id": "varsha-ramineni",
+    "name": "Varsha Ramineni",
+    "initials": "VR",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "agent-tool-search-survey",
+      "biastrace",
+      "beyond-internal-data-bounding-fairness",
+      "bias-synthetic-data-evaluation",
+      "user-profile-personalization",
+      "beyond-internal-data-constructing-datasets"
+    ]
+  },
+  {
+    "id": "jerome-ramos",
+    "name": "Jerome Ramos",
+    "initials": "JR",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "biastrace",
+      "interplay-conv-rec-simulators",
+      "pref-personalization",
+      "transparent-scrutable-nl-profiles",
+      "iglu-nlp",
+      "aae-bias"
+    ]
+  },
+  {
+    "id": "qiang-zhang",
+    "name": "Qiang Zhang",
+    "initials": "QZ",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "innoeval",
+      "acqsurvey"
+    ]
+  },
+  {
+    "id": "xi-wang",
+    "name": "Xi Wang",
+    "initials": "XW",
+    "photo": null,
+    "url": "https://scholar.google.co.uk/citations?user=nFmvLQgAAAAJ&hl=en",
+    "papers": [
+      "auto-judge-rag",
+      "interplay-conv-rec-simulators",
+      "self-correct-generation-vs-mc",
+      "syndl",
+      "clarifying-path",
+      "transparent-scrutable-nl-profiles",
+      "acqsurvey",
+      "iglu-nlp",
+      "conv-rec-bias-augmentation"
+    ]
+  },
+  {
+    "id": "mubashara-akhtar",
+    "name": "Mubashara Akhtar",
     "initials": "MA",
     "photo": null,
     "url": null,
     "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "anka-reuel",
+    "name": "Anka Reuel",
+    "initials": "AR",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "prajna-soni",
+    "name": "Prajna Soni",
+    "initials": "PS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "pawan-sasanka-ammanamanchi",
+    "name": "Pawan Sasanka Ammanamanchi",
+    "initials": "PS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "srishti-yadav",
+    "name": "Srishti Yadav",
+    "initials": "SY",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "jennifer-mickel",
+    "name": "Jennifer Mickel",
+    "initials": "JM",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "jan-batzner",
+    "name": "Jan Batzner",
+    "initials": "JB",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "jenny-chim",
+    "name": "Jenny Chim",
+    "initials": "JC",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "jeba-sania",
+    "name": "Jeba Sania",
+    "initials": "JS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "yanan-long",
+    "name": "Yanan Long",
+    "initials": "YL",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "subramanyam-sahoo",
+    "name": "Subramanyam Sahoo",
+    "initials": "SS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "eliya-habba",
+    "name": "Eliya Habba",
+    "initials": "EH",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "usman-gohar",
+    "name": "Usman Gohar",
+    "initials": "UG",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "robert-scholz",
+    "name": "Robert Scholz",
+    "initials": "RS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "mykel-kochenderfer",
+    "name": "Mykel Kochenderfer",
+    "initials": "MK",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "sanmi-koyejo",
+    "name": "Sanmi Koyejo",
+    "initials": "SK",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "stella-biderman",
+    "name": "Stella Biderman",
+    "initials": "SB",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "zeerak-talat",
+    "name": "Zeerak Talat",
+    "initials": "ZT",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "avijit-ghosh",
+    "name": "Avijit Ghosh",
+    "initials": "AG",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "irene-solaiman",
+    "name": "Irene Solaiman",
+    "initials": "IS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "benchmark-saturation",
+      "who-evaluates-ai-social-impacts"
+    ]
+  },
+  {
+    "id": "nick-craswell",
+    "name": "Nick Craswell",
+    "initials": "NC",
+    "photo": null,
+    "url": "https://www.microsoft.com/en-us/research/people/nickcr/",
+    "papers": [
+      "self-thought-task-distillation",
+      "llm4eval-sigir2025",
+      "bias-synthetic-data-evaluation",
+      "llm4eval-wsdm2025",
+      "judging-the-judges",
+      "judgeblender",
+      "syndl",
       "llm4eval-report",
       "llmjudge",
-      "beyond-accuracy-calibration",
       "llm4eval-workshop",
-      "clarifying-path",
-      "confidence-calibration",
-      "user-oriented-fairness",
-      "contexts-poi",
-      "sucp",
-      "stacp",
-      "cape"
+      "synthetic-test-collections",
+      "trec-2023-deep-learning-overview"
+    ]
+  },
+  {
+    "id": "aldo-lipani",
+    "name": "Aldo Lipani",
+    "initials": "AL",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "interplay-conv-rec-simulators",
+      "pref-personalization",
+      "transparent-scrutable-nl-profiles",
+      "acqsurvey",
+      "iglu-nlp",
+      "aae-bias",
+      "clarification-questions-task-oriented"
     ]
   },
   {
@@ -26,10 +406,12 @@
     "photo": null,
     "url": null,
     "papers": [
+      "self-correct-generation-vs-mc",
       "beyond-accuracy-calibration",
       "tors-cpfairrank",
       "clarifying-path",
       "provider-fairness",
+      "capri-poi-framework",
       "confidence-calibration",
       "temporal-bias-poi",
       "pycpfair",
@@ -40,102 +422,43 @@
     ]
   },
   {
-    "id": "emine-yilmaz",
-    "name": "Emine Yilmaz",
-    "initials": "EY",
-    "photo": null,
-    "url": "https://sites.google.com/site/emineyilmaz/home",
-    "papers": [
-      "syndl",
-      "llm4eval-report",
-      "llmjudge",
-      "user-profile-personalization",
-      "llm4eval-workshop",
-      "synthetic-test-collections",
-      "clarifying-path",
-      "acqsurvey",
-      "viralbert"
-    ]
-  },
-  {
-    "id": "yashar-deldjoo",
-    "name": "Yashar Deldjoo",
-    "initials": "YD",
+    "id": "clemencia-siro",
+    "name": "Clemencia Siro",
+    "initials": "CS",
     "photo": null,
     "url": null,
     "papers": [
-      "tors-cpfairrank",
-      "temporal-bias-poi",
-      "pycpfair",
-      "context-fusion",
-      "cpfair",
-      "fairpoi"
-    ]
-  },
-  {
-    "id": "bhaskar-mitra",
-    "name": "Bhaskar Mitra",
-    "initials": "BM",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "syndl",
-      "llm4eval-report",
-      "llmjudge",
-      "llm4eval-workshop",
-      "synthetic-test-collections"
-    ]
-  },
-  {
-    "id": "nick-craswell",
-    "name": "Nick Craswell",
-    "initials": "NC",
-    "photo": null,
-    "url": "https://www.microsoft.com/en-us/research/people/nickcr/",
-    "papers": [
-      "syndl",
-      "llm4eval-report",
-      "llmjudge",
-      "llm4eval-workshop",
-      "synthetic-test-collections"
-    ]
-  },
-  {
-    "id": "paul-thomas",
-    "name": "Paul Thomas",
-    "initials": "PT",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "syndl",
+      "llm4eval-sigir2025",
+      "llm4eval-wsdm2025",
+      "judging-the-judges",
       "llm4eval-report",
       "llmjudge",
       "llm4eval-workshop"
     ]
   },
   {
-    "id": "xi-wang",
-    "name": "Xi Wang",
-    "initials": "XW",
-    "photo": null,
-    "url": "https://scholar.google.co.uk/citations?user=nFmvLQgAAAAJ&hl=en",
-    "papers": [
-      "syndl",
-      "clarifying-path",
-      "acqsurvey",
-      "iglu-nlp"
-    ]
-  },
-  {
-    "id": "aldo-lipani",
-    "name": "Aldo Lipani",
-    "initials": "AL",
+    "id": "mohammad-aliannejadi",
+    "name": "Mohammad Aliannejadi",
+    "initials": "MA",
     "photo": null,
     "url": null,
     "papers": [
-      "acqsurvey",
-      "iglu-nlp",
-      "aae-bias"
+      "llm4eval-sigir2025",
+      "llm4eval-wsdm2025",
+      "judging-the-judges",
+      "llm4eval-report",
+      "llmjudge",
+      "beyond-accuracy-calibration",
+      "llm4eval-workshop",
+      "clarifying-path",
+      "ikat-2023-retrieval-generation",
+      "confidence-calibration",
+      "user-oriented-fairness",
+      "contexts-poi",
+      "sucp",
+      "stacp",
+      "cape",
+      "lglmf-poi"
     ]
   },
   {
@@ -145,33 +468,12 @@
     "photo": null,
     "url": null,
     "papers": [
+      "llm4eval-sigir2025",
+      "llm4eval-wsdm2025",
+      "judging-the-judges",
       "llm4eval-report",
       "llmjudge",
       "llm4eval-workshop"
-    ]
-  },
-  {
-    "id": "clemencia-siro",
-    "name": "Clemencia Siro",
-    "initials": "CS",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "llm4eval-report",
-      "llmjudge",
-      "llm4eval-workshop"
-    ]
-  },
-  {
-    "id": "fabio-crestani",
-    "name": "Fabio Crestani",
-    "initials": "FC",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "contexts-poi",
-      "stacp",
-      "cape"
     ]
   },
   {
@@ -181,9 +483,69 @@
     "photo": null,
     "url": null,
     "papers": [
+      "llm4eval-sigir2025",
+      "llm4eval-wsdm2025",
+      "judging-the-judges",
       "llm4eval-report",
       "llmjudge",
       "llm4eval-workshop"
+    ]
+  },
+  {
+    "id": "bhaskar-mitra",
+    "name": "Bhaskar Mitra",
+    "initials": "BM",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "llm4eval-sigir2025",
+      "bias-synthetic-data-evaluation",
+      "llm4eval-wsdm2025",
+      "judging-the-judges",
+      "judgeblender",
+      "syndl",
+      "llm4eval-report",
+      "llmjudge",
+      "llm4eval-workshop",
+      "synthetic-test-collections",
+      "trec-2023-deep-learning-overview"
+    ]
+  },
+  {
+    "id": "paul-thomas",
+    "name": "Paul Thomas",
+    "initials": "PT",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "llm4eval-sigir2025",
+      "llm4eval-wsdm2025",
+      "judging-the-judges",
+      "syndl",
+      "llm4eval-report",
+      "llmjudge",
+      "llm4eval-workshop"
+    ]
+  },
+  {
+    "id": "david-barber",
+    "name": "David Barber",
+    "initials": "DB",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "beyond-internal-data-bounding-fairness",
+      "beyond-internal-data-constructing-datasets"
+    ]
+  },
+  {
+    "id": "zhengyan-shi",
+    "name": "Zhengyan Shi",
+    "initials": "ZS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "user-profile-personalization"
     ]
   },
   {
@@ -195,41 +557,56 @@
     "papers": [
       "beyond-accuracy-calibration",
       "user-oriented-fairness",
-      "fairbook"
+      "fairbook",
+      "mining-shape-of-expertise"
     ]
   },
   {
-    "id": "mitra-baratchi",
-    "name": "Mitra Baratchi",
-    "initials": "MB",
-    "photo": null,
-    "url": "http://www.mitrabaratchi.com/",
-    "papers": [
-      "contexts-poi",
-      "stacp",
-      "cape"
-    ]
-  },
-  {
-    "id": "ali-tourani",
-    "name": "Ali Tourani",
-    "initials": "AT",
+    "id": "javad-azizi",
+    "name": "Javad Azizi",
+    "initials": "JA",
     "photo": null,
     "url": null,
     "papers": [
+      "beyond-accuracy-calibration"
+    ]
+  },
+  {
+    "id": "daniel-campos",
+    "name": "Daniel Campos",
+    "initials": "DC",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "synthetic-test-collections",
+      "trec-2023-deep-learning-overview"
+    ]
+  },
+  {
+    "id": "yashar-deldjoo",
+    "name": "Yashar Deldjoo",
+    "initials": "YD",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "tors-cpfairrank",
+      "capri-poi-framework",
       "temporal-bias-poi",
-      "fairpoi"
+      "pycpfair",
+      "context-fusion",
+      "cpfair",
+      "fairpoi",
+      "movie-rating-regression-mediaeval"
     ]
   },
   {
-    "id": "jerome-ramos",
-    "name": "Jerome Ramos",
-    "initials": "JR",
+    "id": "saeedeh-karimi",
+    "name": "Saeedeh Karimi",
+    "initials": "SK",
     "photo": null,
     "url": null,
     "papers": [
-      "iglu-nlp",
-      "aae-bias"
+      "provider-fairness"
     ]
   },
   {
@@ -244,214 +621,14 @@
     ]
   },
   {
-    "id": "mohsen-afsharchi",
-    "name": "Mohsen Afsharchi",
-    "initials": "MA",
-    "photo": null,
-    "url": "http://cv.znu.ac.ir/afsharchim/",
-    "papers": [
-      "sucp",
-      "cape"
-    ]
-  },
-  {
-    "id": "alireza-khanteymoori",
-    "name": "Alireza Khanteymoori",
-    "initials": "AK",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "ppi-network"
-    ]
-  },
-  {
-    "id": "bin-wu",
-    "name": "Bin Wu",
-    "initials": "BW",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "user-profile-personalization"
-    ]
-  },
-  {
-    "id": "daniel-campos",
-    "name": "Daniel Campos",
-    "initials": "DC",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "synthetic-test-collections"
-    ]
-  },
-  {
-    "id": "flavia-salutari",
-    "name": "Flavia Salutari",
-    "initials": "FS",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "aae-bias"
-    ]
-  },
-  {
-    "id": "javad-azizi",
-    "name": "Javad Azizi",
-    "initials": "JA",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "beyond-accuracy-calibration"
-    ]
-  },
-  {
-    "id": "jie-yang",
-    "name": "Jie Yang",
-    "initials": "JY",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "crowd-bias"
-    ]
-  },
-  {
-    "id": "kosar-seyedhoseinzadeh",
-    "name": "Kosar Seyedhoseinzadeh",
-    "initials": "KS",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "sucp"
-    ]
-  },
-  {
-    "id": "leonardo-linguaglossa",
-    "name": "Leonardo Linguaglossa",
-    "initials": "LL",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "aae-bias"
-    ]
-  },
-  {
-    "id": "mohammad-olyaee",
-    "name": "Mohammad Olyaee",
-    "initials": "MO",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "ppi-network"
-    ]
-  },
-  {
-    "id": "nasim-sonboli",
-    "name": "Nasim Sonboli",
-    "initials": "NS",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "confidence-calibration"
-    ]
-  },
-  {
-    "id": "parisa-naderi",
-    "name": "Parisa Naderi",
-    "initials": "PN",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "ie-review"
-    ]
-  },
-  {
-    "id": "qiang-zhang",
-    "name": "Qiang Zhang",
-    "initials": "QZ",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "acqsurvey"
-    ]
-  },
-  {
-    "id": "rasoul-mirzaei-zadeh",
-    "name": "Rasoul Mirzaei Zadeh",
-    "initials": "RM",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "cape"
-    ]
-  },
-  {
-    "id": "rikaz-rameez",
-    "name": "Rikaz Rameez",
-    "initials": "RR",
-    "photo": null,
-    "url": "https://www.linkedin.com/in/rikaz-rameez-534147195/",
-    "papers": [
-      "viralbert"
-    ]
-  },
-  {
-    "id": "saeedeh-karimi",
-    "name": "Saeedeh Karimi",
-    "initials": "SK",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "provider-fairness"
-    ]
-  },
-  {
-    "id": "shahrzad-azizi",
-    "name": "Shahrzad Azizi",
-    "initials": "SA",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "ie-review"
-    ]
-  },
-  {
-    "id": "to-eun-kim",
-    "name": "To Eun Kim",
-    "initials": "TE",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "iglu-nlp"
-    ]
-  },
-  {
-    "id": "tommaso-di-noia",
-    "name": "Tommaso di Noia",
-    "initials": "TD",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "context-fusion"
-    ]
-  },
-  {
-    "id": "varsha-ramineni",
-    "name": "Varsha Ramineni",
-    "initials": "VR",
-    "photo": null,
-    "url": null,
-    "papers": [
-      "user-profile-personalization"
-    ]
-  },
-  {
     "id": "yue-feng",
     "name": "Yue Feng",
     "initials": "YF",
     "photo": null,
     "url": null,
     "papers": [
-      "acqsurvey"
+      "acqsurvey",
+      "clarification-questions-task-oriented"
     ]
   },
   {
@@ -465,13 +642,173 @@
     ]
   },
   {
-    "id": "zhengyan-shi",
-    "name": "Zhengyan Shi",
-    "initials": "ZS",
+    "id": "flavia-salutari",
+    "name": "Flavia Salutari",
+    "initials": "FS",
     "photo": null,
     "url": null,
     "papers": [
-      "user-profile-personalization"
+      "aae-bias"
+    ]
+  },
+  {
+    "id": "leonardo-linguaglossa",
+    "name": "Leonardo Linguaglossa",
+    "initials": "LL",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "aae-bias"
+    ]
+  },
+  {
+    "id": "ali-tourani",
+    "name": "Ali Tourani",
+    "initials": "AT",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "capri-poi-framework",
+      "temporal-bias-poi",
+      "fairpoi"
+    ]
+  },
+  {
+    "id": "nasim-sonboli",
+    "name": "Nasim Sonboli",
+    "initials": "NS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "confidence-calibration"
+    ]
+  },
+  {
+    "id": "tommaso-di-noia",
+    "name": "Tommaso di Noia",
+    "initials": "TD",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "context-fusion"
+    ]
+  },
+  {
+    "id": "rikaz-rameez",
+    "name": "Rikaz Rameez",
+    "initials": "RR",
+    "photo": null,
+    "url": "https://www.linkedin.com/in/rikaz-rameez-534147195/",
+    "papers": [
+      "viralbert"
+    ]
+  },
+  {
+    "id": "mitra-baratchi",
+    "name": "Mitra Baratchi",
+    "initials": "MB",
+    "photo": null,
+    "url": "http://www.mitrabaratchi.com/",
+    "papers": [
+      "contexts-poi",
+      "stacp",
+      "cape",
+      "lglmf-poi"
+    ]
+  },
+  {
+    "id": "fabio-crestani",
+    "name": "Fabio Crestani",
+    "initials": "FC",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "contexts-poi",
+      "stacp",
+      "cape",
+      "lglmf-poi"
+    ]
+  },
+  {
+    "id": "kosar-seyedhoseinzadeh",
+    "name": "Kosar Seyedhoseinzadeh",
+    "initials": "KS",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "sucp"
+    ]
+  },
+  {
+    "id": "mohsen-afsharchi",
+    "name": "Mohsen Afsharchi",
+    "initials": "MA",
+    "photo": null,
+    "url": "http://cv.znu.ac.ir/afsharchim/",
+    "papers": [
+      "sucp",
+      "cape",
+      "lglmf-poi"
+    ]
+  },
+  {
+    "id": "jie-yang",
+    "name": "Jie Yang",
+    "initials": "JY",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "crowd-bias"
+    ]
+  },
+  {
+    "id": "rasoul-mirzaei-zadeh",
+    "name": "Rasoul Mirzaei Zadeh",
+    "initials": "RM",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "cape"
+    ]
+  },
+  {
+    "id": "parisa-naderi",
+    "name": "Parisa Naderi",
+    "initials": "PN",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "ie-review"
+    ]
+  },
+  {
+    "id": "shahrzad-azizi",
+    "name": "Shahrzad Azizi",
+    "initials": "SA",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "ie-review"
+    ]
+  },
+  {
+    "id": "alireza-khanteymoori",
+    "name": "Alireza Khanteymoori",
+    "initials": "AK",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "ppi-network"
+    ]
+  },
+  {
+    "id": "mohammad-olyaee",
+    "name": "Mohammad Olyaee",
+    "initials": "MO",
+    "photo": null,
+    "url": null,
+    "papers": [
+      "ppi-network"
     ]
   }
 ]
