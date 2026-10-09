@@ -21,7 +21,7 @@
         "supervisor": null,
         "desc": "Post-training methods for LLM agents, focusing on evaluation and reward modeling, and external memory integration for reliable domain application.",
         "url": "https://www.astrazeneca.com/",
-        "logo": null,
+        "logo": "assets/img/logos/AZ.png",
         "abbr": "AZ"
       },
       {
@@ -32,7 +32,7 @@
         "supervisor": null,
         "desc": "Synthetic data generation and self-correction methods for large language models.",
         "url": "https://www.microsoft.com/en-us/research/",
-        "logo": null,
+        "logo": "assets/img/logos/Microsoft.jpg",
         "abbr": "MSFT"
       },
       {
